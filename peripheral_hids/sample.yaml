@@ -1,0 +1,149 @@
+sample:
+  name: Bluetooth Peripheral HIDs
+  description: Bluetooth Low Energy HID-over-GATT service sample
+tests:
+  sample.bluetooth.peripheral_hids:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+
+
+  sample.bluetooth.peripheral_hids.no_authentication:
+    harness: bluetooth
+    extra_configs:
+      - CONFIG_SAMPLE_BT_USE_AUTHENTICATION=n
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+
+
+  sample.bluetooth.peripheral_hids.std1:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="std1"
+
+
+  sample.bluetooth.peripheral_hids.stdz1:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="stdz1"
+      - SNIPPET="bt-ll-sw-split"
+
+
+  sample.bluetooth.peripheral_hids.opt1:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="opt1"
+    
+
+  sample.bluetooth.peripheral_hids.feat1:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat1"
+
+
+  sample.bluetooth.peripheral_hids.feat2:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat2"
+
+
+  sample.bluetooth.peripheral_hids.feat3:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat3"
+
+
+  sample.bluetooth.peripheral_hids.feat4:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat4"
+
+
+  sample.bluetooth.peripheral_hids.feat5:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat5"
+
+
+  sample.bluetooth.peripheral_hids.feat6:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat6"
+
+
+  sample.bluetooth.peripheral_hids.feat7:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat7"
+
+
+  sample.bluetooth.peripheral_hids.feat8:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat8"
+
+  sample.bluetooth.peripheral_hids.feat10:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat9"
+
+  sample.bluetooth.peripheral_hids.feat10:
+    harness: bluetooth
+    platform_allow: qemu_x86
+    tags: bluetooth
+    integration_platforms:
+      - qemu_x86
+    extra_args:
+      - FILE_SUFFIX="feat10"

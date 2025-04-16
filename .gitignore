@@ -1,0 +1,10 @@
+# editors
+*.swp
+*~
+*.pyc*
+
+logs/
+logs_*/
+
+# build
+/build*/
