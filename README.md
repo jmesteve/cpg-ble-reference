@@ -9,6 +9,11 @@
 ```
 pip install -r .\requirements.txt
 ```
+## NRF Connnect
+Install the last version of [NRF Connect](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop)
+
+# Help
+python .\memory_report.py
 
 # Build and Generate memory reports
 
@@ -46,7 +51,22 @@ python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp -l 3 
 python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp -l 3 -b std1
 ```
 
-## Only generate the summary
+## Only generate reports without build
+```
+python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp  -l 3 -b std1 --only-report
+```
+
+## Only generate the summary without build and report
 ```
 python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp  -l 3 -b std1 --only-summary
+```
+
+## Add version
+```
+python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp  -l 3 -b std1 -v 20250417_main_1
+```
+
+## Add Extra configuration to the build
+```
+python .\memory_report.py -r peripheral_hids -p nrf54l15dk/nrf54l15/cpuapp  -l 3 -b std1 -f std1 -v 20250416_main_2 --extra-config=opt_lto
 ```
