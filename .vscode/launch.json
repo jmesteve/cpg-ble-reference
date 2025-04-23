@@ -13,7 +13,6 @@
             "console": "integratedTerminal",
             "args": ["-r peripheral_hids_keyboard",
                      "-p nrf54l15dk/nrf54l15/cpuapp",
-                     "-l 3",
                      "-b std1",
                      "--only-summary",
                      "-f", "stdz1", "opt1"

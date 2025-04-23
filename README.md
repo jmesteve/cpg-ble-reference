@@ -17,6 +17,11 @@ python .\memory_report.py
 
 # Build and Generate memory reports
 
+## repository p_hids_keyb
+```
+python .\memory_report.py -r p_hids_keyb
+```
+
 ## Feature 1, repository central_hids 
 ```
 python .\memory_report.py -r central_hids -p nrf54l15dk/nrf54l15/cpuapp -f feat1  

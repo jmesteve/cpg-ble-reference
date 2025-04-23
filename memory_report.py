@@ -42,6 +42,9 @@ def config_init(repository):
         config_repo = config[repository]
     else:
         config_repo = {}
+    platform = config_repo.get("platform") or config_default.get("platform")
+    baseline = config_repo.get("baseline") or config_default.get("baseline")
+    level_max = config_repo.get("level_max") or config_default.get("level_max")
     version_default = config_repo.get("version_default") or config_default.get("version_default")
     template_excel = config_repo.get("template_excel") or config_default.get("template_excel")
     reports_root = config_repo.get("reports_root") or config_default.get("reports_root")
@@ -50,6 +53,9 @@ def config_init(repository):
     feats = config_repo.get("feats") or config_default.get("feats")
     snippet_feats = config_repo.get("snippet_feats") or config_default.get("snippet_feats")
     defaults = {
+        "platform" : json.loads(platform),
+        "baseline" : json.loads(baseline),
+        "level_max" : json.loads(level_max),
         "version_default" : json.loads(version_default),
         "template_excel" : json.loads(template_excel),
         "reports_root": json.loads(reports_root),
@@ -76,6 +82,8 @@ def parser_artifacts(artifacts, output, level=0, parent=None, level_max=None):
         global counter
         counter += 1
         uuid = (level * 10000) + counter
+        if artifact.get("size") == 0:
+            continue
         data = {
             "uuid": uuid,
             "parent": parent,
@@ -208,7 +216,7 @@ def args_procedure():
     parser=argparse.ArgumentParser(description="Memory report help")
     parser.add_argument("-r", "--repository", required = True)
     parser.add_argument("-f", "--feats", required = False, nargs='+')
-    parser.add_argument("-p", "--platform", required = True)
+    parser.add_argument("-p", "--platform", required = False)
     parser.add_argument("-c", "--platform-code", required = False, type=str)
     parser.add_argument("-l", "--level-max", required = False, type=int)
     parser.add_argument("-b", "--baseline", required = False, type=str)
@@ -231,11 +239,18 @@ if __name__ == '__main__':
     repository = args.repository.strip()
     defaults = config_init(repository)
 
-    level_max = args.level_max
-    platform = args.platform.strip()
+    if args.level_max:
+        level_max = args.level_max
+    else:
+        level_max = defaults.get("level_max")
+    if args.platform:
+        platform = args.platform.strip()
+    else:
+        platform = defaults.get("platform")
     if args.baseline:
         baseline = args.baseline.strip()
-    else: baseline = None 
+    else: 
+        baseline = defaults.get("baseline")
     if args.extra_config:
         extra_config = args.extra_config.strip()
     else:
@@ -243,7 +258,7 @@ if __name__ == '__main__':
     if args.version:  
         version = args.version.strip()
     else:
-        version = None
+        version = defaults.get("version_default")
     if args.snippet:
         snippet = args.snippet.strip()
     else:
@@ -251,10 +266,6 @@ if __name__ == '__main__':
     only_summary = args.only_summary
     only_report = args.only_report
     
-
-    if version == None:
-        version = defaults.get("version_default")
-
     if args.platform_code == None:
         platform_code = platform.split("/")[1]
     else:

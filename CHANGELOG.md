@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 4.0
+
+### Added
+- reports/20250424_main_4
+- p_hids_keyb: added Logi configuration 
+
 ## 3.0
 
 ### Added
