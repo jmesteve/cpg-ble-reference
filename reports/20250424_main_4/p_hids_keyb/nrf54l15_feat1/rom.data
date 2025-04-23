@@ -1,5 +1,19 @@
 -- west build: running target rom_report
-[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat1\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat1/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat1/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
+[1/10] Generating ../../zephyr/include/generated/ncs_commit.h
+[2/10] Generating ../../zephyr/include/generated/zephyr_commit.h
+[3/10] Building C object zephyr/CMakeFiles/zephyr.dir/C_/ncs/vturkana/nrf/lib/boot_banner/banner.c.obj
+[4/10] Linking C static library zephyr\libzephyr.a
+[5/10] Linking C executable zephyr\zephyr_pre0.elf
+[6/10] Generating linker.cmd
+[7/10] Generating isr_tables.c, isr_tables_vt.ld, isr_tables_swi.ld
+[8/10] Building C object zephyr/CMakeFiles/zephyr_final.dir/isr_tables.c.obj
+[9/10] Linking C executable zephyr\zephyr.elf
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      240708 B      1420 KB     16.55%
+             RAM:       37200 B       188 KB     19.32%
+        IDT_LIST:          0 GB        32 KB      0.00%
+Generating files from C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat1/p_hids_keyb/zephyr/zephyr.elf for board: nrf54l15dk
+[9/10] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat1\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat1/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat1/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
 Path                                                                                             Size       %  Address    Section    
 ==========================================================================================================================================
 Root                                                                                           240696 100.00%  - 
@@ -17,11 +31,11 @@ Root                                                                            
 │   ├── CSWTCH.22                                                                                  12   0.00%  0x00033470 rodata
 │   ├── CSWTCH.22                                                                                   3   0.00%  0x0003973a rodata
 │   ├── CSWTCH.33                                                                                  18   0.01%  0x00039669 rodata
-│   ├── CSWTCH.36                                                                                   3   0.00%  0x000396d1 rodata
 │   ├── CSWTCH.4                                                                                    4   0.00%  0x000355d2 rodata
 │   ├── CSWTCH.43                                                                                  12   0.00%  0x0003341c rodata
-│   ├── CSWTCH.487                                                                                 18   0.01%  0x000395b6 rodata
 │   ├── CSWTCH.489                                                                                 20   0.01%  0x000335f8 rodata
+│   ├── CSWTCH.51                                                                                   3   0.00%  0x000396d1 rodata
+│   ├── CSWTCH.593                                                                                 18   0.01%  0x000395b6 rodata
 │   ├── CSWTCH.6                                                                                   12   0.00%  0x00033570 rodata
 │   ├── CSWTCH.61                                                                                  12   0.00%  0x00033410 rodata
 │   ├── CSWTCH.8123                                                                                15   0.01%  0x00038526 rodata
@@ -35,7 +49,8 @@ Root                                                                            
 │   ├── MPSL_IRQ_RTC0_Handler                                                                      24   0.01%  0x00011435 text
 │   ├── MPSL_IRQ_TIMER0_Handler                                                                    20   0.01%  0x0000ab31 text
 │   ├── SystemCoreClock                                                                             4   0.00%  0x20000d34 datas
-│   ├── __aeabi_idiv0                                                                               2   0.00%  0x0000c319 text
+│   ├── __aeabi_ldiv0                                                                               2   0.00%  0x0000c319 text
+│   ├── __aeabi_memcpy4                                                                            26   0.01%  0x000318b5 text
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034bb8 rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034bd4 rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034be8 rodata
@@ -133,7 +148,6 @@ Root                                                                            
 │   ├── l2cap_disconnected                                                                          2   0.00%  0x0002d6cd text
 │   ├── levels.0                                                                                   24   0.01%  0x0003360c rodata
 │   ├── memcmp                                                                                     32   0.01%  0x000318df text
-│   ├── memcpy                                                                                     26   0.01%  0x000318b5 text
 │   ├── memset                                                                                     16   0.01%  0x000318cf text
 │   ├── mpsl_calibration_timer_handle                                                              28   0.01%  0x0000a579 text
 │   ├── mpsl_clock_hfclk_latency_set                                                               32   0.01%  0x0000a671 text
@@ -259,7 +273,7 @@ Root                                                                            
 │   ├── smp_security_request                                                                        4   0.00%  0x0002e6ad text
 │   ├── smp_signing_info                                                                            4   0.00%  0x0002e76f text
 │   ├── snprintf                                                                                   88   0.04%  0x0002b3c9 text
-│   ├── stderr                                                                                      4   0.00%  0x00032fc0 rodata
+│   ├── stdout                                                                                      4   0.00%  0x00032fc0 rodata
 │   ├── strcmp                                                                                     20   0.01%  0x000117c7 text
 │   ├── strcpy                                                                                     16   0.01%  0x000117db text
 │   ├── strlen                                                                                     16   0.01%  0x000117eb text
@@ -1244,9 +1258,9 @@ Root                                                                            
 │           └── generated                                                                           2   0.00%  - 
 │               └── configs.c                                                                       2   0.00%  - 
 │                   └── _ConfigAbsSyms                                                              2   0.00%  0x0002bf7f text
-├── WORKSPACE                                                                                   47374  19.68%  - 
-│   ├── modules                                                                                 13667   5.68%  - 
-│   │   ├── crypto                                                                               6008   2.50%  - 
+├── WORKSPACE                                                                                   47366  19.68%  - 
+│   ├── modules                                                                                 13659   5.67%  - 
+│   │   ├── crypto                                                                               6000   2.49%  - 
 │   │   │   ├── mbedtls                                                                           836   0.35%  - 
 │   │   │   │   └── library                                                                       836   0.35%  - 
 │   │   │   │       └── memory_buffer_alloc.c                                                     836   0.35%  - 
@@ -1255,14 +1269,14 @@ Root                                                                            
 │   │   │   │           ├── mbedtls_memory_buffer_alloc_init                                      120   0.05%  0x00027f39 text
 │   │   │   │           ├── verify_chain                                                           60   0.02%  0x00027cad text
 │   │   │   │           └── verify_header                                                          64   0.03%  0x00027c6d text
-│   │   │   └── oberon-psa-crypto                                                                5172   2.15%  - 
+│   │   │   └── oberon-psa-crypto                                                                5164   2.15%  - 
 │   │   │       ├── include                                                                        72   0.03%  - 
 │   │   │       │   └── psa                                                                        72   0.03%  - 
 │   │   │       │       └── crypto_struct.h                                                        72   0.03%  - 
 │   │   │       │           ├── psa_extend_key_usage_flags                                         26   0.01%  0x0002d3fb text
 │   │   │       │           ├── psa_extend_key_usage_flags                                         26   0.01%  0x00030483 text
 │   │   │       │           └── psa_set_key_usage_flags.constprop.0                                20   0.01%  0x000307d1 text
-│   │   │       └── library                                                                      5100   2.12%  - 
+│   │   │       └── library                                                                      5092   2.12%  - 
 │   │   │           ├── platform.c                                                                 56   0.02%  - 
 │   │   │           │   ├── mbedtls_calloc                                                         12   0.00%  0x00027fb1 text
 │   │   │           │   ├── mbedtls_calloc_func                                                     4   0.00%  0x20000e70 datas
@@ -1274,8 +1288,7 @@ Root                                                                            
 │   │   │           │   ├── mbedtls_platform_zeroize                                               24   0.01%  0x00027fdd text
 │   │   │           │   ├── mbedtls_zeroize_and_free                                               20   0.01%  0x0002fb71 text
 │   │   │           │   └── memset_func                                                             4   0.00%  0x20000e74 datas
-│   │   │           ├── psa_crypto.c                                                             4056   1.69%  - 
-│   │   │           │   ├── errno                                                                   4   0.00%  0x00000004 rom_start
+│   │   │           ├── psa_crypto.c                                                             4048   1.68%  - 
 │   │   │           │   ├── mbedtls_psa_crypto_free                                               144   0.06%  0x000287ad text
 │   │   │           │   ├── psa_allocate_buffer_to_slot                                            38   0.02%  0x0002fd65 text
 │   │   │           │   ├── psa_crypto_init                                                       260   0.11%  0x0002883d text
@@ -1309,8 +1322,7 @@ Root                                                                            
 │   │   │           │   ├── psa_validate_ecc_key_attr                                             184   0.08%  0x0002fb85 text
 │   │   │           │   ├── psa_validate_unstructured_key_bit_size                                 94   0.04%  0x0002fd07 text
 │   │   │           │   ├── psa_wipe_key_slot                                                      58   0.02%  0x0002fde5 text
-│   │   │           │   ├── psa_wipe_tag_output_buffer                                             20   0.01%  0x0002fc3d text
-│   │   │           │   └── z_tls_current                                                           4   0.00%  0x00000000 rom_start
+│   │   │           │   └── psa_wipe_tag_output_buffer                                             20   0.01%  0x0002fc3d text
 │   │   │           ├── psa_crypto_client.c                                                         8   0.00%  - 
 │   │   │           │   └── psa_reset_key_attributes                                                8   0.00%  0x00030209 text
 │   │   │           ├── psa_crypto_slot_management.c                                              906   0.38%  - 
@@ -1870,7 +1882,7 @@ Root                                                                            
 │                   ├── default_flash_map                                                          32   0.01%  0x00032f6c rodata
 │                   ├── flash_map                                                                   4   0.00%  0x20000b44 datas
 │                   └── flash_map_entries                                                           4   0.00%  0x00032f68 rodata
-└── ZEPHYR_BASE                                                                                 88598  36.81%  - 
+└── ZEPHYR_BASE                                                                                 88606  36.81%  - 
     ├── arch                                                                                     3312   1.38%  - 
     │   └── arm                                                                                  3312   1.38%  - 
     │       └── core                                                                             3312   1.38%  - 
@@ -2457,8 +2469,8 @@ Root                                                                            
     │               ├── arch_busy_wait                                                             36   0.01%  0x00016b3d text
     │               ├── log_const_soc                                                               8   0.00%  0x00032660 log_const_area
     │               └── nordicsemi_nrf54l_init                                                    180   0.07%  0x00016a89 text
-    └── subsys                                                                                  54095  22.47%  - 
-        ├── bluetooth                                                                           47619  19.78%  - 
+    └── subsys                                                                                  54103  22.48%  - 
+        ├── bluetooth                                                                           47627  19.79%  - 
         │   ├── common                                                                            350   0.15%  - 
         │   │   ├── bt_str.c                                                                      244   0.10%  - 
         │   │   │   ├── bt_addr_le_str                                                            124   0.05%  0x00016c15 text
@@ -2477,7 +2489,7 @@ Root                                                                            
         │   │   │   └── log_const_bt_crypto                                                         8   0.00%  0x00032560 log_const_area
         │   │   └── bt_crypto_psa.c                                                               140   0.06%  - 
         │   │       └── bt_crypto_aes_cmac                                                        140   0.06%  0x0001fc81 text
-        │   ├── host                                                                            46135  19.17%  - 
+        │   ├── host                                                                            46143  19.17%  - 
         │   │   ├── addr.c                                                                         58   0.02%  - 
         │   │   │   ├── bt_addr_le_copy_resolved                                                   22   0.01%  0x0002ce4d text
         │   │   │   ├── bt_addr_le_create_static                                                   28   0.01%  0x0002ce31 text
@@ -2750,8 +2762,8 @@ Root                                                                            
         │   │   │   ├── sc_ccc_cfg_write                                                           30   0.01%  0x0002e3b3 text
         │   │   │   ├── sc_clear                                                                   64   0.03%  0x0001cbfd text
         │   │   │   ├── sc_commit                                                                  44   0.02%  0x0001ca01 text
+        │   │   │   ├── sc_commit.part.0                                                           16   0.01%  0x0001c9f1 text
         │   │   │   ├── sc_indicate                                                                76   0.03%  0x0001cdb9 text
-        │   │   │   ├── sc_indicate.part.0                                                         16   0.01%  0x0001c9f1 text
         │   │   │   ├── sc_indicate_rsp                                                            76   0.03%  0x0001c8d5 text
         │   │   │   ├── sc_process                                                                136   0.06%  0x0001d9c1 text
         │   │   │   ├── sc_restore_rsp                                                             58   0.02%  0x0002e28b text
@@ -2838,7 +2850,7 @@ Root                                                                            
         │   │   │   ├── tx_processor                                                               28   0.01%  0x0002d0b1 text
         │   │   │   ├── tx_work                                                                    16   0.01%  0x20000b68 datas
         │   │   │   └── update_sec_level                                                           48   0.02%  0x0002cead text
-        │   │   ├── id.c                                                                         2362   0.98%  - 
+        │   │   ├── id.c                                                                         2370   0.98%  - 
         │   │   │   ├── addr_res_enable                                                            48   0.02%  0x0002d169 text
         │   │   │   ├── adv_pause_enabled                                                          48   0.02%  0x0002d1bf text
         │   │   │   ├── adv_unpause_enabled                                                        38   0.02%  0x0002d199 text
@@ -2856,6 +2868,7 @@ Root                                                                            
         │   │   │   ├── bt_lookup_id_addr                                                          24   0.01%  0x0002d1ef text
         │   │   │   ├── bt_setup_public_id_addr                                                    32   0.01%  0x00018d75 text
         │   │   │   ├── bt_setup_random_id_addr                                                   212   0.09%  0x00018d95 text
+        │   │   │   ├── errno                                                                       4   0.00%  0x00000004 rom_start
         │   │   │   ├── find_rl_conflict                                                          184   0.08%  0x00018875 text
         │   │   │   ├── hci_id_add                                                                 98   0.04%  0x0002d0f1 text
         │   │   │   ├── id_create.constprop.0                                                     112   0.05%  0x00018795 text
@@ -2863,7 +2876,8 @@ Root                                                                            
         │   │   │   ├── keys_add_id                                                                22   0.01%  0x0002d153 text
         │   │   │   ├── log_const_bt_id                                                             8   0.00%  0x000325a0 log_const_area
         │   │   │   ├── pending_id_update                                                          32   0.01%  0x0002d21f text
-        │   │   │   └── set_random_address                                                        112   0.05%  0x00018805 text
+        │   │   │   ├── set_random_address                                                        112   0.05%  0x00018805 text
+        │   │   │   └── z_tls_current                                                               4   0.00%  0x00000000 rom_start
         │   │   ├── keys.c                                                                       1464   0.61%  - 
         │   │   │   ├── bt_keys_add_type                                                           44   0.02%  0x0001f88d text
         │   │   │   ├── bt_keys_clear                                                              72   0.03%  0x0001f8fd text

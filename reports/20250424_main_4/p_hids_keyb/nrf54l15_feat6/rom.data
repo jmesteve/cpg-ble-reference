@@ -1,5 +1,19 @@
 -- west build: running target rom_report
-[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat6\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat6/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat6/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
+[1/10] Generating ../../zephyr/include/generated/zephyr_commit.h
+[2/10] Generating ../../zephyr/include/generated/ncs_commit.h
+[3/10] Building C object zephyr/CMakeFiles/zephyr.dir/C_/ncs/vturkana/nrf/lib/boot_banner/banner.c.obj
+[4/10] Linking C static library zephyr\libzephyr.a
+[5/10] Linking C executable zephyr\zephyr_pre0.elf
+[6/10] Generating linker.cmd
+[7/10] Generating isr_tables.c, isr_tables_vt.ld, isr_tables_swi.ld
+[8/10] Building C object zephyr/CMakeFiles/zephyr_final.dir/isr_tables.c.obj
+[9/10] Linking C executable zephyr\zephyr.elf
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      237840 B      1420 KB     16.36%
+             RAM:       36424 B       188 KB     18.92%
+        IDT_LIST:          0 GB        32 KB      0.00%
+Generating files from C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat6/p_hids_keyb/zephyr/zephyr.elf for board: nrf54l15dk
+[9/10] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat6\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat6/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat6/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
 Path                                                                                             Size       %  Address    Section    
 ==========================================================================================================================================
 Root                                                                                           237813 100.00%  - 
@@ -35,8 +49,8 @@ Root                                                                            
 │   ├── MPSL_IRQ_RTC0_Handler                                                                      24   0.01%  0x00010d49 text
 │   ├── MPSL_IRQ_TIMER0_Handler                                                                    20   0.01%  0x0000a991 text
 │   ├── SystemCoreClock                                                                             4   0.00%  0x20000b20 datas
-│   ├── __aeabi_idiv0                                                                               2   0.00%  0x0000c179 text
-│   ├── __aeabi_memcpy                                                                             26   0.01%  0x00031055 text
+│   ├── __aeabi_ldiv0                                                                               2   0.00%  0x0000c179 text
+│   ├── __aeabi_memcpy4                                                                            26   0.01%  0x00031055 text
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034360 rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x0003437c rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034390 rodata
@@ -259,7 +273,7 @@ Root                                                                            
 │   ├── smp_security_request                                                                        4   0.00%  0x0002de61 text
 │   ├── smp_signing_info                                                                            4   0.00%  0x0002df23 text
 │   ├── snprintf                                                                                   88   0.04%  0x0002ab59 text
-│   ├── stderr                                                                                      4   0.00%  0x00032770 rodata
+│   ├── stdout                                                                                      4   0.00%  0x00032770 rodata
 │   ├── strcmp                                                                                     20   0.01%  0x000110db text
 │   ├── strcpy                                                                                     16   0.01%  0x000110ef text
 │   ├── strlen                                                                                     16   0.01%  0x000110ff text
@@ -1396,7 +1410,7 @@ Root                                                                            
 │   │                   ├── system_nrf54l.c                                                       248   0.10%  - 
 │   │                   │   └── SystemInit                                                        248   0.10%  0x00022571 text
 │   │                   └── system_nrf54l_approtect.h                                              52   0.02%  - 
-│   │                       └── nrf54l_handle_approtect_signal                                     52   0.02%  0x0002253d text
+│   │                       └── nrf54l_handle_secureapprotect_signal                               52   0.02%  0x0002253d text
 │   └── nrf                                                                                     33791  14.21%  - 
 │       ├── drivers                                                                               724   0.30%  - 
 │       │   └── mpsl                                                                              724   0.30%  - 

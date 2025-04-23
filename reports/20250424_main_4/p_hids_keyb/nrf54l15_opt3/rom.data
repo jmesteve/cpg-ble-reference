@@ -1,5 +1,23 @@
 -- west build: running target rom_report
-[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_opt3\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
+[1/10] Generating ../../zephyr/include/generated/ncs_commit.h
+[2/10] Generating ../../zephyr/include/generated/zephyr_commit.h
+[3/10] Building C object zephyr/CMakeFiles/zephyr.dir/C_/ncs/vturkana/nrf/lib/boot_banner/banner.c.obj
+[4/10] Linking C static library zephyr\libzephyr.a
+[5/10] Linking C executable zephyr\zephyr_pre0.elf
+lto-wrapper.exe: warning: using serial compilation of 5 LTRANS jobs
+lto-wrapper.exe: note: see the '-flto' option documentation for more information
+[6/10] Generating linker.cmd
+[7/10] Generating isr_tables.c, isr_tables_vt.ld, isr_tables_swi.ld
+[8/10] Building C object zephyr/CMakeFiles/zephyr_final.dir/isr_tables.c.obj
+[9/10] Linking C executable zephyr\zephyr.elf
+lto-wrapper.exe: warning: using serial compilation of 5 LTRANS jobs
+lto-wrapper.exe: note: see the '-flto' option documentation for more information
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      199728 B      1420 KB     13.74%
+             RAM:       34712 B       188 KB     18.03%
+        IDT_LIST:          0 GB        32 KB      0.00%
+Generating files from C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb/zephyr/zephyr.elf for board: nrf54l15dk
+[9/10] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_opt3\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
 Path                                                                                             Size       %  Address    Section    
 ==========================================================================================================================================
 Root                                                                                           199710 100.00%  - 
@@ -11,9 +29,9 @@ Root                                                                            
 │   ├── CSWTCH.15558.lto_priv.0                                                                    42   0.02%  0x0002d02d rodata
 │   ├── CSWTCH.15586                                                                               10   0.01%  0x0002d05a rodata
 │   ├── CSWTCH.22                                                                                   3   0.00%  0x0002f496 rodata
-│   ├── CSWTCH.36.lto_priv.0                                                                        3   0.00%  0x0002e935 rodata
 │   ├── CSWTCH.43                                                                                  12   0.01%  0x000291c8 rodata
 │   ├── CSWTCH.489                                                                                 20   0.01%  0x00028e50 rodata
+│   ├── CSWTCH.51                                                                                   3   0.00%  0x0002e935 rodata
 │   ├── CSWTCH.61                                                                                  12   0.01%  0x000291d4 rodata
 │   ├── CSWTCH.8123                                                                                15   0.01%  0x0002dfe7 rodata
 │   ├── CSWTCH.8125                                                                                 9   0.00%  0x0002df75 rodata
@@ -32,7 +50,6 @@ Root                                                                            
 │   ├── __NVIC_EnableIRQ.lto_priv.0                                                                28   0.01%  0x0000e999 text
 │   ├── __NVIC_SetPriority.lto_priv.0.lto_priv.0                                                   40   0.02%  0x0000e9d9 text
 │   ├── __aeabi_idiv0                                                                               2   0.00%  0x00009c99 text
-│   ├── __aeabi_memcpy8                                                                            26   0.01%  0x00028571 text
 │   ├── __compound_literal.0                                                                        8   0.00%  0x000290b4 rodata
 │   ├── __compound_literal.0.lto_priv.1.lto_priv.0                                                  4   0.00%  0x0002aa9c rodata
 │   ├── __compound_literal.0.lto_priv.2                                                             4   0.00%  0x0002aaf8 rodata
@@ -721,15 +738,15 @@ Root                                                                            
 │   ├── assert_post_action.constprop.0                                                             18   0.01%  0x000280b7 text
 │   ├── assert_print                                                                               26   0.01%  0x0002546f text
 │   ├── async_start                                                                                90   0.05%  0x00026941 text
-│   ├── atomic_and.lto_priv.4.lto_priv.0                                                           22   0.01%  0x00025aab text
-│   ├── atomic_clear_bit.lto_priv.1.lto_priv.0                                                     20   0.01%  0x00025ae1 text
-│   ├── atomic_get.lto_priv.4.lto_priv.0                                                            6   0.00%  0x00025edd text
-│   ├── atomic_or.lto_priv.2.lto_priv.0                                                            22   0.01%  0x00025a95 text
-│   ├── atomic_set.lto_priv.4.lto_priv.0                                                           16   0.01%  0x00025ff9 text
+│   ├── atomic_and.lto_priv.0.lto_priv.0                                                           22   0.01%  0x00025aab text
+│   ├── atomic_clear_bit.lto_priv.2.lto_priv.0                                                     20   0.01%  0x00025ae1 text
+│   ├── atomic_get.lto_priv.0.lto_priv.0                                                            6   0.00%  0x00025edd text
+│   ├── atomic_or.lto_priv.0.lto_priv.0                                                            22   0.01%  0x00025a95 text
+│   ├── atomic_set.lto_priv.7.lto_priv.0                                                           16   0.01%  0x00025ff9 text
 │   ├── atomic_set_bit.lto_priv.0.lto_priv.0                                                       18   0.01%  0x000266cf text
-│   ├── atomic_set_bit_to.lto_priv.1.lto_priv.0                                                    34   0.02%  0x000266e1 text
-│   ├── atomic_test_and_clear_bit.lto_priv.0.lto_priv.0                                            22   0.01%  0x000262f7 text
-│   ├── atomic_test_and_set_bit.lto_priv.2.lto_priv.0                                              32   0.02%  0x00025ac1 text
+│   ├── atomic_set_bit_to                                                                          34   0.02%  0x000266e1 text
+│   ├── atomic_test_and_clear_bit.lto_priv.5.lto_priv.0                                            22   0.01%  0x000262f7 text
+│   ├── atomic_test_and_set_bit.lto_priv.3.lto_priv.0                                              32   0.02%  0x00025ac1 text
 │   ├── atomic_test_bit.lto_priv.2                                                                 14   0.01%  0x00026009 text
 │   ├── att_chan_mtu_updated                                                                       26   0.01%  0x00025ddf text
 │   ├── att_chan_read                                                                             276   0.14%  0x00011dc5 text
@@ -777,10 +794,10 @@ Root                                                                            
 │   ├── blocking_start_callback                                                                     6   0.00%  0x00026d91 text
 │   ├── blvl_ccc_cfg_changed.lto_priv.0                                                            32   0.02%  0x0000df05 text
 │   ├── bt_addr_any                                                                                 6   0.00%  0x0002d07b rodata
-│   ├── bt_addr_copy.lto_priv.1                                                                    10   0.01%  0x00025fef text
+│   ├── bt_addr_copy.lto_priv.3                                                                    10   0.01%  0x00025fef text
 │   ├── bt_addr_le_any                                                                              7   0.00%  0x0002b8ea rodata
-│   ├── bt_addr_le_copy.lto_priv.6.lto_priv.0                                                      14   0.01%  0x00025fe1 text
-│   ├── bt_addr_le_eq.lto_priv.0.lto_priv.0                                                        16   0.01%  0x00026043 text
+│   ├── bt_addr_le_copy.lto_priv.4                                                                 14   0.01%  0x00025fe1 text
+│   ├── bt_addr_le_eq.lto_priv.3                                                                   16   0.01%  0x00026043 text
 │   ├── bt_addr_le_is_bonded                                                                       18   0.01%  0x00026031 text
 │   ├── bt_addr_le_none                                                                             7   0.00%  0x0002d026 rodata
 │   ├── bt_addr_le_str                                                                             20   0.01%  0x00011189 text
@@ -839,7 +856,7 @@ Root                                                                            
 │   ├── bt_gatt_attr_write_ccc                                                                    200   0.10%  0x00019b55 text
 │   ├── bt_gatt_change_aware                                                                      110   0.06%  0x000272bd text
 │   ├── bt_gatt_check_perm                                                                        144   0.07%  0x000271a1 text
-│   ├── bt_gatt_foreach_attr.lto_priv.1.lto_priv.0                                                 20   0.01%  0x00026115 text
+│   ├── bt_gatt_foreach_attr.lto_priv.0.lto_priv.0                                                 20   0.01%  0x00026115 text
 │   ├── bt_gatt_foreach_attr_type.constprop.0                                                     308   0.15%  0x00021985 text
 │   ├── bt_gatt_identity_resolved.lto_priv.0                                                       92   0.05%  0x000196c1 text
 │   ├── bt_gatt_indicate                                                                          264   0.13%  0x0001981d text
@@ -993,7 +1010,7 @@ Root                                                                            
 │   ├── delay_machine_code.0                                                                        6   0.00%  0x00028e00 rodata
 │   ├── delayed_store.lto_priv.0                                                                   26   0.01%  0x0002738f text
 │   ├── destroy_and_callback                                                                       46   0.02%  0x0002616b text
-│   ├── device_is_ready.lto_priv.5.lto_priv.0                                                      22   0.01%  0x00025a11 text
+│   ├── device_is_ready.lto_priv.0.lto_priv.0                                                      22   0.01%  0x00025a11 text
 │   ├── dh_key_work                                                                                16   0.01%  0x20000a1c datas
 │   ├── dis_pnp_id.lto_priv.0                                                                       7   0.00%  0x20000b3b datas
 │   ├── dis_svc                                                                                     8   0.00%  0x00028894 bt_gatt_service_static_area
@@ -1078,7 +1095,7 @@ Root                                                                            
 │   ├── gpio_nrfx_port_set_masked_raw.lto_priv.0                                                   20   0.01%  0x000269fd text
 │   ├── gpio_nrfx_port_toggle_bits.lto_priv.0                                                      20   0.01%  0x00026a25 text
 │   ├── gpio_pin_configure_dt.lto_priv.0.lto_priv.0                                               164   0.08%  0x00017a7d text
-│   ├── gpio_pin_set_dt.lto_priv.0.lto_priv.0                                                      80   0.04%  0x00017b21 text
+│   ├── gpio_pin_set_dt.lto_priv.1.lto_priv.0                                                      80   0.04%  0x00017b21 text
 │   ├── gpiote_channel_get.lto_priv.0                                                              60   0.03%  0x0001cc3d text
 │   ├── gpiote_input_configure.lto_priv.0                                                         480   0.24%  0x0001fb9d text
 │   ├── handle_event                                                                               48   0.02%  0x00012219 text
@@ -1149,7 +1166,7 @@ Root                                                                            
 │   ├── initial_run.2                                                                               1   0.00%  0x20000b43 datas
 │   ├── irq_connect00                                                                               8   0.00%  0x00026c81 text
 │   ├── irq_handler.lto_priv.0                                                                    424   0.21%  0x0001f9d5 text
-│   ├── k_busy_wait.lto_priv.0.lto_priv.0                                                          36   0.02%  0x0001735d text
+│   ├── k_busy_wait.lto_priv.1.lto_priv.0                                                          36   0.02%  0x0001735d text
 │   ├── k_cracen_irq_event_for_cryptomaster                                                        16   0.01%  0x20000d04 k_event_area
 │   ├── k_cracen_irq_event_for_pke                                                                 16   0.01%  0x20000d14 k_event_area
 │   ├── k_cracen_mutex                                                                             20   0.01%  0x20000bf0 k_mutex_area
@@ -1167,8 +1184,8 @@ Root                                                                            
 │   ├── k_queue_init.lto_priv.1                                                                    26   0.01%  0x00026017 text
 │   ├── k_sched_lock                                                                              116   0.06%  0x0001cf39 text
 │   ├── k_sched_unlock                                                                            172   0.09%  0x0001de19 text
-│   ├── k_sem_give.lto_priv.6.lto_priv.0                                                          160   0.08%  0x000139d1 text
-│   ├── k_sem_take.lto_priv.2.lto_priv.0                                                          168   0.08%  0x0001154d text
+│   ├── k_sem_give.lto_priv.5.lto_priv.0                                                          160   0.08%  0x000139d1 text
+│   ├── k_sem_take.lto_priv.6.lto_priv.0                                                          168   0.08%  0x0001154d text
 │   ├── k_sleep.lto_priv.2.lto_priv.0                                                             252   0.13%  0x0000e1cd text
 │   ├── k_sys_work_q_init                                                                          52   0.03%  0x0001d7ad text
 │   ├── k_wakeup.lto_priv.1                                                                       124   0.06%  0x0001d695 text
@@ -1276,6 +1293,7 @@ Root                                                                            
 │   ├── mbedtls_threading_psa_rngdata_mutex                                                        20   0.01%  0x20000c7c k_mutex_area
 │   ├── mem_manage_fault.constprop.0                                                              236   0.12%  0x00021ded text
 │   ├── memcmp                                                                                     32   0.02%  0x0002858b text
+│   ├── memcpy                                                                                     26   0.01%  0x00028571 text
 │   ├── memset                                                                                     16   0.01%  0x0002849d text
 │   ├── memset_func                                                                                 4   0.00%  0x20000a54 datas
 │   ├── merge_chunks                                                                               60   0.03%  0x00024fbf text
@@ -1323,11 +1341,11 @@ Root                                                                            
 │   ├── mpsl_timeslot_session_open                                                                124   0.06%  0x000080cd text
 │   ├── mpsl_tx_power_radio_supported_power_adjust                                                 32   0.02%  0x0000780d text
 │   ├── mpsl_work_schedule.constprop.0                                                             52   0.03%  0x00021449 text
-│   ├── mpsl_work_submit.lto_priv.1                                                                44   0.02%  0x0001e2cd text
+│   ├── mpsl_work_submit.lto_priv.0                                                                44   0.02%  0x0001e2cd text
 │   ├── mpu_configure_region                                                                       50   0.03%  0x0002542b text
 │   ├── multithreading_lock_acquire.constprop.0                                                    16   0.01%  0x000240c1 text
 │   ├── multithreading_lock_release                                                                12   0.01%  0x0001ee71 text
-│   ├── net_buf_add_mem.lto_priv.4.lto_priv.0                                                      26   0.01%  0x000261b7 text
+│   ├── net_buf_add_mem.lto_priv.0.lto_priv.0                                                      26   0.01%  0x000261b7 text
 │   ├── net_buf_alloc_fixed                                                                         8   0.00%  0x0002630d text
 │   ├── net_buf_alloc_len                                                                         440   0.22%  0x00011b95 text
 │   ├── net_buf_destroy.lto_priv.0                                                                 60   0.03%  0x00010ead text
@@ -1370,16 +1388,16 @@ Root                                                                            
 │   ├── notify_complete_cb                                                                         12   0.01%  0x0000de25 text
 │   ├── notify_connected                                                                           92   0.05%  0x000118e1 text
 │   ├── notify_one.lto_priv.0                                                                      92   0.05%  0x0000e44d text
-│   ├── nrf54l_errata_40.lto_priv.0                                                                32   0.02%  0x00011075 text
-│   ├── nrf54l_handle_approtect_signal                                                             52   0.03%  0x0001b891 text
+│   ├── nrf54l_errata_32.lto_priv.0                                                                32   0.02%  0x00011075 text
+│   ├── nrf54l_handle_secureapprotect_signal                                                       52   0.03%  0x0001b891 text
 │   ├── nrf_gpio_cfg.constprop.1                                                                   68   0.03%  0x000240d1 text
 │   ├── nrf_gpio_cfg_sense_set                                                                     30   0.02%  0x00027b97 text
 │   ├── nrf_gpio_pin_clear.lto_priv.0.lto_priv.0                                                   24   0.01%  0x00026e95 text
-│   ├── nrf_gpio_pin_port_decode.lto_priv.0.lto_priv.0                                             72   0.04%  0x00017625 text
 │   ├── nrf_gpio_pin_port_decode.lto_priv.2                                                        72   0.04%  0x00017dbd text
+│   ├── nrf_gpio_pin_port_decode.lto_priv.3.lto_priv.0                                             72   0.04%  0x00017625 text
 │   ├── nrf_gpio_pin_present_check.lto_priv.2                                                      40   0.02%  0x00016f41 text
 │   ├── nrf_gpio_pin_set.lto_priv.0.lto_priv.0                                                     24   0.01%  0x00026e7d text
-│   ├── nrf_gpio_reconfigure.lto_priv.0.lto_priv.0                                                154   0.08%  0x00026ead text
+│   ├── nrf_gpio_reconfigure.lto_priv.1.lto_priv.0                                                154   0.08%  0x00026ead text
 │   ├── nrf_gpiote_in_event_get.lto_priv.0                                                         40   0.02%  0x0001cb85 text
 │   ├── nrf_rram_api                                                                               24   0.01%  0x000287b0 flash_driver_api_area
 │   ├── nrf_rram_erase.lto_priv.0                                                                   8   0.00%  0x00027449 text
@@ -1434,8 +1452,8 @@ Root                                                                            
 │   ├── platform_calloc_uninit                                                                      4   0.00%  0x000276c1 text
 │   ├── platform_free_uninit                                                                        2   0.00%  0x000276c5 text
 │   ├── pm_device_driver_init.lto_priv.1                                                           32   0.02%  0x000269b9 text
+│   ├── port_index                                                                                  3   0.00%  0x0002e941 rodata
 │   ├── port_offset.1                                                                              16   0.01%  0x0002e944 rodata
-│   ├── ports                                                                                       3   0.00%  0x0002e941 rodata
 │   ├── printk                                                                                     26   0.01%  0x00025411 text
 │   ├── prio_events                                                                                40   0.02%  0x00029008 rodata
 │   ├── procedures_on_connect                                                                      16   0.01%  0x2000083c datas
@@ -1447,7 +1465,7 @@ Root                                                                            
 │   ├── psa_crypto_init                                                                           552   0.28%  0x0001c429 text
 │   ├── psa_destroy_key                                                                           268   0.13%  0x0001c919 text
 │   ├── psa_driver_wrapper_get_builtin_key                                                        208   0.10%  0x00022d51 text
-│   ├── psa_extend_key_usage_flags.lto_priv.1.lto_priv.0                                           26   0.01%  0x00026061 text
+│   ├── psa_extend_key_usage_flags.lto_priv.0.lto_priv.0                                           26   0.01%  0x00026061 text
 │   ├── psa_fail_key_creation.constprop.0                                                          36   0.02%  0x00021335 text
 │   ├── psa_finish_key_creation.constprop.0                                                        64   0.03%  0x000212f5 text
 │   ├── psa_generate_random                                                                        30   0.02%  0x00027999 text
@@ -1462,7 +1480,7 @@ Root                                                                            
 │   ├── psa_register_read                                                                          26   0.01%  0x000276c7 text
 │   ├── psa_remove_key_data_from_memory                                                            48   0.02%  0x0001c219 text
 │   ├── psa_reserve_free_key_slot                                                                 132   0.07%  0x0001c651 text
-│   ├── psa_set_key_usage_flags.lto_priv.5.lto_priv.0                                              20   0.01%  0x0002607b text
+│   ├── psa_set_key_usage_flags.lto_priv.2.lto_priv.0                                              20   0.01%  0x0002607b text
 │   ├── psa_start_key_creation.constprop.0                                                        148   0.07%  0x00021261 text
 │   ├── psa_unregister_read                                                                        42   0.02%  0x00027dd9 text
 │   ├── psa_unregister_read_under_mutex                                                            48   0.02%  0x00020fe9 text
@@ -2485,17 +2503,17 @@ Root                                                                            
 │   ├── sys_clock_set_timeout.constprop.0                                                         324   0.16%  0x00021b29 text
 │   ├── sys_clock_tick_get                                                                        104   0.05%  0x0001e12d text
 │   ├── sys_clock_timeout_handler                                                                 632   0.32%  0x0001d269 text
-│   ├── sys_dlist_remove.lto_priv.3                                                                16   0.01%  0x000277d7 text
-│   ├── sys_get_le32.lto_priv.1                                                                     4   0.00%  0x00025cb3 text
+│   ├── sys_dlist_remove.lto_priv.0.lto_priv.0                                                     16   0.01%  0x000277d7 text
+│   ├── sys_get_le32.lto_priv.0                                                                     4   0.00%  0x00025cb3 text
 │   ├── sys_hash32_murmur3                                                                        128   0.06%  0x0000de31 text
 │   ├── sys_heap_free                                                                             112   0.06%  0x0000e2c9 text
 │   ├── sys_heap_init                                                                             240   0.12%  0x0000e339 text
 │   ├── sys_mem_swap.constprop.0                                                                   28   0.01%  0x00028047 text
-│   ├── sys_memcpy_swap.lto_priv.0.lto_priv.0                                                      68   0.03%  0x00011681 text
-│   ├── sys_slist_append.lto_priv.6.lto_priv.0                                                     20   0.01%  0x000254b7 text
-│   ├── sys_slist_find_and_remove.lto_priv.2                                                       32   0.02%  0x000260af text
+│   ├── sys_memcpy_swap.lto_priv.1.lto_priv.0                                                      68   0.03%  0x00011681 text
+│   ├── sys_slist_append.lto_priv.2.lto_priv.0                                                     20   0.01%  0x000254b7 text
+│   ├── sys_slist_find_and_remove.lto_priv.3.lto_priv.0                                            32   0.02%  0x000260af text
 │   ├── sys_slist_get.lto_priv.3                                                                   20   0.01%  0x00025ec9 text
-│   ├── sys_slist_prepend.lto_priv.1.lto_priv.0                                                    14   0.01%  0x00026053 text
+│   ├── sys_slist_prepend.lto_priv.4                                                               14   0.01%  0x00026053 text
 │   ├── sys_slist_remove.lto_priv.0.lto_priv.0                                                     32   0.02%  0x0002608f text
 │   ├── system_clock_channel_data.lto_priv.0                                                       12   0.01%  0x20000aa4 datas
 │   ├── thread_is_sliceable                                                                         4   0.00%  0x000276bd text
@@ -2568,7 +2586,7 @@ Root                                                                            
 │   ├── z_prep_c                                                                                 1104   0.55%  0x0000ea01 text
 │   ├── z_ready_thread                                                                             88   0.04%  0x0001d7e1 text
 │   ├── z_reschedule                                                                               92   0.05%  0x0001cedd text
-│   ├── z_reschedule_unlocked.lto_priv.0                                                           52   0.03%  0x0001c161 text
+│   ├── z_reschedule_unlocked.lto_priv.1                                                           52   0.03%  0x0001c161 text
 │   ├── z_reset_time_slice                                                                         76   0.04%  0x0001d21d text
 │   ├── z_sched_wake.constprop.0                                                                  136   0.07%  0x00024625 text
 │   ├── z_sched_wake_thread                                                                       132   0.07%  0x0001da0d text

@@ -2,6 +2,7 @@ import argparse
 import csv
 import configparser
 import difflib
+import hashlib
 import json
 import os
 import pandas as pd
@@ -18,8 +19,6 @@ blocks_ids = {}
 
 global block_patterns
 global template_excel 
-global counter
-counter = 0
 
 
 def config_init(repository):
@@ -79,11 +78,7 @@ def open_json(filename):
 
 def parser_artifacts(artifacts, output, level=0, parent=None, level_max=None):
     for artifact in artifacts:
-        global counter
-        counter += 1
-        uuid = (level * 10000) + counter
-        if artifact.get("size") == 0:
-            continue
+        uuid = "{:02}-{}".format(level, hashlib.md5(artifact.get("name").encode("UTF-8")).hexdigest())
         data = {
             "uuid": uuid,
             "parent": parent,
@@ -144,7 +139,7 @@ def to_excel(csv_file, report_directory, repository, feat, report):
     if not os.path.exists(destination):
         shutil.copy2(origin, destination)
     writer = pd.ExcelWriter(destination, engine='openpyxl', mode='a', if_sheet_exists="replace")
-    csv =pd.read_csv(csv_file)
+    csv = pd.read_csv(csv_file)
     df1 = pd.DataFrame(csv)
     df1.to_excel(writer, sheet_name=feat.upper(), index=None, header=True)
     writer.close()
@@ -155,25 +150,35 @@ def to_file(filename, data):
     with open(filename, 'w', newline='', encoding="utf-8") as output_file:
         print(data)
         output_file.write(data)
-
-
-def generate_reports(reports, feat, level_max, memory_repository, report_directory, report_destination, only_summary=False):
-    for report in reports:
-        output_filename = Path("{}/{}.csv".format(report_destination, report))
-        if only_summary == False:
-            cmd = "west build -d {} -t {}_report".format(memory_repository, report)
-            result = subprocess.run(cmd, capture_output=True, timeout=60)
-            stdout = result.stdout.decode("utf-8")
-            output_data = Path("{}/{}.data".format(report_destination, report))
-            to_file(output_data, stdout)
-            filename = Path("{}/{}.json".format(memory_repository, report))
-            input = open_json(filename)
-            output = {}
-            global counter
-            counter = 0
-            parser_artifacts(input, output, level_max=level_max)
-            to_csv(output_filename, output)
-        to_excel(output_filename, report_directory, repository, feat, report)
+        
+        
+def generate_report(summary, report, feat, level_max, report_destination, baseline=None):
+    filename = Path("{}/{}.json".format(report_destination, report))
+    input = open_json(filename)
+    output = {}
+    output_filename = Path("{}/{}.csv".format(report_destination, report))
+    parser_artifacts(input, output, level_max=level_max)
+    to_csv(output_filename, output)
+    for key, value in output.items():
+        if summary.get(key):
+            summary[key][feat] = value.get("size")
+            if baseline and summary[key].get(baseline) and summary[key][baseline] > 0:
+                size_percent = round(((value.get("size")/summary[key][baseline]) - 1)*100, 2)
+            else:
+                size_percent = 0 
+            size_percent_name = "{}(%)".format(feat)
+            summary[key][size_percent_name] = size_percent
+        else:
+            summary[key] = {"uuid": key,
+                            "level": value.get("level"),
+                            "name": value.get("name"),
+                            feat: value.get("size")
+                            }
+                
+        
+def generate_summary(report, feat, repository, report_directory, report_destination):
+    output_filename = Path("{}/{}.csv".format(report_destination, report))
+    to_excel(output_filename, report_directory, repository, feat, report)
 
 
 def generate_autoconf(build_directory, report_destination):
@@ -210,6 +215,16 @@ def generate_build(repository, build, feat, platform_path, extra_config=None, sn
     result = subprocess.run(cmd, capture_output=True, timeout=500)
     stdout = result.stdout.decode("utf-8")
     print(stdout)
+
+
+def build_memory_report(report, memory_repository, report_destination):
+    cmd = "west build -d {} -t {}_report".format(memory_repository, report)
+    result = subprocess.run(cmd, capture_output=True, timeout=60)
+    stdout = result.stdout.decode("utf-8")
+    output_data = Path("{}/{}.data".format(report_destination, report))
+    to_file(output_data, stdout)
+    json_path = Path("{}/{}.json".format(memory_repository, report))
+    shutil.copy2(json_path, report_destination)
 
 
 def args_procedure():
@@ -275,30 +290,39 @@ if __name__ == '__main__':
     else:
         feats = defaults.get("feats")
 
-    for feat in feats:
-        report_id = "{}_{}".format(platform_code, feat)
-        if extra_config:
-            report_id = "{}_{}".format(report_id, extra_config)
-        report_dir_name = "{}/{}/{}".format(defaults["reports_root"], version, repository)
-        report_directory = Path(report_dir_name)
-        report_destination = Path("{}/{}".format(report_dir_name, report_id))
-        build_directory = Path("{}/build_{}".format(repository, report_id))
-        memory_directory = Path("{}/{}".format(build_directory, repository))
 
-        if only_summary == False and only_report == False:
-            if snippet == None and defaults.get("snippet_feats"):
-                snippet = defaults["snippet_feats"].get(feat)
-            else:
-                snippet = None
-            generate_build(repository, build_directory, feat, platform, extra_config, snippet)   
+    for report in defaults["reports"]:    
+        summary = {}
+        for feat in feats:
+            report_id = "{}_{}".format(platform_code, feat)
+            if extra_config:
+                report_id = "{}_{}".format(report_id, extra_config)
+            report_dir_name = "{}/{}/{}".format(defaults["reports_root"], version, repository)
+            report_directory = Path(report_dir_name)
+            report_destination = Path("{}/{}".format(report_dir_name, report_id))
+            build_directory = Path("{}/build_{}".format(repository, report_id))
+            memory_directory = Path("{}/{}".format(build_directory, repository))
 
-        generate_reports(defaults["reports"], feat, level_max, memory_directory, report_directory, report_destination, only_summary)
+            if report == "rom":
+                if only_summary == False and only_report == False:
+                    if snippet == None and defaults.get("snippet_feats"):
+                        snippet = defaults["snippet_feats"].get(feat)
+                    else:
+                        snippet = None
+                    generate_build(repository, build_directory, feat, platform, extra_config, snippet)   
 
-        if only_summary == False:
-            generate_autoconf(memory_directory, report_destination)
-            if baseline:
-                report_baseline_id = "{}_{}".format(platform_code, baseline)
-                if extra_config:
-                    report_baseline_id = "{}_{}".format(report_baseline_id, extra_config)
-                report_destination_baseline = Path("{}/{}".format(report_dir_name, report_baseline_id))
-                compare_autoconf(report_destination, report_destination_baseline)
+                if only_summary == False:
+                    generate_autoconf(memory_directory, report_destination)
+                    if baseline:
+                        report_baseline_id = "{}_{}".format(platform_code, baseline)
+                        if extra_config:
+                            report_baseline_id = "{}_{}".format(report_baseline_id, extra_config)
+                        report_destination_baseline = Path("{}/{}".format(report_dir_name, report_baseline_id))
+                        compare_autoconf(report_destination, report_destination_baseline)
+                    build_memory_report(report, memory_directory, report_destination)
+
+            generate_report(summary, report, feat, level_max, report_destination, baseline)
+            generate_summary(report, feat, repository, report_directory, report_destination)
+        output_filename = Path("{}/{}_{}_summary.csv".format(report_directory, report, repository))
+        to_csv(output_filename, summary)
+        to_excel(output_filename, report_directory, repository, "Summary", report)

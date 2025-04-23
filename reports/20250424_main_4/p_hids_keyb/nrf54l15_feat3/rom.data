@@ -1,5 +1,19 @@
 -- west build: running target rom_report
-[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat3\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat3/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat3/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
+[1/10] Generating ../../zephyr/include/generated/zephyr_commit.h
+[2/10] Generating ../../zephyr/include/generated/ncs_commit.h
+[3/10] Building C object zephyr/CMakeFiles/zephyr.dir/C_/ncs/vturkana/nrf/lib/boot_banner/banner.c.obj
+[4/10] Linking C static library zephyr\libzephyr.a
+[5/10] Linking C executable zephyr\zephyr_pre0.elf
+[6/10] Generating linker.cmd
+[7/10] Generating isr_tables.c, isr_tables_vt.ld, isr_tables_swi.ld
+[8/10] Building C object zephyr/CMakeFiles/zephyr_final.dir/isr_tables.c.obj
+[9/10] Linking C executable zephyr\zephyr.elf
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      236884 B      1420 KB     16.29%
+             RAM:       36416 B       188 KB     18.92%
+        IDT_LIST:          0 GB        32 KB      0.00%
+Generating files from C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat3/p_hids_keyb/zephyr/zephyr.elf for board: nrf54l15dk
+[9/10] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_feat3\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat3/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_feat3/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
 Path                                                                                             Size       %  Address    Section    
 ==========================================================================================================================================
 Root                                                                                           236864 100.00%  - 
@@ -19,7 +33,7 @@ Root                                                                            
 │   ├── CSWTCH.33                                                                                  18   0.01%  0x0003898b rodata
 │   ├── CSWTCH.4                                                                                    4   0.00%  0x000349fa rodata
 │   ├── CSWTCH.43                                                                                  12   0.01%  0x00032844 rodata
-│   ├── CSWTCH.488                                                                                 18   0.01%  0x000388d8 rodata
+│   ├── CSWTCH.473                                                                                 18   0.01%  0x000388d8 rodata
 │   ├── CSWTCH.489                                                                                 20   0.01%  0x00032a20 rodata
 │   ├── CSWTCH.51                                                                                   3   0.00%  0x000389f3 rodata
 │   ├── CSWTCH.6                                                                                   12   0.01%  0x00032998 rodata
@@ -35,8 +49,7 @@ Root                                                                            
 │   ├── MPSL_IRQ_RTC0_Handler                                                                      24   0.01%  0x00010b01 text
 │   ├── MPSL_IRQ_TIMER0_Handler                                                                    20   0.01%  0x0000a885 text
 │   ├── SystemCoreClock                                                                             4   0.00%  0x20000b20 datas
-│   ├── __aeabi_idiv0                                                                               2   0.00%  0x0000c06d text
-│   ├── __aeabi_memcpy8                                                                            26   0.01%  0x00030ce3 text
+│   ├── __aeabi_ldiv0                                                                               2   0.00%  0x0000c06d text
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00033fe0 rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00033ffc rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034010 rodata
@@ -134,6 +147,7 @@ Root                                                                            
 │   ├── l2cap_disconnected                                                                          2   0.00%  0x0002cafd text
 │   ├── levels.0                                                                                   24   0.01%  0x00032a34 rodata
 │   ├── memcmp                                                                                     32   0.01%  0x00030d0d text
+│   ├── memcpy                                                                                     26   0.01%  0x00030ce3 text
 │   ├── memset                                                                                     16   0.01%  0x00030cfd text
 │   ├── mpsl_calibration_timer_handle                                                              28   0.01%  0x0000a2cd text
 │   ├── mpsl_clock_hfclk_latency_set                                                               32   0.01%  0x0000a3c5 text
@@ -1212,8 +1226,8 @@ Root                                                                            
 │               └── configs.c                                                                       2   0.00%  - 
 │                   └── _ConfigAbsSyms                                                              2   0.00%  0x0002b3af text
 ├── WORKSPACE                                                                                   47154  19.91%  - 
-│   ├── modules                                                                                 13659   5.77%  - 
-│   │   ├── crypto                                                                               6000   2.53%  - 
+│   ├── modules                                                                                 13667   5.77%  - 
+│   │   ├── crypto                                                                               6008   2.54%  - 
 │   │   │   ├── mbedtls                                                                           836   0.35%  - 
 │   │   │   │   └── library                                                                       836   0.35%  - 
 │   │   │   │       └── memory_buffer_alloc.c                                                     836   0.35%  - 
@@ -1222,14 +1236,14 @@ Root                                                                            
 │   │   │   │           ├── mbedtls_memory_buffer_alloc_init                                      120   0.05%  0x00027369 text
 │   │   │   │           ├── verify_chain                                                           60   0.03%  0x000270dd text
 │   │   │   │           └── verify_header                                                          64   0.03%  0x0002709d text
-│   │   │   └── oberon-psa-crypto                                                                5164   2.18%  - 
+│   │   │   └── oberon-psa-crypto                                                                5172   2.18%  - 
 │   │   │       ├── include                                                                        72   0.03%  - 
 │   │   │       │   └── psa                                                                        72   0.03%  - 
 │   │   │       │       └── crypto_struct.h                                                        72   0.03%  - 
 │   │   │       │           ├── psa_extend_key_usage_flags                                         26   0.01%  0x0002c82b text
 │   │   │       │           ├── psa_extend_key_usage_flags                                         26   0.01%  0x0002f8b1 text
 │   │   │       │           └── psa_set_key_usage_flags.constprop.0                                20   0.01%  0x0002fbff text
-│   │   │       └── library                                                                      5092   2.15%  - 
+│   │   │       └── library                                                                      5100   2.15%  - 
 │   │   │           ├── platform.c                                                                 56   0.02%  - 
 │   │   │           │   ├── mbedtls_calloc                                                         12   0.01%  0x000273e1 text
 │   │   │           │   ├── mbedtls_calloc_func                                                     4   0.00%  0x20000c5c datas
@@ -1241,7 +1255,8 @@ Root                                                                            
 │   │   │           │   ├── mbedtls_platform_zeroize                                               24   0.01%  0x0002740d text
 │   │   │           │   ├── mbedtls_zeroize_and_free                                               20   0.01%  0x0002ef9f text
 │   │   │           │   └── memset_func                                                             4   0.00%  0x20000c60 datas
-│   │   │           ├── psa_crypto.c                                                             4048   1.71%  - 
+│   │   │           ├── psa_crypto.c                                                             4056   1.71%  - 
+│   │   │           │   ├── errno                                                                   4   0.00%  0x00000004 rom_start
 │   │   │           │   ├── mbedtls_psa_crypto_free                                               144   0.06%  0x00027bdd text
 │   │   │           │   ├── psa_allocate_buffer_to_slot                                            38   0.02%  0x0002f193 text
 │   │   │           │   ├── psa_crypto_init                                                       260   0.11%  0x00027c6d text
@@ -1275,7 +1290,8 @@ Root                                                                            
 │   │   │           │   ├── psa_validate_ecc_key_attr                                             184   0.08%  0x0002efb3 text
 │   │   │           │   ├── psa_validate_unstructured_key_bit_size                                 94   0.04%  0x0002f135 text
 │   │   │           │   ├── psa_wipe_key_slot                                                      58   0.02%  0x0002f213 text
-│   │   │           │   └── psa_wipe_tag_output_buffer                                             20   0.01%  0x0002f06b text
+│   │   │           │   ├── psa_wipe_tag_output_buffer                                             20   0.01%  0x0002f06b text
+│   │   │           │   └── z_tls_current                                                           4   0.00%  0x00000000 rom_start
 │   │   │           ├── psa_crypto_client.c                                                         8   0.00%  - 
 │   │   │           │   └── psa_reset_key_attributes                                                8   0.00%  0x0002f637 text
 │   │   │           ├── psa_crypto_slot_management.c                                              906   0.38%  - 
@@ -1383,7 +1399,7 @@ Root                                                                            
 │   │                   │   └── SystemInit                                                        248   0.10%  0x00022211 text
 │   │                   └── system_nrf54l_approtect.h                                              52   0.02%  - 
 │   │                       └── nrf54l_handle_approtect_signal                                     52   0.02%  0x000221dd text
-│   └── nrf                                                                                     33495  14.14%  - 
+│   └── nrf                                                                                     33487  14.14%  - 
 │       ├── drivers                                                                               724   0.31%  - 
 │       │   └── mpsl                                                                              724   0.31%  - 
 │       │       ├── clock_control                                                                 142   0.06%  - 
@@ -1437,7 +1453,7 @@ Root                                                                            
 │       │           ├── mpsl_lock                                                                  20   0.01%  0x20000dec k_mutex_area
 │       │           ├── multithreading_lock_acquire                                                16   0.01%  0x00021299 text
 │       │           └── multithreading_lock_release                                                12   0.01%  0x000212a9 text
-│       └── subsys                                                                              31243  13.19%  - 
+│       └── subsys                                                                              31235  13.19%  - 
 │           ├── bluetooth                                                                        9174   3.87%  - 
 │           │   ├── conn_ctx.c                                                                    560   0.24%  - 
 │           │   │   ├── bt_conn_ctx_alloc                                                         132   0.06%  0x00013b61 text
@@ -1534,13 +1550,13 @@ Root                                                                            
 │           │           ├── mpsl_radio_isr_wrapper                                                 26   0.01%  0x0002e865 text
 │           │           ├── mpsl_rtc0_isr_wrapper                                                  22   0.01%  0x0002e84f text
 │           │           └── mpsl_timer0_isr_wrapper                                                26   0.01%  0x0002e835 text
-│           ├── nrf_security                                                                    21429   9.05%  - 
-│           │   └── src                                                                         21429   9.05%  - 
-│           │       ├── drivers                                                                 20251   8.55%  - 
-│           │       │   └── cracen                                                              20251   8.55%  - 
-│           │       │       ├── cracenpsa                                                       13402   5.66%  - 
-│           │       │       │   └── src                                                         13402   5.66%  - 
-│           │       │       │       ├── common.c                                                 1098   0.46%  - 
+│           ├── nrf_security                                                                    21421   9.04%  - 
+│           │   └── src                                                                         21421   9.04%  - 
+│           │       ├── drivers                                                                 20243   8.55%  - 
+│           │       │   └── cracen                                                              20243   8.55%  - 
+│           │       │       ├── cracenpsa                                                       13394   5.65%  - 
+│           │       │       │   └── src                                                         13394   5.65%  - 
+│           │       │       │       ├── common.c                                                 1090   0.46%  - 
 │           │       │       │       │   ├── be_cmp                                                 62   0.03%  0x0002f7f7 text
 │           │       │       │       │   ├── cracen_clean_ik_key                                     4   0.00%  0x0002f737 text
 │           │       │       │       │   ├── cracen_ecc_check_public_key                           128   0.05%  0x000285fd text
@@ -1549,10 +1565,8 @@ Root                                                                            
 │           │       │       │       │   ├── cracen_get_opaque_size                                136   0.06%  0x00028761 text
 │           │       │       │       │   ├── cracen_load_keyref                                    228   0.10%  0x0002867d text
 │           │       │       │       │   ├── cracen_prepare_ik_key                                  76   0.03%  0x000284a5 text
-│           │       │       │       │   ├── errno                                                   4   0.00%  0x00000004 rom_start
 │           │       │       │       │   ├── hash_get_algo                                          92   0.04%  0x000284f1 text
-│           │       │       │       │   ├── silex_statuscodes_to_psa                              188   0.08%  0x0002f73b text
-│           │       │       │       │   └── z_tls_current                                           4   0.00%  0x00000000 rom_start
+│           │       │       │       │   └── silex_statuscodes_to_psa                              188   0.08%  0x0002f73b text
 │           │       │       │       ├── cracen.c                                                  296   0.12%  - 
 │           │       │       │       │   ├── cracen_acquire                                         64   0.03%  0x0002839d text
 │           │       │       │       │   ├── cracen_init                                            92   0.04%  0x00028449 text
@@ -2717,8 +2731,8 @@ Root                                                                            
         │   │   │   ├── sc_ccc_cfg_write                                                           30   0.01%  0x0002d7e3 text
         │   │   │   ├── sc_clear                                                                   64   0.03%  0x0001c119 text
         │   │   │   ├── sc_commit                                                                  44   0.02%  0x0001bf1d text
+        │   │   │   ├── sc_commit.part.0                                                           16   0.01%  0x0001bf0d text
         │   │   │   ├── sc_indicate                                                                76   0.03%  0x0001c2d5 text
-        │   │   │   ├── sc_indicate.part.0                                                         16   0.01%  0x0001bf0d text
         │   │   │   ├── sc_indicate_rsp                                                            76   0.03%  0x0001bdf1 text
         │   │   │   ├── sc_process                                                                136   0.06%  0x0001cedd text
         │   │   │   ├── sc_restore_rsp                                                             58   0.02%  0x0002d6bb text

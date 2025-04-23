@@ -1,5 +1,19 @@
 -- west build: running target rom_report
-[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_std1\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_std1/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_std1/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
+[1/10] Generating ../../zephyr/include/generated/ncs_commit.h
+[2/10] Generating ../../zephyr/include/generated/zephyr_commit.h
+[3/10] Building C object zephyr/CMakeFiles/zephyr.dir/C_/ncs/vturkana/nrf/lib/boot_banner/banner.c.obj
+[4/10] Linking C static library zephyr\libzephyr.a
+[5/10] Linking C executable zephyr\zephyr_pre0.elf
+[6/10] Generating linker.cmd
+[7/10] Generating isr_tables.c, isr_tables_vt.ld, isr_tables_swi.ld
+[8/10] Building C object zephyr/CMakeFiles/zephyr_final.dir/isr_tables.c.obj
+[9/10] Linking C executable zephyr\zephyr.elf
+Memory region         Used Size  Region Size  %age Used
+           FLASH:      236900 B      1420 KB     16.29%
+             RAM:       36416 B       188 KB     18.92%
+        IDT_LIST:          0 GB        32 KB      0.00%
+Generating files from C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_std1/p_hids_keyb/zephyr/zephyr.elf for board: nrf54l15dk
+[9/10] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_std1\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_std1/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_std1/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 rom"
 Path                                                                                             Size       %  Address    Section    
 ==========================================================================================================================================
 Root                                                                                           236884 100.00%  - 
@@ -17,11 +31,11 @@ Root                                                                            
 │   ├── CSWTCH.22                                                                                  12   0.01%  0x000328a8 rodata
 │   ├── CSWTCH.22                                                                                   3   0.00%  0x00038a6c rodata
 │   ├── CSWTCH.33                                                                                  18   0.01%  0x0003899b rodata
-│   ├── CSWTCH.36                                                                                   3   0.00%  0x00038a03 rodata
 │   ├── CSWTCH.4                                                                                    4   0.00%  0x00034a0a rodata
 │   ├── CSWTCH.43                                                                                  12   0.01%  0x00032854 rodata
-│   ├── CSWTCH.477                                                                                 18   0.01%  0x000388e8 rodata
 │   ├── CSWTCH.489                                                                                 20   0.01%  0x00032a30 rodata
+│   ├── CSWTCH.51                                                                                   3   0.00%  0x00038a03 rodata
+│   ├── CSWTCH.593                                                                                 18   0.01%  0x000388e8 rodata
 │   ├── CSWTCH.6                                                                                   12   0.01%  0x000329a8 rodata
 │   ├── CSWTCH.61                                                                                  12   0.01%  0x00032848 rodata
 │   ├── CSWTCH.8123                                                                                15   0.01%  0x00037858 rodata
@@ -36,7 +50,7 @@ Root                                                                            
 │   ├── MPSL_IRQ_TIMER0_Handler                                                                    20   0.01%  0x0000a885 text
 │   ├── SystemCoreClock                                                                             4   0.00%  0x20000b20 datas
 │   ├── __aeabi_ldiv0                                                                               2   0.00%  0x0000c06d text
-│   ├── __aeabi_memcpy8                                                                            26   0.01%  0x00030cf5 text
+│   ├── __aeabi_memcpy                                                                             26   0.01%  0x00030cf5 text
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00033ff0 rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x0003400c rodata
 │   ├── __compound_literal.0                                                                        4   0.00%  0x00034020 rodata
@@ -256,7 +270,7 @@ Root                                                                            
 │   ├── smp_security_request                                                                        4   0.00%  0x0002db01 text
 │   ├── smp_signing_info                                                                            4   0.00%  0x0002dbc3 text
 │   ├── snprintf                                                                                   88   0.04%  0x0002a81d text
-│   ├── stderr                                                                                      4   0.00%  0x00032400 rodata
+│   ├── stdout                                                                                      4   0.00%  0x00032400 rodata
 │   ├── strcmp                                                                                     20   0.01%  0x00010e93 text
 │   ├── strcpy                                                                                     16   0.01%  0x00010ea7 text
 │   ├── strlen                                                                                     16   0.01%  0x00010eb7 text
@@ -1382,7 +1396,7 @@ Root                                                                            
 │   │                   ├── system_nrf54l.c                                                       248   0.10%  - 
 │   │                   │   └── SystemInit                                                        248   0.10%  0x00022235 text
 │   │                   └── system_nrf54l_approtect.h                                              52   0.02%  - 
-│   │                       └── nrf54l_handle_approtect_signal                                     52   0.02%  0x00022201 text
+│   │                       └── nrf54l_handle_secureapprotect_signal                               52   0.02%  0x00022201 text
 │   └── nrf                                                                                     33487  14.14%  - 
 │       ├── drivers                                                                               724   0.31%  - 
 │       │   └── mpsl                                                                              724   0.31%  - 
@@ -2127,7 +2141,7 @@ Root                                                                            
     │               ├── sys_slist_find_and_remove                                                  54   0.02%  0x0002c8d9 text
     │               ├── sys_slist_find_and_remove.isra.0                                           50   0.02%  0x0002d005 text
     │               └── sys_slist_get                                                              20   0.01%  0x0002ccb9 text
-    ├── kernel                                                                                  14990   6.33%  - 
+    ├── kernel                                                                                  14994   6.33%  - 
     │   ├── busy_wait.c                                                                             8   0.00%  - 
     │   │   └── z_impl_k_busy_wait                                                                  8   0.00%  0x0002eb89 text
     │   ├── condvar.c                                                                             212   0.09%  - 
@@ -2205,7 +2219,7 @@ Root                                                                            
     │   │   ├── z_impl_k_queue_init                                                                26   0.01%  0x0002ec5b text
     │   │   ├── z_impl_k_queue_peek_head                                                            8   0.00%  0x0002ec9f text
     │   │   └── z_queue_node_peek                                                                  24   0.01%  0x0002ec43 text
-    │   ├── sched.c                                                                              3562   1.50%  - 
+    │   ├── sched.c                                                                              3566   1.51%  - 
     │   │   ├── add_to_waitq_locked                                                                80   0.03%  0x0002edb7 text
     │   │   ├── errno                                                                               4   0.00%  0x00000004 rom_start
     │   │   ├── k_sched_lock                                                                      156   0.07%  0x0002621d text
@@ -2230,6 +2244,7 @@ Root                                                                            
     │   │   ├── z_thread_prio_set                                                                 264   0.11%  0x0002607d text
     │   │   ├── z_thread_timeout                                                                    8   0.00%  0x0002ee07 text
     │   │   ├── z_tick_sleep                                                                      228   0.10%  0x00026495 text
+    │   │   ├── z_tls_current                                                                       4   0.00%  0x00000000 rom_start
     │   │   ├── z_unpend_all                                                                       38   0.02%  0x0002ee23 text
     │   │   ├── z_unpend_thread                                                                    20   0.01%  0x0002ee0f text
     │   │   └── z_unpend_thread_no_timeout                                                        108   0.05%  0x00025ea9 text
@@ -2423,8 +2438,8 @@ Root                                                                            
     │               ├── arch_busy_wait                                                             36   0.02%  0x000161bd text
     │               ├── log_const_soc                                                               8   0.00%  0x00031a9c log_const_area
     │               └── nordicsemi_nrf54l_init                                                    180   0.08%  0x00016109 text
-    └── subsys                                                                                  53655  22.65%  - 
-        ├── bluetooth                                                                           47179  19.92%  - 
+    └── subsys                                                                                  53651  22.65%  - 
+        ├── bluetooth                                                                           47175  19.91%  - 
         │   ├── common                                                                            350   0.15%  - 
         │   │   ├── bt_str.c                                                                      244   0.10%  - 
         │   │   │   ├── bt_addr_le_str                                                            124   0.05%  0x00016295 text
@@ -2443,12 +2458,12 @@ Root                                                                            
         │   │   │   └── log_const_bt_crypto                                                         8   0.00%  0x0003199c log_const_area
         │   │   └── bt_crypto_psa.c                                                               140   0.06%  - 
         │   │       └── bt_crypto_aes_cmac                                                        140   0.06%  0x0001f19d text
-        │   ├── host                                                                            45695  19.29%  - 
+        │   ├── host                                                                            45691  19.29%  - 
         │   │   ├── addr.c                                                                         58   0.02%  - 
         │   │   │   ├── bt_addr_le_copy_resolved                                                   22   0.01%  0x0002c2a1 text
         │   │   │   ├── bt_addr_le_create_static                                                   28   0.01%  0x0002c285 text
         │   │   │   └── bt_addr_le_is_resolved                                                      8   0.00%  0x0002c2b7 text
-        │   │   ├── adv.c                                                                        1958   0.83%  - 
+        │   │   ├── adv.c                                                                        1954   0.82%  - 
         │   │   │   ├── adv_is_directed                                                            24   0.01%  0x0001861d text
         │   │   │   ├── adv_timeout                                                                28   0.01%  0x000189fd text
         │   │   │   ├── bt_le_adv_lookup_legacy                                                     8   0.00%  0x000186a1 text
@@ -2466,8 +2481,7 @@ Root                                                                            
         │   │   │   ├── le_adv_start_add_conn                                                      96   0.04%  0x00018635 text
         │   │   │   ├── le_adv_update.constprop.0                                                 228   0.10%  0x0002c6f7 text
         │   │   │   ├── log_const_bt_adv                                                            8   0.00%  0x00031974 log_const_area
-        │   │   │   ├── valid_adv_param                                                           132   0.06%  0x00018599 text
-        │   │   │   └── z_tls_current                                                               4   0.00%  0x00000000 rom_start
+        │   │   │   └── valid_adv_param                                                           132   0.06%  0x00018599 text
         │   │   ├── att.c                                                                        6892   2.91%  - 
         │   │   │   ├── att_chan_mtu_updated                                                      102   0.04%  0x0002ce31 text
         │   │   │   ├── att_chan_read                                                             334   0.14%  0x0002ceb7 text
@@ -2716,8 +2730,8 @@ Root                                                                            
         │   │   │   ├── sc_ccc_cfg_write                                                           30   0.01%  0x0002d807 text
         │   │   │   ├── sc_clear                                                                   64   0.03%  0x0001c119 text
         │   │   │   ├── sc_commit                                                                  44   0.02%  0x0001bf1d text
-        │   │   │   ├── sc_commit.part.0                                                           16   0.01%  0x0001bf0d text
         │   │   │   ├── sc_indicate                                                                76   0.03%  0x0001c2d5 text
+        │   │   │   ├── sc_indicate.part.0                                                         16   0.01%  0x0001bf0d text
         │   │   │   ├── sc_indicate_rsp                                                            76   0.03%  0x0001bdf1 text
         │   │   │   ├── sc_process                                                                136   0.06%  0x0001cedd text
         │   │   │   ├── sc_restore_rsp                                                             58   0.02%  0x0002d6df text

@@ -11,9 +11,9 @@ Root                                                                            
 │   ├── CSWTCH.15558.lto_priv.0                                                                    42   0.06%  0x000307ad rodata
 │   ├── CSWTCH.15586                                                                               10   0.01%  0x000307da rodata
 │   ├── CSWTCH.22                                                                                   3   0.00%  0x00032c16 rodata
+│   ├── CSWTCH.36.lto_priv.0                                                                        3   0.00%  0x000320b5 rodata
 │   ├── CSWTCH.43                                                                                  12   0.02%  0x0002c948 rodata
 │   ├── CSWTCH.489                                                                                 20   0.03%  0x0002c5d0 rodata
-│   ├── CSWTCH.51                                                                                   3   0.00%  0x000320b5 rodata
 │   ├── CSWTCH.61                                                                                  12   0.02%  0x0002c954 rodata
 │   ├── CSWTCH.8123                                                                                15   0.02%  0x00031767 rodata
 │   ├── CSWTCH.8125                                                                                 9   0.01%  0x000316f5 rodata
@@ -630,7 +630,7 @@ Root                                                                            
 │   ├── state                                                                                       1   0.00%  0x20004ca5 bss
 │   ├── static_regions                                                                             12   0.02%  0x0002c5c4 rodata
 │   ├── static_regions_num                                                                          1   0.00%  0x200048ae bss
-│   ├── stderr                                                                                      4   0.01%  0x0002e218 rodata
+│   ├── stdout                                                                                      4   0.01%  0x0002e218 rodata
 │   ├── store_id_work                                                                              16   0.02%  0x2000097c datas
 │   ├── str.1                                                                                      30   0.04%  0x2000495f bss
 │   ├── str.2                                                                                      18   0.03%  0x20004ca8 bss
