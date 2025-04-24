@@ -106,7 +106,7 @@ def parser_artifacts(artifacts, output, level=0, parent=None, level_max=None):
                                 "level": level,
                                 "identifier": bp,
                                 "name": bp,
-                                "size": artifact.get("size"),
+                                "size": artifact.get("size") or 0,
                             }
                         else:
                             output[blocks_id]["size"] += artifact.get("size")
@@ -133,12 +133,12 @@ def to_csv(filename, data):
         dict_writer.writerows(data_sorted)
 
 
-def to_excel(csv_file, report_directory, repository, feat, report):
+def to_excel(csv_file, report_directory, repository, feat, report, overwrite=False):
     origin = Path(template_excel)
     destination = Path("{}/{}_{}_summary.xlsx".format(report_directory, report, repository))
-    if not os.path.exists(destination):
+    if overwrite or not os.path.exists(destination):
         shutil.copy2(origin, destination)
-    writer = pd.ExcelWriter(destination, engine='openpyxl', mode='a', if_sheet_exists="replace")
+    writer = pd.ExcelWriter(destination, engine='openpyxl', mode='a', if_sheet_exists="overlay")
     csv = pd.read_csv(csv_file)
     df1 = pd.DataFrame(csv)
     df1.to_excel(writer, sheet_name=feat.upper(), index=None, header=True)
@@ -290,7 +290,7 @@ if __name__ == '__main__':
     else:
         feats = defaults.get("feats")
 
-
+    build_active = True
     for report in defaults["reports"]:    
         summary = {}
         for feat in feats:
@@ -303,7 +303,7 @@ if __name__ == '__main__':
             build_directory = Path("{}/build_{}".format(repository, report_id))
             memory_directory = Path("{}/{}".format(build_directory, repository))
 
-            if report == "rom":
+            if build_active:
                 if only_summary == False and only_report == False:
                     if snippet == None and defaults.get("snippet_feats"):
                         snippet = defaults["snippet_feats"].get(feat)
@@ -311,18 +311,19 @@ if __name__ == '__main__':
                         snippet = None
                     generate_build(repository, build_directory, feat, platform, extra_config, snippet)   
 
-                if only_summary == False:
-                    generate_autoconf(memory_directory, report_destination)
-                    if baseline:
-                        report_baseline_id = "{}_{}".format(platform_code, baseline)
-                        if extra_config:
-                            report_baseline_id = "{}_{}".format(report_baseline_id, extra_config)
-                        report_destination_baseline = Path("{}/{}".format(report_dir_name, report_baseline_id))
-                        compare_autoconf(report_destination, report_destination_baseline)
-                    build_memory_report(report, memory_directory, report_destination)
-
+            if only_summary == False:
+                build_memory_report(report, memory_directory, report_destination)
+                generate_autoconf(memory_directory, report_destination)
+                if baseline:
+                    report_baseline_id = "{}_{}".format(platform_code, baseline)
+                    if extra_config:
+                        report_baseline_id = "{}_{}".format(report_baseline_id, extra_config)
+                    report_destination_baseline = Path("{}/{}".format(report_dir_name, report_baseline_id))
+                    compare_autoconf(report_destination, report_destination_baseline)
+                    
             generate_report(summary, report, feat, level_max, report_destination, baseline)
             generate_summary(report, feat, repository, report_directory, report_destination)
         output_filename = Path("{}/{}_{}_summary.csv".format(report_directory, report, repository))
         to_csv(output_filename, summary)
         to_excel(output_filename, report_directory, repository, "Summary", report)
+        build_active = False
