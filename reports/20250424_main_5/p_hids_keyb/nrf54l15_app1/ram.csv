@@ -12,11 +12,13 @@ uuid,parent,level,identifier,name,size
 02-1094c50e30c0bef11e77f3a92e17d2f9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sched_spinlock,_sched_spinlock,4
 02-180fcbc28f7da66d219eb6193481a3ae,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\data.0,data.0,2
 02-1a05735884afb705b17707c0d28c7304,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\tx_power.0,tx_power.0,1
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,723
 02-2f158c4731d76d5975b8546d85de1b34,01-6666cd76f96956469e7be39d750cc7d9,2,C:\,C:\,872
 02-316e7f39b0580b06e68ccd7c94a1d88b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\str.3,str.3,129
 02-38d7b76b771634bb6aaae4ffde5922a8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sw_isr_table,_sw_isr_table,2168
 02-3b8238b190187fceef29c292cb88b526,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_main_stack,z_main_stack,3584
 02-3cca42c4f48f32184dc7d459a6842407,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_main_thread,z_main_thread,144
+02-44f0cbab43d4061c1dc047bd6a579531,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,943
 02-47352518f90e6887f4dd7acbc9a14580,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\settings_load_srcs,settings_load_srcs,8
 02-50484c19f1afdaf3841a0d821ed393d2,01-bb1836de191ead431509f5d1b910124d,2,kernel,kernel,2458
 02-6132bca83a4cd9c08eb8504f1f608b68,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\last_state.0,last_state.0,4
@@ -28,7 +30,6 @@ uuid,parent,level,identifier,name,size
 02-792cdbb2ff2168ced5d2267c5da659ca,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\last_button_scan.1,last_button_scan.1,4
 02-7d0d4e9e9148e130857ddb83462522b5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_kernel,_kernel,32
 02-7dfd0916e87aaa90a45bf1ec3391e970,01-bb1836de191ead431509f5d1b910124d,2,subsys,subsys,11119
-02-82c13774277a96e05be656c7fc4e3344,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,723
 02-84917115db7fc982cd67bd759fd0890c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\SystemCoreClock,SystemCoreClock,4
 02-89a59689861225eb508a89e526638dd8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_dev,bt_dev,376
 02-8a1075be9012a6c1ab97401581fed081,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\on.2,on.2,4
@@ -43,7 +44,6 @@ uuid,parent,level,identifier,name,size
 02-d6194c68fcc7e79bb57401be603cb1cc,01-bb1836de191ead431509f5d1b910124d,2,arch,arch,25
 02-d6cd44b3118dea63c3942bd300bb4c20,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_auth,bt_auth,4
 02-db375c9de329a5b90a323d5da44a5333,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\kmu_push_area,kmu_push_area,64
-02-dd24942d4ff8cfdd1f6a4b83c4024237,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,943
 02-df0893220c993ffbeb28b75726e081f7,01-09498dbadf45966909850dc8a47ebb13,2,nrf,nrf,6233
 02-e8acc63b1e238f3255c900eed37254b8,01-bb1836de191ead431509f5d1b910124d,2,lib,lib,40
 02-ee5fe10904086488b93783648af4b107,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\cracen_initialized.0,cracen_initialized.0,4

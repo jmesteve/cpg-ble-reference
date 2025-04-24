@@ -15,6 +15,7 @@ uuid,parent,level,identifier,name,size
 02-1094c50e30c0bef11e77f3a92e17d2f9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sched_spinlock,_sched_spinlock,4
 02-11a073fbb7de02da60f4e82b746a2033,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\m.11,m.11,16
 02-12e6356573b9ccf91c5011abe9ddd59b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mfy.7,mfy.7,16
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,48
 02-288267125d7fcf73765d8cefb82f9b09,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mfy.3,mfy.3,16
 02-2f158c4731d76d5975b8546d85de1b34,01-6666cd76f96956469e7be39d750cc7d9,2,C:\,C:\,173
 02-316e7f39b0580b06e68ccd7c94a1d88b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\str.3,str.3,129
@@ -47,7 +48,6 @@ uuid,parent,level,identifier,name,size
 02-b025e351d7adc20ce0f7335384bc5de7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\str.1,str.1,30
 02-b33b3754fc3ce4bd7c11bc9a137dd817,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\m.6,m.6,16
 02-b36a15671c6d3d2afd5a0b1290c4e341,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\p.2,p.2,16
-02-b4d2abc0e7b7503b65446e99275f46d5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,48
 02-bbb472961737a6d9b0027d338f9bf5fe,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mfy.2,mfy.2,16
 02-c21e762daa3e695e48f286ac05ee4753,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mfy.9,mfy.9,16
 02-c28e0ec9e1af842df6a3996e8e683a04,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mayfly_initialized.10,mayfly_initialized.10,1

@@ -22,6 +22,7 @@ uuid,parent,level,identifier,name,size
 02-1563d57a2fbbd7ccc9f840c4ef99a6b2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_10,__device_dts_ord_10,20
 02-186c3c0f84230707910945c4b734c348,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\gatt_read_mult_vl_encode,gatt_read_mult_vl_encode,4
 02-19fc55dc23d46a62d5d51a114b581d45,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_vs_conn_update,sdc_hci_cmd_vs_conn_update,100
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,148
 02-1b106abd35545367c66f3cfa318936c7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_vs_get_next_conn_event_counter,sdc_hci_cmd_vs_get_next_conn_event_counter,30
 02-1bad3c00dded1e49ada0434ab84bd112,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_4,__device_dts_ord_4,20
 02-1d67a8fbeff7661c831f485964fbd24e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\att_handle_read_blob_rsp,att_handle_read_blob_rsp,4
@@ -40,6 +41,7 @@ uuid,parent,level,identifier,name,size
 02-32af5b9b89ccb5846acd3a7bff058ef9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_le_write_suggested_default_data_length,sdc_hci_cmd_le_write_suggested_default_data_length,4
 02-3372af3c02900bba27f6c78efc20d0b8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__udivmoddi4,__udivmoddi4,668
 02-33b309a10b2f4936997a72d144b3ad7c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_le_remove_device_from_resolving_list,sdc_hci_cmd_le_remove_device_from_resolving_list,4
+02-346e8b97ef1b34e7632f1122675aac1a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,344
 02-35dcf79f4bb7f5a38294e23f9d3f450b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_le_set_data_length,sdc_hci_cmd_le_set_data_length,4
 02-36e3252034447fad7e24ac6e5520c89a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__l_vfprintf,__l_vfprintf,1204
 02-37116fb118c85a0a3d4808cc56c490a8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpsl_fem_utils_available_cc_channels_cache,mpsl_fem_utils_available_cc_channels_cache,64
@@ -50,6 +52,7 @@ uuid,parent,level,identifier,name,size
 02-427d22b2582ea2c78bf73f049a83f08f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_cb_set_event_mask,sdc_hci_cmd_cb_set_event_mask,10
 02-4287a4df4ae50ebfb8cb668ef27e7b98,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\memcmp,memcmp,32
 02-44bc0db5d2dd6c5374bff9488d9fe398,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_lc_read_remote_version_information,sdc_hci_cmd_lc_read_remote_version_information,4
+02-44f0cbab43d4061c1dc047bd6a579531,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,76294
 02-4652480a53d1dd1883fa73da28d772b7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpsl_calibration_timer_handle,mpsl_calibration_timer_handle,28
 02-4687293ff1fdc5b845e8e1f2080248df,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\delay_machine_code.0,delay_machine_code.0,6
 02-4701b0b9ce625dd7502bfe7640e0cf00,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_data_put,sdc_hci_data_put,20
@@ -62,7 +65,6 @@ uuid,parent,level,identifier,name,size
 02-5170d5382a77c6f1ddc9beedc901869c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__ultoa_invert,__ultoa_invert,172
 02-51f07bbcf76d88565b5acfd4928ec136,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_le_read_resolving_list_size,sdc_hci_cmd_le_read_resolving_list_size,4
 02-520f94d47632a4952c833c0f20be3413,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sxhashalg_sha2_256,sxhashalg_sha2_256,32
-02-526f643148b2b9b253874c14c3987d28,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,344
 02-5381d1a58cfe50698c7b2e2ce9518e7b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_init,sdc_init,184
 02-573442d06ab6a002b4cd74a58fc90b5b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_addr_none,bt_addr_none,6
 02-58b83e141b8c683f1b0cd83a84724a15,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__file_str_put,__file_str_put,16
@@ -128,7 +130,6 @@ uuid,parent,level,identifier,name,size
 02-ab868278d8658ce36899515ff3f885a0,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpsl_timeslot_session_open,mpsl_timeslot_session_open,124
 02-ac47e75ecda8d524fa17fd821d4bce54,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_122,__device_dts_ord_122,20
 02-adcf7c8a91921eb64d0de9451957291f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_113,__device_dts_ord_113,20
-02-b28fbd7f67e821cce25056a32ab1f08c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,148
 02-b2e984aa2debf363ae0f5b7f641db30f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_le_conn_update,sdc_hci_cmd_le_conn_update,4
 02-b393b01e39922ba7cefb11ebb824198d,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\smp_pairing_req,smp_pairing_req,4
 02-b5041da60dd6d17fbce0d1dce1636675,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_57,__device_dts_ord_57,20
@@ -150,7 +151,6 @@ uuid,parent,level,identifier,name,size
 02-c51784f8f20c0f6e4c6508e8658bb77e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_vs_event_length_set,sdc_hci_cmd_vs_event_length_set,4
 02-c694df211e08d36f9405f0e859b53a9f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpsl_fem_pa_configuration_set,mpsl_fem_pa_configuration_set,12
 02-c712a2cef9ffae5d12904ef5fb693956,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_cb_reset,sdc_hci_cmd_cb_reset,28
-02-c757ca91f77918498b68faaf9b006d1c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,76294
 02-c7d5f8495162588e6bb8a9e1975c45e7,01-bb1836de191ead431509f5d1b910124d,2,soc,soc,268
 02-c8c8082df8fbbfb22d7423667d8429e2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\hex.4,hex.4,17
 02-c8e11e340dd6056ada73beca9311621f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\att_handle_find_type_rsp,att_handle_find_type_rsp,4

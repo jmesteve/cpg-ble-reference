@@ -66,6 +66,7 @@ uuid,parent,level,identifier,name,size
 02-19220b95a8f4090fc9a83d3c4631d378,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_585,__isr_table_entry_z_irq_spurious_irq_585,8
 02-199c8c824685a14f12c655ab3cec42fa,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_793,__isr_table_entry_z_irq_spurious_irq_793,8
 02-1a33ac3b8f1047d41c405aed5b2a7da6,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_mempool,sdc_mempool,3050
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,907
 02-1be2a59822ac2b798bbe0f7f39d7c96d,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\valid_keys,valid_keys,380
 02-1c7a642e3da9ace3bf2f9f3d74389ef5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\attr_dis_svc,attr_dis_svc,140
 02-1c987e58b73dcf137d6cf963b03fc4d8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\net_buf_data_sync_evt_pool,net_buf_data_sync_evt_pool,258
@@ -110,6 +111,7 @@ uuid,parent,level,identifier,name,size
 02-334b30cc91ae3e9ad5c22199dd298c73,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_609,__isr_table_entry_z_irq_spurious_irq_609,8
 02-337bea3d62b3a0b0a67cbe69981757c4,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\prng_pool_remaining,prng_pool_remaining,4
 02-341a4eb48d459e3c509356c44e06370e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_739,__isr_table_entry_z_irq_spurious_irq_739,8
+02-346e8b97ef1b34e7632f1122675aac1a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,173
 02-354dcec8d597dbf3a1f4b392b7b20115,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mbedtls_free_func,mbedtls_free_func,4
 02-35c6c7cd5d0fbe9a47b8741502adac3e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\uarte20_poll_out_byte,uarte20_poll_out_byte,1
 02-35cd44e69664c9b52bf9fcfeae436b14,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_699,__isr_table_entry_z_irq_spurious_irq_699,8
@@ -151,6 +153,7 @@ uuid,parent,level,identifier,name,size
 02-43e8532a0c3d87eaef202cfa1294bee8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_663,__isr_table_entry_z_irq_spurious_irq_663,8
 02-44030823eb9c6bd6fa6bdd2a149ed9ce,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\store_id_work,store_id_work,16
 02-449181b22d492532607e1342bd197c04,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_627,__isr_table_entry_z_irq_spurious_irq_627,8
+02-44f0cbab43d4061c1dc047bd6a579531,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,1027
 02-4509f0f5c202138f43987e209f9796a2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\prng.lto_priv.0,prng.lto_priv.0,64
 02-4527790f301c55e12e9d9eacd6049ff0,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\spi_00z_config,spi_00z_config,76
 02-45dc2c7a024ae0030919e5a73ee5d190,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\net_buf_data_att_pool,net_buf_data_att_pool,380
@@ -199,7 +202,6 @@ uuid,parent,level,identifier,name,size
 02-598b7610947d476fddb624460f712be3,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_753,__isr_table_entry_z_irq_spurious_irq_753,8
 02-5a46f983699ff81b4c73d0ea53d3d175,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\settings_subsys_initialized,settings_subsys_initialized,1
 02-5a4f5dc7fe05801ad2480c2a2a0542d5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\attr__1_gatt_svc,attr__1_gatt_svc,160
-02-5a61be09b10f979041fc4372bc445112,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,173
 02-5a64d28cc54b1ad1265d053db12b4508,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\db.lto_priv.0,db.lto_priv.0,8
 02-5b11fa95b59d37b384e8679ecead1b46,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_723,__isr_table_entry_z_irq_spurious_irq_723,8
 02-5b7bb533d21149d376c84dca412c7186,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_680,__isr_table_entry_z_irq_spurious_irq_680,8
@@ -491,7 +493,6 @@ uuid,parent,level,identifier,name,size
 02-d3a80c858782502defa267bec4f57c7a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_650,__isr_table_entry_z_irq_spurious_irq_650,8
 02-d42ea57ebd39ad028d12234a51179936,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_workq.lto_priv.0,bt_workq.lto_priv.0,176
 02-d4c2c314f83eeba0dfe24b1f0f193888,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_719,__isr_table_entry_z_irq_spurious_irq_719,8
-02-d529a2a7b54486cf01bb8b1f8c5765a6,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,907
 02-d58685e6db52287094b00c96d62605c8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_sys_post_kernel,z_sys_post_kernel,1
 02-d599c52746e99c6568daa0b1d1fffdd2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\levels.0,levels.0,24
 02-d59d9202487733ae0cf23af19d54cf7f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_addr_le_any,bt_addr_le_any,7
@@ -517,7 +518,6 @@ uuid,parent,level,identifier,name,size
 02-dc5203f0f5920c58fefa02f6737f2114,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__devstate_dts_ord_122,__devstate_dts_ord_122,2
 02-dc5240e60eb22b21ee7fe011073a4cbb,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\request_2m_phy.lto_priv.0,request_2m_phy.lto_priv.0,1
 02-dce7c4174ce9323904a934a486c41288,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\lock,lock,4
-02-dd24942d4ff8cfdd1f6a4b83c4024237,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,1027
 02-dd829e84a0523d00b5e2f69f25cbf63f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\hids_obj_mem_slab,hids_obj_mem_slab,32
 02-de37988adb04df98f685fc95a97bf6c7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\net_buf_fixed_sync_evt_pool,net_buf_fixed_sync_evt_pool,4
 02-de7e7354e30f0c1c31624e01a470d44e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_579,__isr_table_entry_z_irq_spurious_irq_579,8

@@ -30,7 +30,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-02241d76b4edbd158875f3e34ffda394,2,__isr_table_entry__isr_wrapper_irq_104,,,,4,,,,,,,,,,4,0,4,0
 02-0247dc05a1aa46ef081fb4d3476e306d,2,__isr_table_entry_z_irq_spurious_irq_724,,,,8,,,,,,,,,,8,0,8,0
 02-024a7d6d3008244d625c8f5ca5bbde90,2,process_event.lto_priv.0,,,,672,,,,,,,,,,672,0,672,0
-02-0255d4bf7dfdc284ef08fa870af758c2,2,__compound_literal*,,,,307,,,,,,,,,,307,0,307,0
 02-02572c1c037d2233e79207584ba16776,2,__isr_table_entry_z_irq_spurious_irq_551,,,,8,,,,,,,,,,8,0,8,0
 02-02619a2e6232e82cfad34132f0c07736,2,bt_gatt_service_init.lto_priv.0,,,,88,,,,,,,,,,88,0,88,0
 02-02634eff3c24742057ecacbee91c4bbd,2,buttons,,,,32,,,,,,,,,,32,0,32,0
@@ -198,7 +197,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-180b93aa36fd59406c67a07a1f3bacb0,2,spi_nor_0_config,,,,52,,,,,,,,,,52,0,52,0
 02-181686124912cfcd54e5656588111330,2,__isr_table_entry_z_irq_spurious_irq_577,,,,8,,,,,,,,,,8,0,8,0
 02-182023a57587ecb28eb3d48cf8c3bc80,2,__isr_table_entry__isr_wrapper_irq_8,,,,4,,,,,,,,,,4,0,4,0
-02-1844894a6bb9ec71a93a23bef9025900,2,CSWTCH.*,,333,,,,333,0,,,,,,,,,,
 02-1871ac29eef772378903e1ad40a709db,2,__isr_table_entry_z_irq_spurious_irq_645,,,,8,,,,,,,,,,8,0,8,0
 02-187e0cc955574a504d8b5a735936660c,2,sdc_hci_cmd_le_set_adv_data,4,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0
 02-188e867ac88558d3a5f04ce245469b10,2,__isr_table_entry__isr_wrapper_irq_168,,,,4,,,,,,,,,,4,0,4,0
@@ -218,6 +216,7 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-1a1b1534005cd20893ad47bee853a01d,2,hids_pm_evt_handler,,,,108,,,,,,,,,,108,0,108,0
 02-1a7178174862030e6d4d9a58321537d4,2,z_log_minimal_printk,,,,,,,,,,,,,,26,,26,0
 02-1a98057968bfa064f69d7775005eca2c,2,merge_chunks,,,,60,,,,,,,,,,60,0,60,0
+02-1acd1f648b570c729a904a7c2fa45dfc,2,__compound_literal*,307,307,0.0,307,0.0,307,0.0,307,0.0,307,0.0,307,0.0,307,0.0,307,0.0
 02-1acd5653459ce23722750db444dd280f,2,z_impl_k_poll_signal_raise,,,,124,,,,,,,,,,124,0,124,0
 02-1ae4b261b807cd18097ba7e00e603c2c,2,bt_hci_recv,,,,216,,,,,,,,,,216,0,216,0
 02-1b106abd35545367c66f3cfa318936c7,2,sdc_hci_cmd_vs_get_next_conn_event_counter,30,30,0.0,30,0.0,30,0.0,30,0.0,30,0.0,30,0.0,30,0.0,30,0.0
@@ -268,7 +267,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-20cb65f9f3dde538e0538e11c9bfe9e9,2,metadata_usage_flags_mapping,,,,28,,,,,,,,,,28,0,28,0
 02-20d126164f30711f8f4b4eea909560ef,2,bt_conn_cb_conn_callbacks,,,,40,,,,,,,,,,36,0,36,0
 02-20d5197dbf8752a5b0fa2d7a2107325e,2,k_sched_lock,,,,116,,,,,,,,,,116,0,116,0
-02-20e882376cb6c3c844108c192216a2d9,2,sym_*,64950,67784,4.36,52460,-19.23,67258,3.55,64950,0.0,65476,0.81,52166,-19.68,64990,0.06,52206,-19.62
 02-20f61ed422ae0239400a76f308ab5cb3,2,log_const_bas,,,,8,,,,,,,,,,8,0,8,0
 02-210684d78a2359b85294e58b75a9ab3a,2,cracen_import_key,,,,1084,,,,,,,,,,1084,0,1084,0
 02-212cb1c2414ce0b61e7f9a98625cfb18,2,hids_obj_mutex,,,,20,,,,,,,,,,20,0,20,0
@@ -396,6 +394,7 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-33f2b3543a614fd51b63acc11989728a,2,__isr_table_entry__isr_wrapper_irq_44,,,,4,,,,,,,,,,4,0,4,0
 02-341a4eb48d459e3c509356c44e06370e,2,__isr_table_entry_z_irq_spurious_irq_739,,,,8,,,,,,,,,,8,0,8,0
 02-3432cfd851d2cd4ca5febd9722afd0b7,2,settings_handler_bt_ccc,,,,24,,,,,,,,,,24,0,24,0
+02-346e8b97ef1b34e7632f1122675aac1a,2,CSWTCH.*,333,333,0.0,173,-48.05,333,0.0,333,0.0,333,0.0,333,0.0,173,-48.05,173,-48.05
 02-348fc73008a94028d4520879a77474b0,2,k_mutex_unlock.lto_priv.9.lto_priv.0,,,,4,,,,,,,,,,4,0,,
 02-349e04cd5af966035e651f5a5c2312db,2,find_next,6,6,0.0,6,0.0,6,0.0,6,0.0,6,0.0,6,0.0,6,0.0,6,0.0
 02-34b1860cd7047199702ec66ba3978bb2,2,__isr_table_entry__isr_wrapper_irq_94,,,,4,,,,,,,,,,4,0,4,0
@@ -526,6 +525,7 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-449181b22d492532607e1342bd197c04,2,__isr_table_entry_z_irq_spurious_irq_627,,,,8,,,,,,,,,,8,0,8,0
 02-44bc0db5d2dd6c5374bff9488d9fe398,2,sdc_hci_cmd_lc_read_remote_version_information,4,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0
 02-44e2f722f9655386bfefb776fc8d2d85,2,atomic_set_bit_to,,,,34,,,,,,,,,,,,,
+02-44f0cbab43d4061c1dc047bd6a579531,2,sym_*,64950,67784,4.36,52460,-19.23,67258,3.55,64950,0.0,65476,0.81,52166,-19.68,64990,0.06,52206,-19.62
 02-45074245e1899cd95c442634a56dad17,2,smp_reset.lto_priv.0,,,,42,,,,,,,,,,42,0,42,0
 02-451987330f40286d1bfa6381776baf5c,2,hids_feat_rep_read,,,,136,,,,,,,,,,136,0,136,0
 02-4527790f301c55e12e9d9eacd6049ff0,2,spi_00z_config,,,,76,,,,,,,,,,76,0,76,0
@@ -643,7 +643,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-52588d3e7549588aced4aa77961accae,2,zms_write,,,,484,,,,,,,,,,484,0,484,0
 02-5277f8988da628bf3051a087ba82337c,2,atomic_and.lto_priv.3,,,,,,,,,,,,,,,,22,
 02-52f305dbb42abc4b3afbbdc1333c96f9,2,__isr_table_entry_z_irq_spurious_irq_746,,,,8,,,,,,,,,,8,0,8,0
-02-5327e89365ef03878938934f61a13016,2,CSWTCH.*,333,,,,,,,333,0.0,333,0.0,333,0.0,,,,
 02-532b7cf399c312ed78f9c904452ed1ee,2,__isr_table_entry_z_irq_spurious_irq_626,,,,8,,,,,,,,,,8,0,8,0
 02-534b2f9c79d1431c189ce4a63682a246,2,__isr_table_entry__isr_wrapper_irq_414,,,,4,,,,,,,,,,4,0,4,0
 02-5351878682c188a502023f4f38873db6,2,smp_security_request,4,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0,4,0.0
@@ -697,7 +696,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-59ee64a74d82f4fed42bd79953d753a1,2,__isr_table_entry__isr_wrapper_irq_60,,,,4,,,,,,,,,,4,0,4,0
 02-5a1b5c0d5df8fb6b174917e21a37e04e,2,db_hash_store.lto_priv.0,,,,56,,,,,,,,,,,,,
 02-5a4f5dc7fe05801ad2480c2a2a0542d5,2,attr__1_gatt_svc,,,,160,,,,,,,,,,160,0,160,0
-02-5a61be09b10f979041fc4372bc445112,2,CSWTCH.*,,,,173,,,,,,,,,,173,0,173,0
 02-5a6228a9178332cdeafff73300c6963f,2,cracen_ecc_check_public_key,,,,128,,,,,,,,,,128,0,128,0
 02-5ab110587b523604c17443e716b236a2,2,atomic_test_bit.lto_priv.3.lto_priv.0,,,,14,,,,,,,,,,,,,
 02-5b11fa95b59d37b384e8679ecead1b46,2,__isr_table_entry_z_irq_spurious_irq_723,,,,8,,,,,,,,,,8,0,8,0
@@ -991,7 +989,6 @@ uuid,level,name,std1,app1,app1(%),app2,app2(%),feat1,feat1(%),feat3,feat3(%),fea
 02-820be1fc4dd67759f5936d98d6d2b255,2,__isr_table_entry_z_irq_spurious_irq_610,,,,8,,,,,,,,,,8,0,8,0
 02-826a8053c86e3b06e2057e37a6fb4dbd,2,free_list_add,,,,132,,,,,,,,,,132,0,132,0
 02-82921dc7fcb10a4860f26ce95b3a80e8,2,__isr_table_entry_z_irq_spurious_irq_748,,,,8,,,,,,,,,,8,0,8,0
-02-82c13774277a96e05be656c7fc4e3344,2,__compound_literal*,307,307,0.0,,,307,0.0,307,0.0,307,0.0,307,0.0,,,,
 02-82c5883f9f125bfcde70ea47e0c5d93d,2,__init__psa_crypto_init,,,,8,,,,,,,,,,8,0,8,0
 02-831a39a7e8ae5291010dadd8dc5222b2,2,send_conn_le_param_update.lto_priv.0,,,,172,,,,,,,,,,172,0,172,0
 02-834ae920557d99fe3d5f4211207a0af0,2,__isr_table_entry__isr_wrapper_irq_512,,,,4,,,,,,,,,,4,0,4,0

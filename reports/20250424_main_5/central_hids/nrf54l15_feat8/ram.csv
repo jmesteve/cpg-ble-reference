@@ -10,11 +10,13 @@ uuid,parent,level,identifier,name,size
 02-0eb9b3af2e4a00837a1b1a854c9ea18c,01-09498dbadf45966909850dc8a47ebb13,2,modules,modules,1808
 02-0ec3ac2054d4681e6c9d4825765209ee,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_idle_threads,z_idle_threads,144
 02-1094c50e30c0bef11e77f3a92e17d2f9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sched_spinlock,_sched_spinlock,4
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,48
 02-2f158c4731d76d5975b8546d85de1b34,01-6666cd76f96956469e7be39d750cc7d9,2,C:\,C:\,173
 02-316e7f39b0580b06e68ccd7c94a1d88b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\str.3,str.3,129
 02-38d7b76b771634bb6aaae4ffde5922a8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sw_isr_table,_sw_isr_table,2168
 02-3b8238b190187fceef29c292cb88b526,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_main_stack,z_main_stack,3584
 02-3cca42c4f48f32184dc7d459a6842407,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_main_thread,z_main_thread,144
+02-44f0cbab43d4061c1dc047bd6a579531,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,943
 02-47352518f90e6887f4dd7acbc9a14580,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\settings_load_srcs,settings_load_srcs,8
 02-50484c19f1afdaf3841a0d821ed393d2,01-bb1836de191ead431509f5d1b910124d,2,kernel,kernel,4530
 02-6132bca83a4cd9c08eb8504f1f608b68,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\last_state.0,last_state.0,4
@@ -33,13 +35,11 @@ uuid,parent,level,identifier,name,size
 02-9eccfb3fed0ccddd3f9432f64b447ee8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\settings_save_dst,settings_save_dst,4
 02-a914696b42ed6ea44809293ab6ef0076,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\ident.1,ident.1,1
 02-b025e351d7adc20ce0f7335384bc5de7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\str.1,str.1,30
-02-b4d2abc0e7b7503b65446e99275f46d5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,48
 02-c8599d1502023c7d601ea24660fc9a5c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_thread_dummy,_thread_dummy,144
 02-ccee81d8756473fc081dc0c67d5c05a2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\initial_run.2,initial_run.2,1
 02-d6194c68fcc7e79bb57401be603cb1cc,01-bb1836de191ead431509f5d1b910124d,2,arch,arch,25
 02-d6cd44b3118dea63c3942bd300bb4c20,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_auth,bt_auth,4
 02-db375c9de329a5b90a323d5da44a5333,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\kmu_push_area,kmu_push_area,64
-02-dd24942d4ff8cfdd1f6a4b83c4024237,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,943
 02-df0893220c993ffbeb28b75726e081f7,01-09498dbadf45966909850dc8a47ebb13,2,nrf,nrf,29094
 02-e8acc63b1e238f3255c900eed37254b8,01-bb1836de191ead431509f5d1b910124d,2,lib,lib,40
 02-ee5fe10904086488b93783648af4b107,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\cracen_initialized.0,cracen_initialized.0,4

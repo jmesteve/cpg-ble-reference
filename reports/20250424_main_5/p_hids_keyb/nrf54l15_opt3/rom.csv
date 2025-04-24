@@ -25,7 +25,6 @@ uuid,parent,level,identifier,name,size
 02-02241d76b4edbd158875f3e34ffda394,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry__isr_wrapper_irq_104,__isr_table_entry__isr_wrapper_irq_104,4
 02-0247dc05a1aa46ef081fb4d3476e306d,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_724,__isr_table_entry_z_irq_spurious_irq_724,8
 02-024a7d6d3008244d625c8f5ca5bbde90,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\process_event.lto_priv.0,process_event.lto_priv.0,672
-02-0255d4bf7dfdc284ef08fa870af758c2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,307
 02-02572c1c037d2233e79207584ba16776,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_551,__isr_table_entry_z_irq_spurious_irq_551,8
 02-02619a2e6232e82cfad34132f0c07736,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_gatt_service_init.lto_priv.0,bt_gatt_service_init.lto_priv.0,88
 02-02634eff3c24742057ecacbee91c4bbd,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\buttons,buttons,32
@@ -203,6 +202,7 @@ uuid,parent,level,identifier,name,size
 02-1a1b1534005cd20893ad47bee853a01d,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\hids_pm_evt_handler,hids_pm_evt_handler,108
 02-1a7178174862030e6d4d9a58321537d4,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_log_minimal_printk,z_log_minimal_printk,26
 02-1a98057968bfa064f69d7775005eca2c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\merge_chunks,merge_chunks,60
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,307
 02-1acd5653459ce23722750db444dd280f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\z_impl_k_poll_signal_raise,z_impl_k_poll_signal_raise,124
 02-1ae4b261b807cd18097ba7e00e603c2c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_hci_recv,bt_hci_recv,216
 02-1b106abd35545367c66f3cfa318936c7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_vs_get_next_conn_event_counter,sdc_hci_cmd_vs_get_next_conn_event_counter,30
@@ -251,7 +251,6 @@ uuid,parent,level,identifier,name,size
 02-20cb65f9f3dde538e0538e11c9bfe9e9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\metadata_usage_flags_mapping,metadata_usage_flags_mapping,28
 02-20d126164f30711f8f4b4eea909560ef,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_conn_cb_conn_callbacks,bt_conn_cb_conn_callbacks,36
 02-20d5197dbf8752a5b0fa2d7a2107325e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\k_sched_lock,k_sched_lock,116
-02-20e882376cb6c3c844108c192216a2d9,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,52206
 02-20f61ed422ae0239400a76f308ab5cb3,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\log_const_bas,log_const_bas,8
 02-210684d78a2359b85294e58b75a9ab3a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\cracen_import_key,cracen_import_key,1084
 02-212cb1c2414ce0b61e7f9a98625cfb18,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\hids_obj_mutex,hids_obj_mutex,20
@@ -368,6 +367,7 @@ uuid,parent,level,identifier,name,size
 02-33f2b3543a614fd51b63acc11989728a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry__isr_wrapper_irq_44,__isr_table_entry__isr_wrapper_irq_44,4
 02-341a4eb48d459e3c509356c44e06370e,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_739,__isr_table_entry_z_irq_spurious_irq_739,8
 02-3432cfd851d2cd4ca5febd9722afd0b7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\settings_handler_bt_ccc,settings_handler_bt_ccc,24
+02-346e8b97ef1b34e7632f1122675aac1a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,173
 02-349e04cd5af966035e651f5a5c2312db,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\find_next,find_next,6
 02-34b1860cd7047199702ec66ba3978bb2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry__isr_wrapper_irq_94,__isr_table_entry__isr_wrapper_irq_94,4
 02-34ec20745a5006d874b01ebc606c3f17,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_conn_disconnect,bt_conn_disconnect,96
@@ -486,6 +486,7 @@ uuid,parent,level,identifier,name,size
 02-44030823eb9c6bd6fa6bdd2a149ed9ce,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\store_id_work,store_id_work,16
 02-449181b22d492532607e1342bd197c04,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_627,__isr_table_entry_z_irq_spurious_irq_627,8
 02-44bc0db5d2dd6c5374bff9488d9fe398,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\sdc_hci_cmd_lc_read_remote_version_information,sdc_hci_cmd_lc_read_remote_version_information,4
+02-44f0cbab43d4061c1dc047bd6a579531,01-665b1ea1222d25c5af30f0aec9f1f04e,2,sym_*,sym_*,52206
 02-45074245e1899cd95c442634a56dad17,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\smp_reset.lto_priv.0,smp_reset.lto_priv.0,42
 02-451987330f40286d1bfa6381776baf5c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\hids_feat_rep_read,hids_feat_rep_read,136
 02-4527790f301c55e12e9d9eacd6049ff0,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\spi_00z_config,spi_00z_config,76
@@ -644,7 +645,6 @@ uuid,parent,level,identifier,name,size
 02-59e1d417d3fb311949f47213a6b744b1,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpsl_dppi_fixed_channels_set,mpsl_dppi_fixed_channels_set,48
 02-59ee64a74d82f4fed42bd79953d753a1,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry__isr_wrapper_irq_60,__isr_table_entry__isr_wrapper_irq_60,4
 02-5a4f5dc7fe05801ad2480c2a2a0542d5,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\attr__1_gatt_svc,attr__1_gatt_svc,160
-02-5a61be09b10f979041fc4372bc445112,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,173
 02-5a6228a9178332cdeafff73300c6963f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\cracen_ecc_check_public_key,cracen_ecc_check_public_key,128
 02-5b11fa95b59d37b384e8679ecead1b46,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry_z_irq_spurious_irq_723,__isr_table_entry_z_irq_spurious_irq_723,8
 02-5b2b6d0aeead9d3ab79c928b3162d6ec,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__isr_table_entry__isr_wrapper_irq_178,__isr_table_entry__isr_wrapper_irq_178,4

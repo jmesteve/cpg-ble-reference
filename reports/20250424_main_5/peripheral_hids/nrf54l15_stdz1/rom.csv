@@ -17,6 +17,7 @@ uuid,parent,level,identifier,name,size
 02-11a073fbb7de02da60f4e82b746a2033,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\m.11,m.11,16
 02-12e6356573b9ccf91c5011abe9ddd59b,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mfy.7,mfy.7,16
 02-1563d57a2fbbd7ccc9f840c4ef99a6b2,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_10,__device_dts_ord_10,20
+02-1acd1f648b570c729a904a7c2fa45dfc,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,401
 02-1bad3c00dded1e49ada0434ab84bd112,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_4,__device_dts_ord_4,20
 02-1dc29b58647256561f4f00d7a5ab0e7f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\mpu_config,mpu_config,8
 02-23e3ca5bf569f40b0ab2615bb1f16ca4,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\pdu_validate_length_req,pdu_validate_length_req,14
@@ -27,6 +28,7 @@ uuid,parent,level,identifier,name,size
 02-319b5998335c1a61df7d80b754f9d40f,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\llcp_pdu_decode_length_rsp,llcp_pdu_decode_length_rsp,80
 02-3372af3c02900bba27f6c78efc20d0b8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__udivmoddi4,__udivmoddi4,668
 02-341ce0f2fa8c731ed14bda91b02a48b8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__func__.0,__func__.0,11
+02-346e8b97ef1b34e7632f1122675aac1a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,260
 02-36e3252034447fad7e24ac6e5520c89a,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__l_vfprintf,__l_vfprintf,1204
 02-37ce67a7e5350711ddd83cb7a47ff341,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\lll_rand_isr_get,lll_rand_isr_get,36
 02-38d7b76b771634bb6aaae4ffde5922a8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\_sw_isr_table,_sw_isr_table,2168
@@ -34,7 +36,6 @@ uuid,parent,level,identifier,name,size
 02-4287a4df4ae50ebfb8cb668ef27e7b98,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\memcmp,memcmp,32
 02-4687293ff1fdc5b845e8e1f2080248df,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\delay_machine_code.0,delay_machine_code.0,6
 02-46f42a309d6661f02bd58b91fbc8c1e4,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__device_dts_ord_112,__device_dts_ord_112,20
-02-48908c8566b67c17bb119dbb45f38fd7,01-665b1ea1222d25c5af30f0aec9f1f04e,2,__compound_literal*,__compound_literal*,401
 02-4e6a9f14c548489566d2e6c0cb94db28,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\radio_pkt_tx_set,radio_pkt_tx_set,12
 02-50484c19f1afdaf3841a0d821ed393d2,01-bb1836de191ead431509f5d1b910124d,2,kernel,kernel,8454
 02-5170d5382a77c6f1ddc9beedc901869c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\__ultoa_invert,__ultoa_invert,172
@@ -70,7 +71,6 @@ uuid,parent,level,identifier,name,size
 02-884fdb594b5171106a60be208b8acb92,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\att_exec_write_req,att_exec_write_req,4
 02-8962c1ff77e59dd48a517c9976741097,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\smp_central_ident,smp_central_ident,4
 02-89a59689861225eb508a89e526638dd8,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\bt_dev,bt_dev,368
-02-8e7fba7f584e05a1eba15a372cb99002,01-665b1ea1222d25c5af30f0aec9f1f04e,2,CSWTCH.*,CSWTCH.*,260
 02-8ed7b3c7cdc60a5cce7f1da2f1bb6a4c,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\strcpy,strcpy,16
 02-98b935d6bafc44e4278829dcb286b160,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\smp_signing_info,smp_signing_info,4
 02-9908203b01d15ea10ff9a71735132c76,01-665b1ea1222d25c5af30f0aec9f1f04e,2,:\transitions.0,transitions.0,12

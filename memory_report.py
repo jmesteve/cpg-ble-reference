@@ -96,12 +96,12 @@ def parser_artifacts(artifacts, output, level=0, parent=None, level_max=None):
                     pattern = re.search(bp, artifact.get("name"))
                     if pattern:
                         pattern_finded = True
-                        block_uuid = "{}{}".format(bp, level)
+                        block_uuid = "{:02}-{}".format(level, hashlib.md5(bp.encode("UTF-8")).hexdigest())
                         blocks_id = blocks_ids.get(block_uuid)
                         if output.get(blocks_id) == None:
-                            blocks_ids[block_uuid] = uuid
-                            output[uuid] = {
-                                "uuid": uuid,
+                            blocks_ids[block_uuid] = block_uuid
+                            output[block_uuid] = {
+                                "uuid": block_uuid,
                                 "parent": parent,
                                 "level": level,
                                 "identifier": bp,
