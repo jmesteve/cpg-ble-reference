@@ -1,0 +1,14 @@
+# editors
+*.swp
+*~
+*.pyc*
+
+*.csv
+
+config_local.ini
+
+logs/
+logs_*/
+
+# build
+/build*/

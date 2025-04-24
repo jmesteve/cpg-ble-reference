@@ -1,0 +1,231 @@
+-- west build: running target ram_report
+[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\controller_sci\build_nrf54l15_std1\controller_sci && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/controller_sci/build_nrf54l15_std1/controller_sci/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/controller_sci/build_nrf54l15_std1/controller_sci --workspace=C:/ncs/vturkana -d 99 ram"
+Path                                                                                             Size       %  Address    Section    
+==========================================================================================================================================
+Root                                                                                            45698 100.00%  - 
+├── (hidden)                                                                                     7397  16.19%  - 
+├── (no paths)                                                                                   9633  21.08%  - 
+│   ├── SystemCoreClock                                                                             4   0.01%  0x20000864 datas
+│   ├── _kernel                                                                                    32   0.07%  0x20006640 bss
+│   ├── _sw_isr_table                                                                            2168   4.74%  0x000214e4 sw_isr_table
+│   ├── _thread_dummy                                                                             144   0.32%  0x200063a0 bss
+│   ├── bt_dev                                                                                      4   0.01%  0x20000834 datas
+│   ├── buf.0                                                                                       4   0.01%  0x20006540 bss
+│   ├── buf.5                                                                                       4   0.01%  0x20006548 bss
+│   ├── cli.1                                                                                      16   0.04%  0x20006580 bss
+│   ├── cracen_initialized.0                                                                        4   0.01%  0x200009a4 datas
+│   ├── hdr_buf.1                                                                                   4   0.01%  0x20006c78 bss
+│   ├── k_sys_work_q                                                                              176   0.39%  0x20006450 bss
+│   ├── mpsl_work_q                                                                               176   0.39%  0x200061d0 bss
+│   ├── on.2                                                                                        4   0.01%  0x20006590 bss
+│   ├── remaining.2                                                                                 4   0.01%  0x20006544 bss
+│   ├── rx_queue.6                                                                                 24   0.05%  0x20000a64 k_fifo_area
+│   ├── state.4                                                                                     1   0.00%  0x20006c7d bss
+│   ├── sym_375K74QZFYAAVVJ4UUKTZDCQ2WTXHROCL6LPJFA                                                 4   0.01%  0x20001c9c bss
+│   ├── sym_3QJDOYCZRNEDIUTNFE3QIKOLVPHROSOZTM22HKQ                                                48   0.11%  0x20001b80 bss
+│   ├── sym_AIILWL4I4DEM2TLKR7RITZU3E55SD4TDU755TQA                                                 4   0.01%  0x20001c98 bss
+│   ├── sym_DJDGWWBZPJEGCPY35B7VRZXZW7UWR7GL2OUADBY                                                 1   0.00%  0x20001b78 bss
+│   ├── sym_ESPIU4ZDFDCYCW3HX4ECFFPGDJNRLY64KFCYI2A                                                 8   0.02%  0x20000fb0 bss
+│   ├── sym_FU46TPWIIUBL5EEFYRZUSQCSFRMR4OIHWDOTVSQ                                                 1   0.00%  0x20001bb0 bss
+│   ├── sym_JFL2CJTFIZZKKBAN4M4KPSYTB6XY6MD6PRAXSHA                                                 1   0.00%  0x20000fb8 bss
+│   ├── sym_NIQMZN22R7GGCSNM3BZ25GTCR6D457XB3DIUGWA                                                64   0.14%  0x2000079c datas
+│   ├── sym_NT37KP64JKA7J3SBAMLBJICQNSHBWT52IX4ZBOY                                               768   1.68%  0x20001878 bss
+│   ├── sym_SF5VREXGDK3QJQRBLQI653NNQPDZWCMVHB6K5UI                                                 4   0.01%  0x20001ca0 bss
+│   ├── sym_VQ35Q3R547AGSAUE3MG4FJPAHAQLVUOXVCL6PHY                                                 3   0.01%  0x200015ec bss
+│   ├── sym_X2CGJY32WPU5QR6XFTHTAS6KO4LV2ENSTHTXMQI                                                32   0.07%  0x2000140c bss
+│   ├── sym_Z5WZCMHZDI7RNMVB5GZYQIRS7P3BTO7552UV62I                                                 1   0.00%  0x20001839 bss
+│   ├── sym_ZGAY7E4ZHDUW7MO5E7HD4SPFYNDFYZBIBOHQ7VI                                                 4   0.01%  0x20001ca4 bss
+│   ├── type.3                                                                                      1   0.00%  0x20006c7c bss
+│   ├── z_idle_threads                                                                            144   0.32%  0x20006280 bss
+│   ├── z_interrupt_stacks                                                                       2048   4.48%  0x200078b0 noinit
+│   ├── z_main_stack                                                                             3584   7.84%  0x200081f0 noinit
+│   └── z_main_thread                                                                             144   0.32%  0x20006310 bss
+├── /                                                                                               0   0.00%  - 
+│   └── C:\                                                                                      1728   3.78%  - 
+│       └── ncs                                                                                  1728   3.78%  - 
+│           └── ws-turkana                                                                       1728   3.78%  - 
+│               └── logi_reference                                                               1728   3.78%  - 
+│                   └── controller_sci                                                           1728   3.78%  - 
+│                       └── src                                                                  1728   3.78%  - 
+│                           └── main.c                                                           1728   3.78%  - 
+│                               ├── tx_queue                                                       24   0.05%  0x20000a7c k_fifo_area
+│                               ├── tx_thread_data                                                144   0.32%  0x20001cf8 bss
+│                               ├── tx_thread_stack                                              1536   3.36%  0x20006eb0 noinit
+│                               └── uart_tx_queue                                                  24   0.05%  0x20000a94 k_fifo_area
+├── WORKSPACE                                                                                   21188  46.37%  - 
+│   ├── modules                                                                                  1728   3.78%  - 
+│   │   ├── crypto                                                                               1428   3.12%  - 
+│   │   │   └── oberon-psa-crypto                                                                1428   3.12%  - 
+│   │   │       └── library                                                                      1428   3.12%  - 
+│   │   │           ├── platform.c                                                                  4   0.01%  - 
+│   │   │           │   └── mbedtls_free_func                                                       4   0.01%  0x2000099c datas
+│   │   │           ├── platform_util.c                                                             4   0.01%  - 
+│   │   │           │   └── memset_func                                                             4   0.01%  0x200009a0 datas
+│   │   │           ├── psa_crypto.c                                                                8   0.02%  - 
+│   │   │           │   └── global_data                                                             8   0.02%  0x20006678 bss
+│   │   │           └── psa_crypto_slot_management.c                                             1412   3.09%  - 
+│   │   │               └── global_data                                                          1412   3.09%  0x20006680 bss
+│   │   └── hal                                                                                   300   0.66%  - 
+│   │       └── nordic                                                                            300   0.66%  - 
+│   │           └── nrfx                                                                          300   0.66%  - 
+│   │               └── drivers                                                                   300   0.66%  - 
+│   │                   └── src                                                                   300   0.66%  - 
+│   │                       ├── nrfx_gpiote.c                                                     216   0.47%  - 
+│   │                       │   └── m_cb                                                          216   0.47%  0x20000868 datas
+│   │                       └── nrfx_grtc.c                                                        84   0.18%  - 
+│   │                           └── m_cb                                                           84   0.18%  0x20000940 datas
+│   └── nrf                                                                                     19460  42.58%  - 
+│       ├── drivers                                                                                 4   0.01%  - 
+│       │   └── mpsl                                                                                4   0.01%  - 
+│       │       └── clock_control                                                                   4   0.01%  - 
+│       │           └── nrfx_clock_mpsl.c                                                           4   0.01%  - 
+│       │               └── event_handler                                                           4   0.01%  0x2000663c bss
+│       ├── lib                                                                                    20   0.04%  - 
+│       │   └── multithreading_lock                                                                20   0.04%  - 
+│       │       └── multithreading_lock.c                                                          20   0.04%  - 
+│       │           └── mpsl_lock                                                                  20   0.04%  0x20000a38 k_mutex_area
+│       └── subsys                                                                              19436  42.53%  - 
+│           ├── bluetooth                                                                       18012  39.42%  - 
+│           │   └── controller                                                                  18012  39.42%  - 
+│           │       ├── hci_driver.c                                                            17749  38.84%  - 
+│           │       │   ├── __devstate_dts_ord_113                                                  2   0.00%  0x200009d1 device_states
+│           │       │   ├── data_0                                                                  4   0.01%  0x20006610 bss
+│           │       │   ├── receive_work                                                           16   0.04%  0x20006614 bss
+│           │       │   ├── rx_hci_msg                                                            261   0.57%  0x20006ca1 bss
+│           │       │   └── sdc_mempool                                                         17466  38.22%  0x20001d90 bss
+│           │       └── hci_internal.c                                                            263   0.58%  - 
+│           │           ├── cmd_complete_or_status                                                259   0.57%  0x20006da6 bss
+│           │           └── user_cmd_handler                                                        4   0.01%  0x20006624 bss
+│           ├── mpsl                                                                             1092   2.39%  - 
+│           │   └── init                                                                         1092   2.39%  - 
+│           │       └── mpsl_init.c                                                              1092   2.39%  - 
+│           │           ├── calibration_work                                                       48   0.11%  0x20000800 datas
+│           │           ├── do_calibration                                                          4   0.01%  0x20006628 bss
+│           │           ├── mpsl_low_prio_work                                                     16   0.04%  0x2000662c bss
+│           │           └── mpsl_work_stack                                                      1024   2.24%  0x200074b0 noinit
+│           └── nrf_security                                                                      332   0.73%  - 
+│               └── src                                                                           332   0.73%  - 
+│                   ├── drivers                                                                   284   0.62%  - 
+│                   │   └── cracen                                                                284   0.62%  - 
+│                   │       ├── cracenpsa                                                         116   0.25%  - 
+│                   │       │   └── src                                                           116   0.25%  - 
+│                   │       │       ├── cracen.c                                                   28   0.06%  - 
+│                   │       │       │   ├── cracen_mutex                                            4   0.01%  0x200009a8 datas
+│                   │       │       │   ├── k_cracen_mutex                                         20   0.04%  0x200009d4 k_mutex_area
+│                   │       │       │   └── users                                                   4   0.01%  0x20006c04 bss
+│                   │       │       └── ctr_drbg.c                                                 88   0.19%  - 
+│                   │       │           ├── cracen_prng_context_mutex                               4   0.01%  0x200009ac datas
+│                   │       │           ├── k_cracen_prng_context_mutex                            20   0.04%  0x200009fc k_mutex_area
+│                   │       │           └── prng                                                   64   0.14%  0x20006500 bss
+│                   │       ├── silexpk                                                           112   0.25%  - 
+│                   │       │   └── target                                                        112   0.25%  - 
+│                   │       │       └── baremetal_ba414e_with_ik                                  112   0.25%  - 
+│                   │       │           └── pk_baremetal.c                                        112   0.25%  - 
+│                   │       │               └── silex_pk_engine                                   112   0.25%  0x20006c08 bss
+│                   │       └── sxsymcrypt                                                         56   0.12%  - 
+│                   │           └── src                                                            56   0.12%  - 
+│                   │               └── platform                                                   56   0.12%  - 
+│                   │                   └── baremetal                                              56   0.12%  - 
+│                   │                       ├── cmdma_hw.c                                         24   0.05%  - 
+│                   │                       │   ├── cracen_mutex_symmetric                          4   0.01%  0x200009b0 datas
+│                   │                       │   └── k_cracen_mutex_symmetric                       20   0.04%  0x200009e8 k_mutex_area
+│                   │                       └── interrupts.c                                       32   0.07%  - 
+│                   │                           ├── cracen_irq_event_for_cryptomaster               4   0.01%  0x200009b8 datas
+│                   │                           ├── cracen_irq_event_for_pke                        4   0.01%  0x200009b4 datas
+│                   │                           ├── k_cracen_irq_event_for_cryptomaster            12   0.03%  0x20000a4c k_event_area
+│                   │                           └── k_cracen_irq_event_for_pke                     12   0.03%  0x20000a58 k_event_area
+│                   └── threading                                                                  48   0.11%  - 
+│                       └── threading_alt.c                                                        48   0.11%  - 
+│                           ├── mbedtls_mutex_lock                                                  4   0.01%  0x200009c0 datas
+│                           ├── mbedtls_mutex_unlock                                                4   0.01%  0x200009bc datas
+│                           ├── mbedtls_threading_psa_globaldata_mutex                             20   0.04%  0x20000a10 k_mutex_area
+│                           └── mbedtls_threading_psa_rngdata_mutex                                20   0.04%  0x20000a24 k_mutex_area
+└── ZEPHYR_BASE                                                                                  7480  16.37%  - 
+    ├── arch                                                                                       25   0.05%  - 
+    │   └── arm                                                                                    25   0.05%  - 
+    │       └── core                                                                               25   0.05%  - 
+    │           ├── mpu                                                                            21   0.05%  - 
+    │           │   ├── arm_mpu.c                                                                   1   0.00%  - 
+    │           │   │   └── static_regions_num                                                      1   0.00%  0x20006c7e bss
+    │           │   └── arm_mpu_v8_internal.h                                                      20   0.04%  - 
+    │           │       └── dyn_reg_info                                                           20   0.04%  0x20006550 bss
+    │           └── tls.c                                                                           4   0.01%  - 
+    │               └── z_arm_tls_ptr                                                               4   0.01%  0x2000654c bss
+    ├── drivers                                                                                   222   0.49%  - 
+    │   ├── clock_control                                                                          86   0.19%  - 
+    │   │   └── clock_control_nrf.c                                                                86   0.19%  - 
+    │   │       ├── __devstate_dts_ord_57                                                           2   0.00%  0x200009c5 device_states
+    │   │       ├── data                                                                           80   0.18%  0x20006594 bss
+    │   │       └── hfclk_users                                                                     4   0.01%  0x200065e4 bss
+    │   ├── entropy                                                                                 2   0.00%  - 
+    │   │   └── entropy_psa_crypto.c                                                                2   0.00%  - 
+    │   │       └── __devstate_dts_ord_4                                                            2   0.00%  0x200009c7 device_states
+    │   ├── gpio                                                                                   42   0.09%  - 
+    │   │   └── gpio_nrfx.c                                                                        42   0.09%  - 
+    │   │       ├── __devstate_dts_ord_10                                                           2   0.00%  0x200009cb device_states
+    │   │       ├── __devstate_dts_ord_12                                                           2   0.00%  0x200009c9 device_states
+    │   │       ├── __devstate_dts_ord_23                                                           2   0.00%  0x200009cd device_states
+    │   │       ├── gpio_nrfx_p0_data                                                              12   0.03%  0x20006600 bss
+    │   │       ├── gpio_nrfx_p1_data                                                              12   0.03%  0x200065f4 bss
+    │   │       └── gpio_nrfx_p2_data                                                              12   0.03%  0x200065e8 bss
+    │   ├── serial                                                                                 68   0.15%  - 
+    │   │   └── uart_nrfx_uarte.c                                                                  68   0.15%  - 
+    │   │       ├── __devstate_dts_ord_102                                                          2   0.00%  0x200009cf device_states
+    │   │       ├── uarte20_int_driven                                                             20   0.04%  0x20000844 datas
+    │   │       ├── uarte20_poll_in_byte                                                            1   0.00%  0x20006c7f bss
+    │   │       ├── uarte20_poll_out_byte                                                           1   0.00%  0x20006c80 bss
+    │   │       ├── uarte20_tx_buffer                                                              32   0.07%  0x20006c81 bss
+    │   │       └── uarte_20_data                                                                  12   0.03%  0x20000838 datas
+    │   └── timer                                                                                  24   0.05%  - 
+    │       └── nrf_grtc_timer.c                                                                   24   0.05%  - 
+    │           ├── int_mask                                                                        4   0.01%  0x2000660c bss
+    │           ├── last_count                                                                      8   0.02%  0x20001d88 bss
+    │           └── system_clock_channel_data                                                      12   0.03%  0x20000858 datas
+    ├── kernel                                                                                    898   1.97%  - 
+    │   ├── init.c                                                                                321   0.70%  - 
+    │   │   ├── z_idle_stacks                                                                     320   0.70%  0x200080b0 noinit
+    │   │   └── z_sys_post_kernel                                                                   1   0.00%  0x20006ea9 bss
+    │   ├── system_work_q.c                                                                       512   1.12%  - 
+    │   │   └── sys_work_q_stack                                                                  512   1.12%  0x20008ff0 noinit
+    │   ├── timeout.c                                                                              20   0.04%  - 
+    │   │   ├── announce_remaining                                                                  4   0.01%  0x20006674 bss
+    │   │   ├── curr_tick                                                                           8   0.02%  0x20006448 bss
+    │   │   └── timeout_list                                                                        8   0.02%  0x20000994 datas
+    │   ├── timeslicing.c                                                                          37   0.08%  - 
+    │   │   ├── pending_current                                                                     4   0.01%  0x20006668 bss
+    │   │   ├── slice_expired                                                                       1   0.00%  0x20006eaa bss
+    │   │   ├── slice_max_prio                                                                      4   0.01%  0x2000666c bss
+    │   │   ├── slice_ticks                                                                         4   0.01%  0x20006670 bss
+    │   │   └── slice_timeouts                                                                     24   0.05%  0x20006430 bss
+    │   └── work.c                                                                                  8   0.02%  - 
+    │       └── pending_cancels                                                                     8   0.02%  0x20006660 bss
+    ├── lib                                                                                        16   0.04%  - 
+    │   ├── libc                                                                                   12   0.03%  - 
+    │   │   └── common                                                                             12   0.03%  - 
+    │   │       └── source                                                                         12   0.03%  - 
+    │   │           └── stdlib                                                                     12   0.03%  - 
+    │   │               └── malloc.c                                                               12   0.03%  - 
+    │   │                   └── z_malloc_heap                                                      12   0.03%  0x20006564 bss
+    │   └── os                                                                                      4   0.01%  - 
+    │       └── printk.c                                                                            4   0.01%  - 
+    │           └── _char_out                                                                       4   0.01%  0x20000830 datas
+    └── subsys                                                                                   6319  13.83%  - 
+        └── bluetooth                                                                            6319  13.83%  - 
+            └── host                                                                             6319  13.83%  - 
+                └── hci_raw.c                                                                    6319  13.83%  - 
+                    ├── _net_buf_hci_acl_pool                                                     196   0.43%  0x200092d0 noinit
+                    ├── _net_buf_hci_cmd_pool                                                     280   0.61%  0x20009db4 noinit
+                    ├── _net_buf_hci_rx_pool                                                      280   0.61%  0x2000a8f4 noinit
+                    ├── buf_rx_freed_cb                                                             4   0.01%  0x20006578 bss
+                    ├── cmd_ext                                                                     4   0.01%  0x20006574 bss
+                    ├── cmd_ext_size                                                                4   0.01%  0x20006570 bss
+                    ├── hci_acl_pool                                                               44   0.10%  0x20000aac net_buf_pool_area
+                    ├── hci_cmd_pool                                                               44   0.10%  0x20000ad8 net_buf_pool_area
+                    ├── hci_rx_pool                                                                44   0.10%  0x20000b04 net_buf_pool_area
+                    ├── net_buf_data_hci_acl_pool                                                 224   0.49%  0x200091f0 noinit
+                    ├── net_buf_data_hci_cmd_pool                                                2590   5.67%  0x20009394 noinit
+                    ├── net_buf_data_hci_rx_pool                                                 2600   5.69%  0x20009ecc noinit
+                    ├── raw_mode                                                                    1   0.00%  0x200009c4 datas
+                    └── raw_rx                                                                      4   0.01%  0x2000657c bss
+==========================================================================================================================================
+                                                                                                45698

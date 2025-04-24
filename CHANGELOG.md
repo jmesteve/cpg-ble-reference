@@ -1,6 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## 5.0
+
+### Added
+- reports/20250424_main_5
+- controller_sci: added Logi SCI configuration 
+  
 ## 4.0
 
 ### Added

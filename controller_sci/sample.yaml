@@ -1,0 +1,64 @@
+sample:
+  name: CPG-BLE-SCI
+  description: Allows Zephyr to provide Bluetooth connectivity via UART
+tests:
+  sample.bluetooth.hci_uart.nrf52833.zephyr:
+    harness: bluetooth
+    platform_allow: nrf52833dk/nrf52833
+    integration_platforms:
+      - nrf52833dk/nrf52833
+    extra_args: 
+      - FILE_SUFFIX="zephyr"
+      - EXTRA_CONF_FILE=overlay-all-bt_ll_sw_split.conf
+      - DTC_OVERLAY_FILE=./boards/nrf52833dk_nrf52833_df.overlay
+      - SNIPPET="bt-ll-sw-split"
+    tags:
+      - uart
+      - bluetooth
+
+  sample.bluetooth.hci_uart.nrf52833.all:
+    harness: bluetooth
+    platform_allow: 
+      - nrf52833dk/nrf52833
+    integration_platforms:
+      - nrf52833dk/nrf52833
+    extra_args:
+      - DTC_OVERLAY_FILE=./boards/nrf52833dk_nrf52833_df.overlay
+    tags:
+      - uart
+      - bluetooth
+
+  sample.bluetooth.hci_uart.nrf54l15.zephyr:
+    harness: bluetooth
+    sysbuild: false
+    build_only: true
+    platform_allow: 
+      - nrf54l15dk/nrf54l15/cpuapp
+      - nrf54l15pdk/nrf54l15/cpuapp
+    integration_platforms:
+      - nrf54l15dk/nrf54l15/cpuapp
+      - nrf54l15pdk/nrf54l15/cpuapp
+    extra_args:
+      - FILE_SUFFIX="zephyr"
+      - EXTRA_CONF_FILE=overlay-all-bt_ll_sw_split.conf
+      - DTC_OVERLAY_FILE=./boards/nrf54l15dk_nrf54l15_cpuapp.overlay
+      - SNIPPET="bt-ll-sw-split"
+    tags:
+      - uart
+      - bluetooth
+
+  sample.bluetooth.hci_uart.nrf54l15.all:
+    harness: bluetooth
+    sysbuild: false
+    build_only: true
+    platform_allow: 
+      - nrf54l15dk/nrf54l15/cpuapp
+      - nrf54l15pdk/nrf54l15/cpuapp
+    integration_platforms:
+      - nrf54l15dk/nrf54l15/cpuapp
+      - nrf54l15pdk/nrf54l15/cpuapp
+    extra_args:
+      - DTC_OVERLAY_FILE=./boards/nrf54l15dk_nrf54l15_cpuapp.overlay
+    tags:
+      - uart
+      - bluetooth

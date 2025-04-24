@@ -1,0 +1,2367 @@
+{
+    "symbols": {
+        "name": "Root",
+        "size": 39668,
+        "identifier": "root",
+        "children": [
+            {
+                "name": "(no paths)",
+                "size": 6616,
+                "identifier": ":",
+                "children": [
+                    {
+                        "name": "mfy.6",
+                        "size": 16,
+                        "identifier": ":\\mfy.6",
+                        "address": 536871072,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.4",
+                        "size": 16,
+                        "identifier": ":\\mfy.4",
+                        "address": 536871056,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "p.2",
+                        "size": 16,
+                        "identifier": ":\\p.2",
+                        "address": 536887212,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "p.2",
+                        "size": 16,
+                        "identifier": ":\\p.2",
+                        "address": 536887380,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "p.2",
+                        "size": 16,
+                        "identifier": ":\\p.2",
+                        "address": 536894324,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "p.2",
+                        "size": 16,
+                        "identifier": ":\\p.2",
+                        "address": 536894348,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871040,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871088,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871104,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871192,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871208,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536870936,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871224,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.1",
+                        "size": 16,
+                        "identifier": ":\\mfy.1",
+                        "address": 536871240,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536887204,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536887372,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536887408,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536894316,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536894340,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536880576,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536894424,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536894468,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.0",
+                        "size": 8,
+                        "identifier": ":\\link.0",
+                        "address": 536895340,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.3",
+                        "size": 8,
+                        "identifier": ":\\link.3",
+                        "address": 536887228,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.3",
+                        "size": 8,
+                        "identifier": ":\\link.3",
+                        "address": 536894688,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.3",
+                        "size": 8,
+                        "identifier": ":\\link.3",
+                        "address": 536895364,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.5",
+                        "size": 8,
+                        "identifier": ":\\link.5",
+                        "address": 536887236,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.5",
+                        "size": 8,
+                        "identifier": ":\\link.5",
+                        "address": 536895380,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "mfy.5",
+                        "size": 16,
+                        "identifier": ":\\mfy.5",
+                        "address": 536871136,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.5",
+                        "size": 16,
+                        "identifier": ":\\mfy.5",
+                        "address": 536870968,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.3",
+                        "size": 16,
+                        "identifier": ":\\mfy.3",
+                        "address": 536871120,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.3",
+                        "size": 16,
+                        "identifier": ":\\mfy.3",
+                        "address": 536870952,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "tx_cnt.11",
+                        "size": 4,
+                        "identifier": ":\\tx_cnt.11",
+                        "address": 536887452,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "tx_rate.10",
+                        "size": 4,
+                        "identifier": ":\\tx_rate.10",
+                        "address": 536887448,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "mfy.7",
+                        "size": 16,
+                        "identifier": ":\\mfy.7",
+                        "address": 536871152,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "last_cycle_stamp.9",
+                        "size": 4,
+                        "identifier": ":\\last_cycle_stamp.9",
+                        "address": 536887444,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "tx_len.8",
+                        "size": 4,
+                        "identifier": ":\\tx_len.8",
+                        "address": 536887440,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.2",
+                        "size": 8,
+                        "identifier": ":\\link.2",
+                        "address": 536887416,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.2",
+                        "size": 8,
+                        "identifier": ":\\link.2",
+                        "address": 536880584,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.2",
+                        "size": 8,
+                        "identifier": ":\\link.2",
+                        "address": 536895356,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.4",
+                        "size": 8,
+                        "identifier": ":\\link.4",
+                        "address": 536887424,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.4",
+                        "size": 8,
+                        "identifier": ":\\link.4",
+                        "address": 536880592,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.4",
+                        "size": 8,
+                        "identifier": ":\\link.4",
+                        "address": 536895372,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.6",
+                        "size": 8,
+                        "identifier": ":\\link.6",
+                        "address": 536887432,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "buf.5",
+                        "size": 4,
+                        "identifier": ":\\buf.5",
+                        "address": 536880136,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "state.4",
+                        "size": 1,
+                        "identifier": ":\\state.4",
+                        "address": 536895613,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "remaining.2",
+                        "size": 4,
+                        "identifier": ":\\remaining.2",
+                        "address": 536880132,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "type.3",
+                        "size": 1,
+                        "identifier": ":\\type.3",
+                        "address": 536895612,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "hdr_buf.1",
+                        "size": 4,
+                        "identifier": ":\\hdr_buf.1",
+                        "address": 536895608,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "buf.0",
+                        "size": 4,
+                        "identifier": ":\\buf.0",
+                        "address": 536880128,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "rx_queue.6",
+                        "size": 24,
+                        "identifier": ":\\rx_queue.6",
+                        "address": 536871764,
+                        "section": "k_fifo_area"
+                    },
+                    {
+                        "name": "mayfly_initialized.10",
+                        "size": 1,
+                        "identifier": ":\\mayfly_initialized.10",
+                        "address": 536895615,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "mfy.9",
+                        "size": 16,
+                        "identifier": ":\\mfy.9",
+                        "address": 536870984,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "link.8",
+                        "size": 8,
+                        "identifier": ":\\link.8",
+                        "address": 536880600,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "events.0",
+                        "size": 40,
+                        "identifier": ":\\events.0",
+                        "address": 536871000,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "ticks_at_preempt.2",
+                        "size": 4,
+                        "identifier": ":\\ticks_at_preempt.2",
+                        "address": 536894432,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "done.0",
+                        "size": 1,
+                        "identifier": ":\\done.0",
+                        "address": 536895627,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "mfy_after_cen_offset_get.4",
+                        "size": 16,
+                        "identifier": ":\\mfy_after_cen_offset_get.4",
+                        "address": 536871272,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "mfy.2",
+                        "size": 16,
+                        "identifier": ":\\mfy.2",
+                        "address": 536871256,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "link.1",
+                        "size": 8,
+                        "identifier": ":\\link.1",
+                        "address": 536894680,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "link.1",
+                        "size": 8,
+                        "identifier": ":\\link.1",
+                        "address": 536895348,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "m.6",
+                        "size": 16,
+                        "identifier": ":\\m.6",
+                        "address": 536871288,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "m.9",
+                        "size": 16,
+                        "identifier": ":\\m.9",
+                        "address": 536871336,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "m.11",
+                        "size": 16,
+                        "identifier": ":\\m.11",
+                        "address": 536871368,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "m.10",
+                        "size": 16,
+                        "identifier": ":\\m.10",
+                        "address": 536871352,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "m.7",
+                        "size": 16,
+                        "identifier": ":\\m.7",
+                        "address": 536871304,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "m.8",
+                        "size": 16,
+                        "identifier": ":\\m.8",
+                        "address": 536871320,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "on.2",
+                        "size": 4,
+                        "identifier": ":\\on.2",
+                        "address": 536895404,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "cli.1",
+                        "size": 16,
+                        "identifier": ":\\cli.1",
+                        "address": 536895388,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "wait_q.0",
+                        "size": 8,
+                        "identifier": ":\\wait_q.0",
+                        "address": 536871740,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "SystemCoreClock",
+                        "size": 4,
+                        "identifier": ":\\SystemCoreClock",
+                        "address": 536871428,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "z_main_stack",
+                        "size": 1024,
+                        "identifier": ":\\z_main_stack",
+                        "address": 536900416,
+                        "section": "noinit"
+                    },
+                    {
+                        "name": "_kernel",
+                        "size": 32,
+                        "identifier": ":\\_kernel",
+                        "address": 536895540,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "z_main_thread",
+                        "size": 128,
+                        "identifier": ":\\z_main_thread",
+                        "address": 536879680,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "hci_hbuf_total",
+                        "size": 4,
+                        "identifier": ":\\hci_hbuf_total",
+                        "address": 536887064,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "conn_upd_curr",
+                        "size": 4,
+                        "identifier": ":\\conn_upd_curr",
+                        "address": 536888936,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "k_sys_work_q",
+                        "size": 160,
+                        "identifier": ":\\k_sys_work_q",
+                        "address": 536879968,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "hci_hbuf_sent",
+                        "size": 4,
+                        "identifier": ":\\hci_hbuf_sent",
+                        "address": 536887060,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "z_interrupt_stacks",
+                        "size": 2048,
+                        "identifier": ":\\z_interrupt_stacks",
+                        "address": 536898048,
+                        "section": "noinit"
+                    },
+                    {
+                        "name": "bt_dev",
+                        "size": 4,
+                        "identifier": ":\\bt_dev",
+                        "address": 536870932,
+                        "section": "datas"
+                    },
+                    {
+                        "name": "z_idle_threads",
+                        "size": 128,
+                        "identifier": ":\\z_idle_threads",
+                        "address": 536879552,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "hci_state_mask",
+                        "size": 4,
+                        "identifier": ":\\hci_state_mask",
+                        "address": 536887020,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "_sw_isr_table",
+                        "size": 2168,
+                        "identifier": ":\\_sw_isr_table",
+                        "address": 106472,
+                        "section": "sw_isr_table"
+                    },
+                    {
+                        "name": "hci_hbuf_acked",
+                        "size": 4,
+                        "identifier": ":\\hci_hbuf_acked",
+                        "address": 536887056,
+                        "section": "bss"
+                    },
+                    {
+                        "name": "_thread_dummy",
+                        "size": 128,
+                        "identifier": ":\\_thread_dummy",
+                        "address": 536879808,
+                        "section": "bss"
+                    }
+                ]
+            },
+            {
+                "name": "ZEPHYR_BASE",
+                "size": 31461,
+                "identifier": "C:/ncs/v4.1.99-zephyr/zephyr",
+                "children": [
+                    {
+                        "name": "subsys",
+                        "size": 30300,
+                        "identifier": "subsys",
+                        "children": [
+                            {
+                                "name": "bluetooth",
+                                "size": 30300,
+                                "identifier": "subsys\\bluetooth",
+                                "children": [
+                                    {
+                                        "name": "controller",
+                                        "size": 23694,
+                                        "identifier": "subsys\\bluetooth\\controller",
+                                        "children": [
+                                            {
+                                                "name": "ll_sw",
+                                                "size": 21442,
+                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw",
+                                                "children": [
+                                                    {
+                                                        "name": "ull_adv.c",
+                                                        "size": 130,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_adv.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "ll_adv",
+                                                                "size": 116,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_adv.c\\ll_adv",
+                                                                "address": 536887256,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ticker_update_req",
+                                                                "size": 1,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_adv.c\\ticker_update_req",
+                                                                "address": 536895617,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ticker_update_ack",
+                                                                "size": 1,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_adv.c\\ticker_update_ack",
+                                                                "address": 536895616,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ll_adv_ticker_ext",
+                                                                "size": 12,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_adv.c\\ll_adv_ticker_ext",
+                                                                "address": 536887244,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_scan.c",
+                                                        "size": 84,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_scan.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "ll_scan",
+                                                                "size": 72,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_scan.c\\ll_scan",
+                                                                "address": 536872368,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ll_scan_ticker_ext",
+                                                                "size": 12,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_scan.c\\ll_scan_ticker_ext",
+                                                                "address": 536887396,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_conn.c",
+                                                        "size": 8526,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "conn_free",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\conn_free",
+                                                                "address": 536887456,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "conn_pool",
+                                                                "size": 7040,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\conn_pool",
+                                                                "address": 536872440,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_conn_tx",
+                                                                "size": 256,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\mem_conn_tx",
+                                                                "address": 536888032,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_link_tx",
+                                                                "size": 572,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\mem_link_tx",
+                                                                "address": 536887460,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "default_tx_octets",
+                                                                "size": 2,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\default_tx_octets",
+                                                                "address": 536895600,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "default_tx_time",
+                                                                "size": 2,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\default_tx_time",
+                                                                "address": 536895598,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "default_phy_tx",
+                                                                "size": 1,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\default_phy_tx",
+                                                                "address": 536895619,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "default_phy_rx",
+                                                                "size": 1,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\default_phy_rx",
+                                                                "address": 536895618,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_conn_ack",
+                                                                "size": 580,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\mfifo_fifo_conn_ack",
+                                                                "address": 536888288,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_conn_tx",
+                                                                "size": 68,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_conn.c\\mfifo_fifo_conn_tx",
+                                                                "address": 536888868,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ll_addr.c",
+                                                        "size": 12,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ll_addr.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "pub_addr",
+                                                                "size": 6,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ll_addr.c\\pub_addr",
+                                                                "address": 536880568,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "rnd_addr",
+                                                                "size": 6,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ll_addr.c\\rnd_addr",
+                                                                "address": 536880560,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull.c",
+                                                        "size": 6332,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "sem_ticker_api_cb",
+                                                                "size": 24,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\sem_ticker_api_cb",
+                                                                "address": 536885348,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_tx_ack",
+                                                                "size": 580,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mfifo_fifo_tx_ack",
+                                                                "address": 536880612,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_link_rx",
+                                                                "size": 488,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mem_link_rx",
+                                                                "address": 536881348,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_pdu_rx_free",
+                                                                "size": 44,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mfifo_fifo_pdu_rx_free",
+                                                                "address": 536884832,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_pdu_rx",
+                                                                "size": 2996,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mem_pdu_rx",
+                                                                "address": 536881836,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_ll_pdu_rx_free",
+                                                                "size": 136,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mfifo_fifo_ll_pdu_rx_free",
+                                                                "address": 536881196,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_pool_done",
+                                                                "size": 148,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mem_pool_done",
+                                                                "address": 536884912,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_done",
+                                                                "size": 24,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mfifo_fifo_done",
+                                                                "address": 536885060,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mem_link_done",
+                                                                "size": 36,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mem_link_done",
+                                                                "address": 536884876,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "memq_ull_rx",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\memq_ull_rx",
+                                                                "address": 536881340,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "memq_ll_rx",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\memq_ll_rx",
+                                                                "address": 536881332,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "sem_recv",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\sem_recv",
+                                                                "address": 536885344,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ticker_users",
+                                                                "size": 32,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\ticker_users",
+                                                                "address": 536885900,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ticker_user_ops",
+                                                                "size": 528,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\ticker_user_ops",
+                                                                "address": 536885372,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "ticker_nodes",
+                                                                "size": 1008,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\ticker_nodes",
+                                                                "address": 536885932,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfifo_fifo_prep",
+                                                                "size": 260,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mfifo_fifo_prep",
+                                                                "address": 536885084,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mark_disable",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mark_disable",
+                                                                "address": 536880608,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mark_update",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull.c\\mark_update",
+                                                                "address": 536881192,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_llcp.c",
+                                                        "size": 5400,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "mem_tx",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\mem_tx",
+                                                                "address": 536871184,
+                                                                "section": "datas"
+                                                            },
+                                                            {
+                                                                "name": "mem_local_ctx",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\mem_local_ctx",
+                                                                "address": 536871176,
+                                                                "section": "datas"
+                                                            },
+                                                            {
+                                                                "name": "mem_remote_ctx",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\mem_remote_ctx",
+                                                                "address": 536871168,
+                                                                "section": "datas"
+                                                            },
+                                                            {
+                                                                "name": "buffer_mem_remote_ctx",
+                                                                "size": 1280,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\buffer_mem_remote_ctx",
+                                                                "address": 536888940,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "buffer_mem_local_ctx",
+                                                                "size": 1280,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\buffer_mem_local_ctx",
+                                                                "address": 536890220,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "buffer_mem_tx",
+                                                                "size": 2816,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_llcp.c\\buffer_mem_tx",
+                                                                "address": 536891500,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_chan.c",
+                                                        "size": 6,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_chan.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "map",
+                                                                "size": 5,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_chan.c\\map",
+                                                                "address": 536894364,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "count",
+                                                                "size": 1,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_chan.c\\count",
+                                                                "address": 536895620,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "ull_filter.c",
+                                                        "size": 50,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_filter.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "fal_filter",
+                                                                "size": 50,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\ull_filter.c\\fal_filter",
+                                                                "address": 536894372,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "nordic",
+                                                        "size": 902,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic",
+                                                        "children": [
+                                                            {
+                                                                "name": "lll",
+                                                                "size": 263,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "lll.c",
+                                                                        "size": 18,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "preempt_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_ack",
+                                                                                "address": 536895621,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_req",
+                                                                                "address": 536895622,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_start_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_start_req",
+                                                                                "address": 536895626,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_start_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_start_ack",
+                                                                                "address": 536895625,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_stop_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_stop_req",
+                                                                                "address": 536895624,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "preempt_stop_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\preempt_stop_ack",
+                                                                                "address": 536895623,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "event",
+                                                                                "size": 12,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll.c\\event",
+                                                                                "address": 536894436,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_clock.c",
+                                                                        "size": 20,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_clock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "lf_cli",
+                                                                                "size": 16,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_clock.c\\lf_cli",
+                                                                                "address": 536894452,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "hf_refcnt",
+                                                                                "size": 4,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_clock.c\\hf_refcnt",
+                                                                                "address": 536894448,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_adv.c",
+                                                                        "size": 204,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_adv.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "mem_pdu",
+                                                                                "size": 164,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_adv.c\\mem_pdu",
+                                                                                "address": 536894516,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "mfifo_fifo_pdu_free",
+                                                                                "size": 16,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_adv.c\\mfifo_fifo_pdu_free",
+                                                                                "address": 536894500,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "sem_pdu_free",
+                                                                                "size": 24,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_adv.c\\sem_pdu_free",
+                                                                                "address": 536894476,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_conn.c",
+                                                                        "size": 10,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "is_aborted",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\is_aborted",
+                                                                                "address": 536895631,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "crc_valid",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\crc_valid",
+                                                                                "address": 536895632,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "trx_cnt",
+                                                                                "size": 2,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\trx_cnt",
+                                                                                "address": 536895602,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "mic_state",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\mic_state",
+                                                                                "address": 536895630,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "force_md_cnt",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\force_md_cnt",
+                                                                                "address": 536895628,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_cnt",
+                                                                                "size": 2,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\tx_cnt",
+                                                                                "address": 536895604,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "crc_expire",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\crc_expire",
+                                                                                "address": 536895633,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "force_md_cnt_reload",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_conn.c\\force_md_cnt_reload",
+                                                                                "address": 536895629,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "lll_test.c",
+                                                                        "size": 11,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "tx_req",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\tx_req",
+                                                                                "address": 536895635,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_ack",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\tx_ack",
+                                                                                "address": 536895634,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_tifs",
+                                                                                "size": 4,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\tx_tifs",
+                                                                                "address": 536894696,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "test_phy",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\test_phy",
+                                                                                "address": 536895638,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "test_phy_flags",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\test_phy_flags",
+                                                                                "address": 536895637,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "test_num_rx",
+                                                                                "size": 2,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\test_num_rx",
+                                                                                "address": 536895606,
+                                                                                "section": "bss"
+                                                                            },
+                                                                            {
+                                                                                "name": "started",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\lll\\lll_test.c\\started",
+                                                                                "address": 536895636,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "name": "hal",
+                                                                "size": 639,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrf5",
+                                                                        "size": 639,
+                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "cntr.c",
+                                                                                "size": 1,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\cntr.c",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "_refcount",
+                                                                                        "size": 1,
+                                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\cntr.c\\_refcount",
+                                                                                        "address": 536895639,
+                                                                                        "section": "bss"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "name": "radio",
+                                                                                "size": 638,
+                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "name": "radio.c",
+                                                                                        "size": 638,
+                                                                                        "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c",
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "name": "ccm_job",
+                                                                                                "size": 104,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\ccm_job",
+                                                                                                "address": 536894700,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "_pkt_scratch",
+                                                                                                "size": 258,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\_pkt_scratch",
+                                                                                                "address": 536894808,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "isr_cb_param",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\isr_cb_param",
+                                                                                                "address": 536895332,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "isr_cb",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\isr_cb",
+                                                                                                "address": 536895336,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "last_pdu_end_us",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\last_pdu_end_us",
+                                                                                                "address": 536895324,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "_pkt_empty",
+                                                                                                "size": 255,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\_pkt_empty",
+                                                                                                "address": 536895068,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "sw_tifs_toggle",
+                                                                                                "size": 1,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\sw_tifs_toggle",
+                                                                                                "address": 536895640,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "last_pdu_end_latency_us",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\last_pdu_end_latency_us",
+                                                                                                "address": 536895328,
+                                                                                                "section": "bss"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "radio_tmr_aa",
+                                                                                                "size": 4,
+                                                                                                "identifier": "subsys\\bluetooth\\controller\\ll_sw\\nordic\\hal\\nrf5\\radio\\radio.c\\radio_tmr_aa",
+                                                                                                "address": 536894804,
+                                                                                                "section": "bss"
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "util",
+                                                "size": 324,
+                                                "identifier": "subsys\\bluetooth\\controller\\util",
+                                                "children": [
+                                                    {
+                                                        "name": "mayfly.c",
+                                                        "size": 324,
+                                                        "identifier": "subsys\\bluetooth\\controller\\util\\mayfly.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "mfl",
+                                                                "size": 128,
+                                                                "identifier": "subsys\\bluetooth\\controller\\util\\mayfly.c\\mfl",
+                                                                "address": 536880196,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mft",
+                                                                "size": 192,
+                                                                "identifier": "subsys\\bluetooth\\controller\\util\\mayfly.c\\mft",
+                                                                "address": 536880324,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "mfp",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\util\\mayfly.c\\mfp",
+                                                                "address": 536880192,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "ticker",
+                                                "size": 44,
+                                                "identifier": "subsys\\bluetooth\\controller\\ticker",
+                                                "children": [
+                                                    {
+                                                        "name": "ticker.c",
+                                                        "size": 44,
+                                                        "identifier": "subsys\\bluetooth\\controller\\ticker\\ticker.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "_instance",
+                                                                "size": 44,
+                                                                "identifier": "subsys\\bluetooth\\controller\\ticker\\ticker.c\\_instance",
+                                                                "address": 536880516,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "hci",
+                                                "size": 1884,
+                                                "identifier": "subsys\\bluetooth\\controller\\hci",
+                                                "children": [
+                                                    {
+                                                        "name": "hci_driver.c",
+                                                        "size": 1682,
+                                                        "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "recv_fifo",
+                                                                "size": 24,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\recv_fifo",
+                                                                "address": 536886964,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "sem_prio_recv",
+                                                                "size": 24,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\sem_prio_recv",
+                                                                "address": 536886988,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "hbuf_signal",
+                                                                "size": 16,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\hbuf_signal",
+                                                                "address": 536886948,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "prio_recv_thread_stack",
+                                                                "size": 448,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\prio_recv_thread_stack",
+                                                                "address": 536897600,
+                                                                "section": "noinit"
+                                                            },
+                                                            {
+                                                                "name": "recv_thread_stack",
+                                                                "size": 896,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\recv_thread_stack",
+                                                                "address": 536896704,
+                                                                "section": "noinit"
+                                                            },
+                                                            {
+                                                                "name": "hbuf_pend",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\hbuf_pend",
+                                                                "address": 536872096,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "hbuf_count",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\hbuf_count",
+                                                                "address": 536886944,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "__devstate_dts_ord_112",
+                                                                "size": 2,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\__devstate_dts_ord_112",
+                                                                "address": 536871749,
+                                                                "section": "device_states"
+                                                            },
+                                                            {
+                                                                "name": "data_0",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\data_0",
+                                                                "address": 536886940,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "recv_thread_data",
+                                                                "size": 128,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\recv_thread_data",
+                                                                "address": 536872104,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "prio_recv_thread_data",
+                                                                "size": 128,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci_driver.c\\prio_recv_thread_data",
+                                                                "address": 536872232,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "hci.c",
+                                                        "size": 202,
+                                                        "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "hbuf_signal",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\hbuf_signal",
+                                                                "address": 536887016,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "dup_count",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\dup_count",
+                                                                "address": 536887072,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "dup_filter",
+                                                                "size": 128,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\dup_filter",
+                                                                "address": 536887076,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "dup_curr",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\dup_curr",
+                                                                "address": 536887068,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "event_mask",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\event_mask",
+                                                                "address": 536870920,
+                                                                "section": "datas"
+                                                            },
+                                                            {
+                                                                "name": "le_event_mask",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\le_event_mask",
+                                                                "address": 536870912,
+                                                                "section": "datas"
+                                                            },
+                                                            {
+                                                                "name": "_opcode",
+                                                                "size": 2,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\_opcode",
+                                                                "address": 536895596,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "event_mask_page_2",
+                                                                "size": 8,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\event_mask_page_2",
+                                                                "address": 536872360,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "conn_count",
+                                                                "size": 4,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\conn_count",
+                                                                "address": 536887012,
+                                                                "section": "bss"
+                                                            },
+                                                            {
+                                                                "name": "hci_hbuf_pend",
+                                                                "size": 32,
+                                                                "identifier": "subsys\\bluetooth\\controller\\hci\\hci.c\\hci_hbuf_pend",
+                                                                "address": 536887024,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "host",
+                                        "size": 6606,
+                                        "identifier": "subsys\\bluetooth\\host",
+                                        "children": [
+                                            {
+                                                "name": "hci_raw.c",
+                                                "size": 6606,
+                                                "identifier": "subsys\\bluetooth\\host\\hci_raw.c",
+                                                "children": [
+                                                    {
+                                                        "name": "buf_rx_freed_cb",
+                                                        "size": 4,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\buf_rx_freed_cb",
+                                                        "address": 536880184,
+                                                        "section": "bss"
+                                                    },
+                                                    {
+                                                        "name": "raw_mode",
+                                                        "size": 1,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\raw_mode",
+                                                        "address": 536871748,
+                                                        "section": "datas"
+                                                    },
+                                                    {
+                                                        "name": "raw_rx",
+                                                        "size": 4,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\raw_rx",
+                                                        "address": 536880188,
+                                                        "section": "bss"
+                                                    },
+                                                    {
+                                                        "name": "hci_rx_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\hci_rx_pool",
+                                                        "address": 536871924,
+                                                        "section": "net_buf_pool_area"
+                                                    },
+                                                    {
+                                                        "name": "hci_cmd_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\hci_cmd_pool",
+                                                        "address": 536871880,
+                                                        "section": "net_buf_pool_area"
+                                                    },
+                                                    {
+                                                        "name": "hci_acl_pool",
+                                                        "size": 44,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\hci_acl_pool",
+                                                        "address": 536871836,
+                                                        "section": "net_buf_pool_area"
+                                                    },
+                                                    {
+                                                        "name": "cmd_ext_size",
+                                                        "size": 4,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\cmd_ext_size",
+                                                        "address": 536880176,
+                                                        "section": "bss"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_acl_pool",
+                                                        "size": 196,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\_net_buf_hci_acl_pool",
+                                                        "address": 536902176,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_acl_pool",
+                                                        "size": 224,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\net_buf_data_hci_acl_pool",
+                                                        "address": 536901952,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_cmd_pool",
+                                                        "size": 308,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\_net_buf_hci_cmd_pool",
+                                                        "address": 536905224,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_cmd_pool",
+                                                        "size": 2849,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\net_buf_data_hci_cmd_pool",
+                                                        "address": 536902372,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "_net_buf_hci_rx_pool",
+                                                        "size": 280,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\_net_buf_hci_rx_pool",
+                                                        "address": 536908132,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "net_buf_data_hci_rx_pool",
+                                                        "size": 2600,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\net_buf_data_hci_rx_pool",
+                                                        "address": 536905532,
+                                                        "section": "noinit"
+                                                    },
+                                                    {
+                                                        "name": "cmd_ext",
+                                                        "size": 4,
+                                                        "identifier": "subsys\\bluetooth\\host\\hci_raw.c\\cmd_ext",
+                                                        "address": 536880180,
+                                                        "section": "bss"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lib",
+                        "size": 16,
+                        "identifier": "lib",
+                        "children": [
+                            {
+                                "name": "os",
+                                "size": 4,
+                                "identifier": "lib\\os",
+                                "children": [
+                                    {
+                                        "name": "printk.c",
+                                        "size": 4,
+                                        "identifier": "lib\\os\\printk.c",
+                                        "children": [
+                                            {
+                                                "name": "_char_out",
+                                                "size": 4,
+                                                "identifier": "lib\\os\\printk.c\\_char_out",
+                                                "address": 536870928,
+                                                "section": "datas"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "libc",
+                                "size": 12,
+                                "identifier": "lib\\libc",
+                                "children": [
+                                    {
+                                        "name": "common",
+                                        "size": 12,
+                                        "identifier": "lib\\libc\\common",
+                                        "children": [
+                                            {
+                                                "name": "source",
+                                                "size": 12,
+                                                "identifier": "lib\\libc\\common\\source",
+                                                "children": [
+                                                    {
+                                                        "name": "stdlib",
+                                                        "size": 12,
+                                                        "identifier": "lib\\libc\\common\\source\\stdlib",
+                                                        "children": [
+                                                            {
+                                                                "name": "malloc.c",
+                                                                "size": 12,
+                                                                "identifier": "lib\\libc\\common\\source\\stdlib\\malloc.c",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "z_malloc_heap",
+                                                                        "size": 12,
+                                                                        "identifier": "lib\\libc\\common\\source\\stdlib\\malloc.c\\z_malloc_heap",
+                                                                        "address": 536880164,
+                                                                        "section": "bss"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "arch",
+                        "size": 25,
+                        "identifier": "arch",
+                        "children": [
+                            {
+                                "name": "arm",
+                                "size": 25,
+                                "identifier": "arch\\arm",
+                                "children": [
+                                    {
+                                        "name": "core",
+                                        "size": 25,
+                                        "identifier": "arch\\arm\\core",
+                                        "children": [
+                                            {
+                                                "name": "mpu",
+                                                "size": 21,
+                                                "identifier": "arch\\arm\\core\\mpu",
+                                                "children": [
+                                                    {
+                                                        "name": "arm_mpu.c",
+                                                        "size": 1,
+                                                        "identifier": "arch\\arm\\core\\mpu\\arm_mpu.c",
+                                                        "children": [
+                                                            {
+                                                                "name": "static_regions_num",
+                                                                "size": 1,
+                                                                "identifier": "arch\\arm\\core\\mpu\\arm_mpu.c\\static_regions_num",
+                                                                "address": 536895614,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "arm_mpu_v8_internal.h",
+                                                        "size": 20,
+                                                        "identifier": "arch\\arm\\core\\mpu\\arm_mpu_v8_internal.h",
+                                                        "children": [
+                                                            {
+                                                                "name": "dyn_reg_info",
+                                                                "size": 20,
+                                                                "identifier": "arch\\arm\\core\\mpu\\arm_mpu_v8_internal.h\\dyn_reg_info",
+                                                                "address": 536880144,
+                                                                "section": "bss"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "tls.c",
+                                                "size": 4,
+                                                "identifier": "arch\\arm\\core\\tls.c",
+                                                "children": [
+                                                    {
+                                                        "name": "z_arm_tls_ptr",
+                                                        "size": 4,
+                                                        "identifier": "arch\\arm\\core\\tls.c\\z_arm_tls_ptr",
+                                                        "address": 536880140,
+                                                        "section": "bss"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "drivers",
+                        "size": 222,
+                        "identifier": "drivers",
+                        "children": [
+                            {
+                                "name": "clock_control",
+                                "size": 86,
+                                "identifier": "drivers\\clock_control",
+                                "children": [
+                                    {
+                                        "name": "clock_control_nrf.c",
+                                        "size": 86,
+                                        "identifier": "drivers\\clock_control\\clock_control_nrf.c",
+                                        "children": [
+                                            {
+                                                "name": "data",
+                                                "size": 80,
+                                                "identifier": "drivers\\clock_control\\clock_control_nrf.c\\data",
+                                                "address": 536895408,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "hfclk_users",
+                                                "size": 4,
+                                                "identifier": "drivers\\clock_control\\clock_control_nrf.c\\hfclk_users",
+                                                "address": 536895488,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_57",
+                                                "size": 2,
+                                                "identifier": "drivers\\clock_control\\clock_control_nrf.c\\__devstate_dts_ord_57",
+                                                "address": 536871751,
+                                                "section": "device_states"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "entropy",
+                                "size": 2,
+                                "identifier": "drivers\\entropy",
+                                "children": [
+                                    {
+                                        "name": "entropy_nrf_cracen.c",
+                                        "size": 2,
+                                        "identifier": "drivers\\entropy\\entropy_nrf_cracen.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_5",
+                                                "size": 2,
+                                                "identifier": "drivers\\entropy\\entropy_nrf_cracen.c\\__devstate_dts_ord_5",
+                                                "address": 536871753,
+                                                "section": "device_states"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "gpio",
+                                "size": 42,
+                                "identifier": "drivers\\gpio",
+                                "children": [
+                                    {
+                                        "name": "gpio_nrfx.c",
+                                        "size": 42,
+                                        "identifier": "drivers\\gpio\\gpio_nrfx.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_13",
+                                                "size": 2,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\__devstate_dts_ord_13",
+                                                "address": 536871755,
+                                                "section": "device_states"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p2_data",
+                                                "size": 12,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\gpio_nrfx_p2_data",
+                                                "address": 536895492,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_11",
+                                                "size": 2,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\__devstate_dts_ord_11",
+                                                "address": 536871757,
+                                                "section": "device_states"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p1_data",
+                                                "size": 12,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\gpio_nrfx_p1_data",
+                                                "address": 536895504,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "__devstate_dts_ord_24",
+                                                "size": 2,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\__devstate_dts_ord_24",
+                                                "address": 536871759,
+                                                "section": "device_states"
+                                            },
+                                            {
+                                                "name": "gpio_nrfx_p0_data",
+                                                "size": 12,
+                                                "identifier": "drivers\\gpio\\gpio_nrfx.c\\gpio_nrfx_p0_data",
+                                                "address": 536895516,
+                                                "section": "bss"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "serial",
+                                "size": 68,
+                                "identifier": "drivers\\serial",
+                                "children": [
+                                    {
+                                        "name": "uart_nrfx_uarte.c",
+                                        "size": 68,
+                                        "identifier": "drivers\\serial\\uart_nrfx_uarte.c",
+                                        "children": [
+                                            {
+                                                "name": "__devstate_dts_ord_102",
+                                                "size": 2,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\__devstate_dts_ord_102",
+                                                "address": 536871761,
+                                                "section": "device_states"
+                                            },
+                                            {
+                                                "name": "uarte_20_data",
+                                                "size": 12,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\uarte_20_data",
+                                                "address": 536871384,
+                                                "section": "datas"
+                                            },
+                                            {
+                                                "name": "uarte20_poll_out_byte",
+                                                "size": 1,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\uarte20_poll_out_byte",
+                                                "address": 536895642,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "uarte20_poll_in_byte",
+                                                "size": 1,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\uarte20_poll_in_byte",
+                                                "address": 536895641,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "uarte20_int_driven",
+                                                "size": 20,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\uarte20_int_driven",
+                                                "address": 536871396,
+                                                "section": "datas"
+                                            },
+                                            {
+                                                "name": "uarte20_tx_buffer",
+                                                "size": 32,
+                                                "identifier": "drivers\\serial\\uart_nrfx_uarte.c\\uarte20_tx_buffer",
+                                                "address": 536895643,
+                                                "section": "bss"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timer",
+                                "size": 24,
+                                "identifier": "drivers\\timer",
+                                "children": [
+                                    {
+                                        "name": "nrf_grtc_timer.c",
+                                        "size": 24,
+                                        "identifier": "drivers\\timer\\nrf_grtc_timer.c",
+                                        "children": [
+                                            {
+                                                "name": "last_count",
+                                                "size": 8,
+                                                "identifier": "drivers\\timer\\nrf_grtc_timer.c\\last_count",
+                                                "address": 536879480,
+                                                "section": "bss"
+                                            },
+                                            {
+                                                "name": "system_clock_channel_data",
+                                                "size": 12,
+                                                "identifier": "drivers\\timer\\nrf_grtc_timer.c\\system_clock_channel_data",
+                                                "address": 536871416,
+                                                "section": "datas"
+                                            },
+                                            {
+                                                "name": "int_mask",
+                                                "size": 4,
+                                                "identifier": "drivers\\timer\\nrf_grtc_timer.c\\int_mask",
+                                                "address": 536895528,
+                                                "section": "bss"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kernel",
+                        "size": 898,
+                        "identifier": "kernel",
+                        "children": [
+                            {
+                                "name": "init.c",
+                                "size": 321,
+                                "identifier": "kernel\\init.c",
+                                "children": [
+                                    {
+                                        "name": "z_idle_stacks",
+                                        "size": 320,
+                                        "identifier": "kernel\\init.c\\z_idle_stacks",
+                                        "address": 536900096,
+                                        "section": "noinit"
+                                    },
+                                    {
+                                        "name": "z_sys_post_kernel",
+                                        "size": 1,
+                                        "identifier": "kernel\\init.c\\z_sys_post_kernel",
+                                        "address": 536895675,
+                                        "section": "bss"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeslicing.c",
+                                "size": 37,
+                                "identifier": "kernel\\timeslicing.c",
+                                "children": [
+                                    {
+                                        "name": "slice_timeouts",
+                                        "size": 24,
+                                        "identifier": "kernel\\timeslicing.c\\slice_timeouts",
+                                        "address": 536879936,
+                                        "section": "bss"
+                                    },
+                                    {
+                                        "name": "slice_expired",
+                                        "size": 1,
+                                        "identifier": "kernel\\timeslicing.c\\slice_expired",
+                                        "address": 536895676,
+                                        "section": "bss"
+                                    },
+                                    {
+                                        "name": "slice_ticks",
+                                        "size": 4,
+                                        "identifier": "kernel\\timeslicing.c\\slice_ticks",
+                                        "address": 536895580,
+                                        "section": "bss"
+                                    },
+                                    {
+                                        "name": "slice_max_prio",
+                                        "size": 4,
+                                        "identifier": "kernel\\timeslicing.c\\slice_max_prio",
+                                        "address": 536895576,
+                                        "section": "bss"
+                                    },
+                                    {
+                                        "name": "pending_current",
+                                        "size": 4,
+                                        "identifier": "kernel\\timeslicing.c\\pending_current",
+                                        "address": 536895572,
+                                        "section": "bss"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "timeout.c",
+                                "size": 20,
+                                "identifier": "kernel\\timeout.c",
+                                "children": [
+                                    {
+                                        "name": "timeout_list",
+                                        "size": 8,
+                                        "identifier": "kernel\\timeout.c\\timeout_list",
+                                        "address": 536871732,
+                                        "section": "datas"
+                                    },
+                                    {
+                                        "name": "announce_remaining",
+                                        "size": 4,
+                                        "identifier": "kernel\\timeout.c\\announce_remaining",
+                                        "address": 536895584,
+                                        "section": "bss"
+                                    },
+                                    {
+                                        "name": "curr_tick",
+                                        "size": 8,
+                                        "identifier": "kernel\\timeout.c\\curr_tick",
+                                        "address": 536879960,
+                                        "section": "bss"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "system_work_q.c",
+                                "size": 512,
+                                "identifier": "kernel\\system_work_q.c",
+                                "children": [
+                                    {
+                                        "name": "sys_work_q_stack",
+                                        "size": 512,
+                                        "identifier": "kernel\\system_work_q.c\\sys_work_q_stack",
+                                        "address": 536901440,
+                                        "section": "noinit"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "work.c",
+                                "size": 8,
+                                "identifier": "kernel\\work.c",
+                                "children": [
+                                    {
+                                        "name": "pending_cancels",
+                                        "size": 8,
+                                        "identifier": "kernel\\work.c\\pending_cancels",
+                                        "address": 536895588,
+                                        "section": "bss"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "/",
+                "size": 0,
+                "identifier": "/",
+                "children": [
+                    {
+                        "name": "C:\\",
+                        "size": 1200,
+                        "identifier": "C:\\",
+                        "children": [
+                            {
+                                "name": "ncs",
+                                "size": 1200,
+                                "identifier": "C:\\ncs",
+                                "children": [
+                                    {
+                                        "name": "ws-turkana",
+                                        "size": 1200,
+                                        "identifier": "C:\\ncs\\ws-turkana",
+                                        "children": [
+                                            {
+                                                "name": "logi_reference",
+                                                "size": 1200,
+                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference",
+                                                "children": [
+                                                    {
+                                                        "name": "controller_sci",
+                                                        "size": 1200,
+                                                        "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci",
+                                                        "children": [
+                                                            {
+                                                                "name": "src",
+                                                                "size": 1200,
+                                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "main.c",
+                                                                        "size": 1200,
+                                                                        "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src\\main.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "uart_tx_queue",
+                                                                                "size": 24,
+                                                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src\\main.c\\uart_tx_queue",
+                                                                                "address": 536871812,
+                                                                                "section": "k_fifo_area"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_queue",
+                                                                                "size": 24,
+                                                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src\\main.c\\tx_queue",
+                                                                                "address": 536871788,
+                                                                                "section": "k_fifo_area"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_thread_stack",
+                                                                                "size": 1024,
+                                                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src\\main.c\\tx_thread_stack",
+                                                                                "address": 536895680,
+                                                                                "section": "noinit"
+                                                                            },
+                                                                            {
+                                                                                "name": "tx_thread_data",
+                                                                                "size": 128,
+                                                                                "identifier": "C:\\ncs\\ws-turkana\\logi_reference\\controller_sci\\src\\main.c\\tx_thread_data",
+                                                                                "address": 536871968,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "WORKSPACE",
+                "size": 372,
+                "identifier": "C:/ncs/v4.1.99-zephyr",
+                "children": [
+                    {
+                        "name": "modules",
+                        "size": 372,
+                        "identifier": "modules",
+                        "children": [
+                            {
+                                "name": "hal",
+                                "size": 372,
+                                "identifier": "modules\\hal",
+                                "children": [
+                                    {
+                                        "name": "nordic",
+                                        "size": 372,
+                                        "identifier": "modules\\hal\\nordic",
+                                        "children": [
+                                            {
+                                                "name": "nrfx",
+                                                "size": 372,
+                                                "identifier": "modules\\hal\\nordic\\nrfx",
+                                                "children": [
+                                                    {
+                                                        "name": "drivers",
+                                                        "size": 372,
+                                                        "identifier": "modules\\hal\\nordic\\nrfx\\drivers",
+                                                        "children": [
+                                                            {
+                                                                "name": "src",
+                                                                "size": 372,
+                                                                "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src",
+                                                                "children": [
+                                                                    {
+                                                                        "name": "nrfx_clock.c",
+                                                                        "size": 8,
+                                                                        "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_clock.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_clock_cb",
+                                                                                "size": 8,
+                                                                                "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_clock.c\\m_clock_cb",
+                                                                                "address": 536895532,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_cracen.c",
+                                                                        "size": 64,
+                                                                        "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_cracen.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 64,
+                                                                                "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_cracen.c\\m_cb",
+                                                                                "address": 536879488,
+                                                                                "section": "bss"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_gpiote.c",
+                                                                        "size": 216,
+                                                                        "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_gpiote.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 216,
+                                                                                "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_gpiote.c\\m_cb",
+                                                                                "address": 536871432,
+                                                                                "section": "datas"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "name": "nrfx_grtc.c",
+                                                                        "size": 84,
+                                                                        "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_grtc.c",
+                                                                        "children": [
+                                                                            {
+                                                                                "name": "m_cb",
+                                                                                "size": 84,
+                                                                                "identifier": "modules\\hal\\nordic\\nrfx\\drivers\\src\\nrfx_grtc.c\\m_cb",
+                                                                                "address": 536871648,
+                                                                                "section": "datas"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "(hidden)",
+                "size": 1219,
+                "identifier": "(hidden)"
+            }
+        ]
+    },
+    "total_size": 39668
+}

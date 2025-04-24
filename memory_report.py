@@ -51,6 +51,7 @@ def config_init(repository):
     block_patterns = config_repo.get("block_patterns") or config_default.get("block_patterns")
     feats = config_repo.get("feats") or config_default.get("feats")
     snippet_feats = config_repo.get("snippet_feats") or config_default.get("snippet_feats")
+    west_path = config_repo.get("west_path") or config_default.get("west_path")
     defaults = {
         "platform" : json.loads(platform),
         "baseline" : json.loads(baseline),
@@ -61,7 +62,8 @@ def config_init(repository):
         "reports" : json.loads(reports),
         "block_patterns" : json.loads(block_patterns),
         "feats" : json.loads(feats),
-        "snippet_feats": json.loads(snippet_feats) 
+        "snippet_feats": json.loads(snippet_feats),
+        "west_path": json.loads(west_path),
     }
     block_patterns = defaults.get("block_patterns")
     template_excel = defaults.get("template_excel")
@@ -253,7 +255,7 @@ if __name__ == '__main__':
     
     repository = args.repository.strip()
     defaults = config_init(repository)
-
+    west_path = defaults.get("west_path")
     if args.level_max:
         level_max = args.level_max
     else:
@@ -301,7 +303,10 @@ if __name__ == '__main__':
             report_directory = Path(report_dir_name)
             report_destination = Path("{}/{}".format(report_dir_name, report_id))
             build_directory = Path("{}/build_{}".format(repository, report_id))
-            memory_directory = Path("{}/{}".format(build_directory, repository))
+            if west_path == "zephyr":
+                memory_directory = Path("{}".format(build_directory))
+            else:
+                memory_directory = Path("{}/{}".format(build_directory, repository))
 
             if build_active:
                 if only_summary == False and only_report == False:
