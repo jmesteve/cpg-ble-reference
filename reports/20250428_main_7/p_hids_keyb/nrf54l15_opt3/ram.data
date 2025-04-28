@@ -1,0 +1,1060 @@
+-- west build: running target ram_report
+[0/1] cmd.exe /C "cd /D C:\ncs\ws-turkana\logi_reference\p_hids_keyb\build_nrf54l15_opt3\p_hids_keyb && C:\ncs\toolchains\b620d30767\opt\bin\python.exe C:/ncs/vturkana/zephyr/scripts/footprint/size_report -k C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb/zephyr/zephyr.elf -z C:/ncs/vturkana/zephyr -o C:/ncs/ws-turkana/logi_reference/p_hids_keyb/build_nrf54l15_opt3/p_hids_keyb --workspace=C:/ncs/vturkana -d 99 ram"
+Path                                                                                             Size       %  Address    Section    
+==========================================================================================================================================
+Root                                                                                            64526 100.00%  - 
+├── (hidden)                                                                                    21753  33.71%  - 
+├── (no paths)                                                                                  42753  66.26%  - 
+│   ├── CMD_ECC_PTMUL.lto_priv.0                                                                   20   0.03%  0x00028f44 rodata
+│   ├── CMD_ECC_PTONCURVE                                                                          20   0.03%  0x0002a998 rodata
+│   ├── CSWTCH.11                                                                                  12   0.02%  0x000292f8 rodata
+│   ├── CSWTCH.110                                                                                  5   0.01%  0x00028b9d rodata
+│   ├── CSWTCH.111                                                                                  5   0.01%  0x00028b98 rodata
+│   ├── CSWTCH.112                                                                                  5   0.01%  0x00028ba2 rodata
+│   ├── CSWTCH.113                                                                                  5   0.01%  0x00028ba7 rodata
+│   ├── CSWTCH.12                                                                                  58   0.09%  0x00028c22 rodata
+│   ├── CSWTCH.15551                                                                                3   0.00%  0x0002d17b rodata
+│   ├── CSWTCH.15558.lto_priv.0                                                                    42   0.07%  0x0002d151 rodata
+│   ├── CSWTCH.15586                                                                               10   0.02%  0x0002d17e rodata
+│   ├── CSWTCH.22                                                                                   3   0.00%  0x0002f5c6 rodata
+│   ├── CSWTCH.3                                                                                    4   0.01%  0x00028d34 rodata
+│   ├── CSWTCH.32                                                                                   4   0.01%  0x00028bdc rodata
+│   ├── CSWTCH.36.lto_priv.0                                                                        3   0.00%  0x0002ea65 rodata
+│   ├── CSWTCH.43                                                                                  12   0.02%  0x000292ec rodata
+│   ├── CSWTCH.489                                                                                 20   0.03%  0x00028f00 rodata
+│   ├── CSWTCH.64                                                                                   6   0.01%  0x00028e4b rodata
+│   ├── CSWTCH.8123                                                                                15   0.02%  0x0002e117 rodata
+│   ├── CSWTCH.8125                                                                                 9   0.01%  0x0002e0a5 rodata
+│   ├── CSWTCH.8128                                                                                 8   0.01%  0x0002e126 rodata
+│   ├── CSWTCH.8620.lto_priv.0                                                                     36   0.06%  0x0002902c rodata
+│   ├── SystemCoreClock                                                                             4   0.01%  0x20000574 datas
+│   ├── __compound_literal.0                                                                        8   0.01%  0x000291d8 rodata
+│   ├── __compound_literal.0.lto_priv.0                                                           600   0.93%  0x200032e8 bss
+│   ├── __compound_literal.0.lto_priv.1.lto_priv.0                                                  4   0.01%  0x0002abc0 rodata
+│   ├── __compound_literal.0.lto_priv.2                                                             4   0.01%  0x0002ac1c rodata
+│   ├── __compound_literal.0.lto_priv.3                                                             4   0.01%  0x0002ac40 rodata
+│   ├── __compound_literal.0.lto_priv.4                                                             4   0.01%  0x0002ac6c rodata
+│   ├── __compound_literal.1                                                                        8   0.01%  0x00029134 rodata
+│   ├── __compound_literal.1.lto_priv.0                                                             4   0.01%  0x0002ac18 rodata
+│   ├── __compound_literal.1.lto_priv.1                                                             4   0.01%  0x0002ac3c rodata
+│   ├── __compound_literal.1.lto_priv.2                                                             4   0.01%  0x0002ac74 rodata
+│   ├── __compound_literal.1.lto_priv.3                                                             4   0.01%  0x0002ac68 rodata
+│   ├── __compound_literal.10.lto_priv.0                                                            4   0.01%  0x0002ac04 rodata
+│   ├── __compound_literal.10.lto_priv.1                                                            4   0.01%  0x0002ac54 rodata
+│   ├── __compound_literal.11.lto_priv.0                                                            4   0.01%  0x0002abfc rodata
+│   ├── __compound_literal.11.lto_priv.1                                                            4   0.01%  0x0002ac4c rodata
+│   ├── __compound_literal.12.lto_priv.0                                                            8   0.01%  0x20000848 datas
+│   ├── __compound_literal.12.lto_priv.1                                                            8   0.01%  0x2000088c datas
+│   ├── __compound_literal.13.lto_priv.0                                                            4   0.01%  0x0002ac00 rodata
+│   ├── __compound_literal.13.lto_priv.1                                                            4   0.01%  0x0002ac50 rodata
+│   ├── __compound_literal.14                                                                       4   0.01%  0x0002abf0 rodata
+│   ├── __compound_literal.15                                                                       4   0.01%  0x0002abec rodata
+│   ├── __compound_literal.16                                                                       4   0.01%  0x0002abe8 rodata
+│   ├── __compound_literal.17                                                                       4   0.01%  0x0002abcc rodata
+│   ├── __compound_literal.18                                                                       8   0.01%  0x20000678 datas
+│   ├── __compound_literal.19                                                                       4   0.01%  0x0002abe4 rodata
+│   ├── __compound_literal.2                                                                        2   0.00%  0x20000bb5 datas
+│   ├── __compound_literal.2.lto_priv.0                                                             4   0.01%  0x0002ac14 rodata
+│   ├── __compound_literal.2.lto_priv.1                                                             4   0.01%  0x0002ac38 rodata
+│   ├── __compound_literal.2.lto_priv.2                                                             4   0.01%  0x0002ac70 rodata
+│   ├── __compound_literal.2.lto_priv.3                                                             4   0.01%  0x0002ac64 rodata
+│   ├── __compound_literal.20                                                                       4   0.01%  0x0002abe0 rodata
+│   ├── __compound_literal.21                                                                       4   0.01%  0x0002abdc rodata
+│   ├── __compound_literal.22                                                                       4   0.01%  0x0002abc8 rodata
+│   ├── __compound_literal.23                                                                       8   0.01%  0x20000670 datas
+│   ├── __compound_literal.24                                                                       4   0.01%  0x0002abd8 rodata
+│   ├── __compound_literal.25                                                                       4   0.01%  0x0002abd4 rodata
+│   ├── __compound_literal.26                                                                       4   0.01%  0x0002abc4 rodata
+│   ├── __compound_literal.27                                                                       8   0.01%  0x20000668 datas
+│   ├── __compound_literal.28                                                                       4   0.01%  0x0002abd0 rodata
+│   ├── __compound_literal.3.lto_priv.0                                                             4   0.01%  0x0002abf4 rodata
+│   ├── __compound_literal.3.lto_priv.1                                                             4   0.01%  0x0002ac20 rodata
+│   ├── __compound_literal.3.lto_priv.2                                                             4   0.01%  0x0002ac44 rodata
+│   ├── __compound_literal.4                                                                        1   0.00%  0x20000bb4 datas
+│   ├── __compound_literal.4.lto_priv.0                                                             8   0.01%  0x20000858 datas
+│   ├── __compound_literal.4.lto_priv.1                                                             8   0.01%  0x20000884 datas
+│   ├── __compound_literal.4.lto_priv.2                                                             8   0.01%  0x2000089c datas
+│   ├── __compound_literal.5.lto_priv.0                                                             4   0.01%  0x0002ac10 rodata
+│   ├── __compound_literal.5.lto_priv.1                                                             4   0.01%  0x0002ac34 rodata
+│   ├── __compound_literal.5.lto_priv.2                                                             4   0.01%  0x0002ac60 rodata
+│   ├── __compound_literal.6                                                                        4   0.01%  0x20000bb0 datas
+│   ├── __compound_literal.6.lto_priv.0                                                             4   0.01%  0x0002ac0c rodata
+│   ├── __compound_literal.6.lto_priv.1                                                             4   0.01%  0x0002ac30 rodata
+│   ├── __compound_literal.6.lto_priv.2                                                             4   0.01%  0x0002ac5c rodata
+│   ├── __compound_literal.7.lto_priv.0                                                             4   0.01%  0x0002abf8 rodata
+│   ├── __compound_literal.7.lto_priv.1                                                            36   0.06%  0x20000860 datas
+│   ├── __compound_literal.7.lto_priv.2                                                             4   0.01%  0x0002ac48 rodata
+│   ├── __compound_literal.8.lto_priv.0                                                             8   0.01%  0x20000850 datas
+│   ├── __compound_literal.8.lto_priv.1                                                             4   0.01%  0x0002ac2c rodata
+│   ├── __compound_literal.8.lto_priv.2                                                             8   0.01%  0x20000894 datas
+│   ├── __compound_literal.9.lto_priv.0                                                             4   0.01%  0x0002ac08 rodata
+│   ├── __compound_literal.9.lto_priv.1                                                             4   0.01%  0x0002ac58 rodata
+│   ├── __devstate_dts_ord_10.lto_priv.0                                                            2   0.00%  0x20000bc6 device_states
+│   ├── __devstate_dts_ord_110                                                                      2   0.00%  0x20000bd4 device_states
+│   ├── __devstate_dts_ord_12.lto_priv.0                                                            2   0.00%  0x20000bc8 device_states
+│   ├── __devstate_dts_ord_121.lto_priv.0                                                           2   0.00%  0x20000bc2 device_states
+│   ├── __devstate_dts_ord_125                                                                      2   0.00%  0x20000bce device_states
+│   ├── __devstate_dts_ord_126                                                                      2   0.00%  0x20000bd0 device_states
+│   ├── __devstate_dts_ord_130                                                                      2   0.00%  0x20000bc0 device_states
+│   ├── __devstate_dts_ord_23.lto_priv.0                                                            2   0.00%  0x20000bcc device_states
+│   ├── __devstate_dts_ord_3                                                                        2   0.00%  0x20000bd2 device_states
+│   ├── __devstate_dts_ord_4.lto_priv.0                                                             2   0.00%  0x20000bc4 device_states
+│   ├── __devstate_dts_ord_65.lto_priv.0                                                            2   0.00%  0x20000bd6 device_states
+│   ├── __devstate_dts_ord_97                                                                       2   0.00%  0x20000bca device_states
+│   ├── __isr_table_entry_cracen_isr_handler_irq_1.1                                                8   0.01%  0x0002f8c0 rodata
+│   ├── __isr_table_entry_mpsl_low_prio_irq_handler_irq_11.1                                        8   0.01%  0x0002f760 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_1.1                                                          8   0.01%  0x0002fda0 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_1.3.lto_priv.0                                               8   0.01%  0x0002fd58 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_1.3.lto_priv.1                                               8   0.01%  0x0002f8d0 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_1.4                                                          8   0.01%  0x0002fea8 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_3.1.lto_priv.0                                               8   0.01%  0x0002fee8 rodata
+│   ├── __isr_table_entry_nrfx_isr_irq_3.1.lto_priv.1                                               8   0.01%  0x0002fcb8 rodata
+│   ├── __isr_table_entry_uarte_nrfx_isr_int_irq_83.1                                               8   0.01%  0x0002fcb0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_536                                                    8   0.01%  0x0002f680 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_537                                                    8   0.01%  0x0002f688 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_538                                                    8   0.01%  0x0002f690 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_539                                                    8   0.01%  0x0002f698 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_540                                                    8   0.01%  0x0002f6a0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_541                                                    8   0.01%  0x0002f6a8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_542                                                    8   0.01%  0x0002f6b0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_543                                                    8   0.01%  0x0002f6b8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_544                                                    8   0.01%  0x0002f6c0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_545                                                    8   0.01%  0x0002f6c8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_546                                                    8   0.01%  0x0002f6d0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_547                                                    8   0.01%  0x0002f6d8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_548                                                    8   0.01%  0x0002f6e0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_549                                                    8   0.01%  0x0002f6e8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_550                                                    8   0.01%  0x0002f6f0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_551                                                    8   0.01%  0x0002f6f8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_552                                                    8   0.01%  0x0002f700 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_553                                                    8   0.01%  0x0002f708 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_554                                                    8   0.01%  0x0002f710 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_555                                                    8   0.01%  0x0002f718 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_556                                                    8   0.01%  0x0002f720 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_557                                                    8   0.01%  0x0002f728 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_558                                                    8   0.01%  0x0002f730 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_559                                                    8   0.01%  0x0002f738 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_560                                                    8   0.01%  0x0002f740 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_561                                                    8   0.01%  0x0002f748 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_562                                                    8   0.01%  0x0002f750 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_563                                                    8   0.01%  0x0002f758 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_564                                                    8   0.01%  0x0002f768 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_565                                                    8   0.01%  0x0002f770 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_566                                                    8   0.01%  0x0002f778 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_567                                                    8   0.01%  0x0002f780 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_568                                                    8   0.01%  0x0002f788 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_569                                                    8   0.01%  0x0002f790 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_570                                                    8   0.01%  0x0002f798 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_571                                                    8   0.01%  0x0002f7a0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_572                                                    8   0.01%  0x0002f7a8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_573                                                    8   0.01%  0x0002f7b0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_574                                                    8   0.01%  0x0002f7b8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_575                                                    8   0.01%  0x0002f7c0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_576                                                    8   0.01%  0x0002f7c8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_577                                                    8   0.01%  0x0002f7d0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_578                                                    8   0.01%  0x0002f7d8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_579                                                    8   0.01%  0x0002f7e0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_580                                                    8   0.01%  0x0002f7e8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_581                                                    8   0.01%  0x0002f7f0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_582                                                    8   0.01%  0x0002f7f8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_583                                                    8   0.01%  0x0002f800 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_584                                                    8   0.01%  0x0002f808 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_585                                                    8   0.01%  0x0002f810 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_586                                                    8   0.01%  0x0002f818 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_587                                                    8   0.01%  0x0002f820 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_588                                                    8   0.01%  0x0002f828 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_589                                                    8   0.01%  0x0002f830 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_590                                                    8   0.01%  0x0002f838 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_591                                                    8   0.01%  0x0002f840 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_592                                                    8   0.01%  0x0002f848 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_593                                                    8   0.01%  0x0002f850 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_594                                                    8   0.01%  0x0002f858 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_595                                                    8   0.01%  0x0002f860 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_596                                                    8   0.01%  0x0002f868 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_597                                                    8   0.01%  0x0002f870 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_598                                                    8   0.01%  0x0002f878 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_599                                                    8   0.01%  0x0002f880 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_600                                                    8   0.01%  0x0002f888 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_601                                                    8   0.01%  0x0002f890 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_602                                                    8   0.01%  0x0002f898 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_603                                                    8   0.01%  0x0002f8a0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_604                                                    8   0.01%  0x0002f8a8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_605                                                    8   0.01%  0x0002f8b0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_606                                                    8   0.01%  0x0002f8b8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_607                                                    8   0.01%  0x0002f8c8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_608                                                    8   0.01%  0x0002f8d8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_609                                                    8   0.01%  0x0002f8e0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_610                                                    8   0.01%  0x0002f8e8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_611                                                    8   0.01%  0x0002f8f0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_612                                                    8   0.01%  0x0002f8f8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_613                                                    8   0.01%  0x0002f900 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_614                                                    8   0.01%  0x0002f908 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_615                                                    8   0.01%  0x0002f910 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_616                                                    8   0.01%  0x0002f918 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_617                                                    8   0.01%  0x0002f920 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_618                                                    8   0.01%  0x0002f928 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_619                                                    8   0.01%  0x0002f930 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_620                                                    8   0.01%  0x0002f938 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_621                                                    8   0.01%  0x0002f940 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_622                                                    8   0.01%  0x0002f948 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_623                                                    8   0.01%  0x0002f950 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_624                                                    8   0.01%  0x0002f958 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_625                                                    8   0.01%  0x0002f960 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_626                                                    8   0.01%  0x0002f968 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_627                                                    8   0.01%  0x0002f970 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_628                                                    8   0.01%  0x0002f978 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_629                                                    8   0.01%  0x0002f980 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_630                                                    8   0.01%  0x0002f988 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_631                                                    8   0.01%  0x0002f990 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_632                                                    8   0.01%  0x0002f998 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_633                                                    8   0.01%  0x0002f9a0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_634                                                    8   0.01%  0x0002f9a8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_635                                                    8   0.01%  0x0002f9b0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_636                                                    8   0.01%  0x0002f9b8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_637                                                    8   0.01%  0x0002f9c0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_638                                                    8   0.01%  0x0002f9c8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_639                                                    8   0.01%  0x0002f9d0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_640                                                    8   0.01%  0x0002f9d8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_641                                                    8   0.01%  0x0002f9e0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_642                                                    8   0.01%  0x0002f9e8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_643                                                    8   0.01%  0x0002f9f0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_644                                                    8   0.01%  0x0002f9f8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_645                                                    8   0.01%  0x0002fa00 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_646                                                    8   0.01%  0x0002fa08 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_647                                                    8   0.01%  0x0002fa10 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_648                                                    8   0.01%  0x0002fa18 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_649                                                    8   0.01%  0x0002fa20 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_650                                                    8   0.01%  0x0002fa28 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_651                                                    8   0.01%  0x0002fa30 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_652                                                    8   0.01%  0x0002fa38 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_653                                                    8   0.01%  0x0002fa40 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_654                                                    8   0.01%  0x0002fa48 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_655                                                    8   0.01%  0x0002fa50 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_656                                                    8   0.01%  0x0002fa58 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_657                                                    8   0.01%  0x0002fa60 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_658                                                    8   0.01%  0x0002fa68 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_659                                                    8   0.01%  0x0002fa70 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_660                                                    8   0.01%  0x0002fa78 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_661                                                    8   0.01%  0x0002fa80 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_662                                                    8   0.01%  0x0002fa88 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_663                                                    8   0.01%  0x0002fa90 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_664                                                    8   0.01%  0x0002fa98 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_665                                                    8   0.01%  0x0002faa0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_666                                                    8   0.01%  0x0002faa8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_667                                                    8   0.01%  0x0002fab0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_668                                                    8   0.01%  0x0002fab8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_669                                                    8   0.01%  0x0002fac0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_670                                                    8   0.01%  0x0002fac8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_671                                                    8   0.01%  0x0002fad0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_672                                                    8   0.01%  0x0002fad8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_673                                                    8   0.01%  0x0002fae0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_674                                                    8   0.01%  0x0002fae8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_675                                                    8   0.01%  0x0002faf0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_676                                                    8   0.01%  0x0002faf8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_677                                                    8   0.01%  0x0002fb00 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_678                                                    8   0.01%  0x0002fb08 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_679                                                    8   0.01%  0x0002fb10 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_680                                                    8   0.01%  0x0002fb18 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_681                                                    8   0.01%  0x0002fb20 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_682                                                    8   0.01%  0x0002fb28 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_683                                                    8   0.01%  0x0002fb30 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_684                                                    8   0.01%  0x0002fb38 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_685                                                    8   0.01%  0x0002fb40 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_686                                                    8   0.01%  0x0002fb48 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_687                                                    8   0.01%  0x0002fb50 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_688                                                    8   0.01%  0x0002fb58 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_689                                                    8   0.01%  0x0002fb60 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_690                                                    8   0.01%  0x0002fb68 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_691                                                    8   0.01%  0x0002fb70 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_692                                                    8   0.01%  0x0002fb78 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_693                                                    8   0.01%  0x0002fb80 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_694                                                    8   0.01%  0x0002fb88 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_695                                                    8   0.01%  0x0002fb90 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_696                                                    8   0.01%  0x0002fb98 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_697                                                    8   0.01%  0x0002fba0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_698                                                    8   0.01%  0x0002fba8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_699                                                    8   0.01%  0x0002fbb0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_700                                                    8   0.01%  0x0002fbb8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_701                                                    8   0.01%  0x0002fbc0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_702                                                    8   0.01%  0x0002fbc8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_703                                                    8   0.01%  0x0002fbd0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_704                                                    8   0.01%  0x0002fbd8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_705                                                    8   0.01%  0x0002fbe0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_706                                                    8   0.01%  0x0002fbe8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_707                                                    8   0.01%  0x0002fbf0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_708                                                    8   0.01%  0x0002fbf8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_709                                                    8   0.01%  0x0002fc00 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_710                                                    8   0.01%  0x0002fc08 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_711                                                    8   0.01%  0x0002fc10 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_712                                                    8   0.01%  0x0002fc18 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_713                                                    8   0.01%  0x0002fc20 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_714                                                    8   0.01%  0x0002fc28 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_715                                                    8   0.01%  0x0002fc30 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_716                                                    8   0.01%  0x0002fc38 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_717                                                    8   0.01%  0x0002fc40 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_718                                                    8   0.01%  0x0002fc48 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_719                                                    8   0.01%  0x0002fc50 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_720                                                    8   0.01%  0x0002fc58 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_721                                                    8   0.01%  0x0002fc60 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_722                                                    8   0.01%  0x0002fc68 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_723                                                    8   0.01%  0x0002fc70 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_724                                                    8   0.01%  0x0002fc78 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_725                                                    8   0.01%  0x0002fc80 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_726                                                    8   0.01%  0x0002fc88 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_727                                                    8   0.01%  0x0002fc90 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_728                                                    8   0.01%  0x0002fc98 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_729                                                    8   0.01%  0x0002fca0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_730                                                    8   0.01%  0x0002fca8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_731                                                    8   0.01%  0x0002fcc0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_732                                                    8   0.01%  0x0002fcc8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_733                                                    8   0.01%  0x0002fcd0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_734                                                    8   0.01%  0x0002fcd8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_735                                                    8   0.01%  0x0002fce0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_736                                                    8   0.01%  0x0002fce8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_737                                                    8   0.01%  0x0002fcf0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_738                                                    8   0.01%  0x0002fcf8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_739                                                    8   0.01%  0x0002fd00 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_740                                                    8   0.01%  0x0002fd08 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_741                                                    8   0.01%  0x0002fd10 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_742                                                    8   0.01%  0x0002fd18 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_743                                                    8   0.01%  0x0002fd20 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_744                                                    8   0.01%  0x0002fd28 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_745                                                    8   0.01%  0x0002fd30 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_746                                                    8   0.01%  0x0002fd38 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_747                                                    8   0.01%  0x0002fd40 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_748                                                    8   0.01%  0x0002fd48 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_749                                                    8   0.01%  0x0002fd50 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_750                                                    8   0.01%  0x0002fd60 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_751                                                    8   0.01%  0x0002fd68 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_752                                                    8   0.01%  0x0002fd70 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_753                                                    8   0.01%  0x0002fd78 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_754                                                    8   0.01%  0x0002fd80 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_755                                                    8   0.01%  0x0002fd88 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_756                                                    8   0.01%  0x0002fd90 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_757                                                    8   0.01%  0x0002fd98 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_758                                                    8   0.01%  0x0002fda8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_759                                                    8   0.01%  0x0002fdb0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_760                                                    8   0.01%  0x0002fdb8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_761                                                    8   0.01%  0x0002fdc0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_762                                                    8   0.01%  0x0002fdc8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_763                                                    8   0.01%  0x0002fdd0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_764                                                    8   0.01%  0x0002fdd8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_765                                                    8   0.01%  0x0002fde0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_766                                                    8   0.01%  0x0002fde8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_767                                                    8   0.01%  0x0002fdf0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_768                                                    8   0.01%  0x0002fdf8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_769                                                    8   0.01%  0x0002fe00 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_770                                                    8   0.01%  0x0002fe08 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_771                                                    8   0.01%  0x0002fe10 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_772                                                    8   0.01%  0x0002fe18 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_773                                                    8   0.01%  0x0002fe20 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_774                                                    8   0.01%  0x0002fe28 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_775                                                    8   0.01%  0x0002fe30 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_776                                                    8   0.01%  0x0002fe38 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_777                                                    8   0.01%  0x0002fe40 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_778                                                    8   0.01%  0x0002fe48 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_779                                                    8   0.01%  0x0002fe50 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_780                                                    8   0.01%  0x0002fe58 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_781                                                    8   0.01%  0x0002fe60 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_782                                                    8   0.01%  0x0002fe68 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_783                                                    8   0.01%  0x0002fe70 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_784                                                    8   0.01%  0x0002fe78 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_785                                                    8   0.01%  0x0002fe80 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_786                                                    8   0.01%  0x0002fe88 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_787                                                    8   0.01%  0x0002fe90 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_788                                                    8   0.01%  0x0002fe98 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_789                                                    8   0.01%  0x0002fea0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_790                                                    8   0.01%  0x0002feb0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_791                                                    8   0.01%  0x0002feb8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_792                                                    8   0.01%  0x0002fec0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_793                                                    8   0.01%  0x0002fec8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_794                                                    8   0.01%  0x0002fed0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_795                                                    8   0.01%  0x0002fed8 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_796                                                    8   0.01%  0x0002fee0 rodata
+│   ├── __isr_table_entry_z_irq_spurious_irq_797                                                    8   0.01%  0x0002fef0 rodata
+│   ├── __pinctrl_dev_config__device_dts_ord_110                                                   12   0.02%  0x0002929c rodata
+│   ├── __pinctrl_dev_config__device_dts_ord_125                                                   12   0.02%  0x000291e0 rodata
+│   ├── __pinctrl_dev_config__device_dts_ord_97                                                    12   0.02%  0x0002913c rodata
+│   ├── __pinctrl_state_pins_0__device_dts_ord_110                                                 16   0.02%  0x00029284 rodata
+│   ├── __pinctrl_state_pins_0__device_dts_ord_125                                                 12   0.02%  0x00029148 rodata
+│   ├── __pinctrl_state_pins_0__device_dts_ord_97                                                  12   0.02%  0x00029120 rodata
+│   ├── __pinctrl_states__device_dts_ord_110                                                        8   0.01%  0x00029294 rodata
+│   ├── __pinctrl_states__device_dts_ord_125                                                        8   0.01%  0x000291d0 rodata
+│   ├── __pinctrl_states__device_dts_ord_97                                                         8   0.01%  0x0002912c rodata
+│   ├── _char_out.lto_priv.0                                                                        4   0.01%  0x20000250 datas
+│   ├── _context.lto_priv.0                                                                        68   0.11%  0x200038f8 bss
+│   ├── _k_fifo_buf_mitm_queue                                                                     16   0.02%  0x20007ce0 noinit
+│   ├── _k_mem_slab_buf_att_slab                                                                   96   0.15%  0x20007d7c noinit
+│   ├── _k_mem_slab_buf_chan_slab                                                                 368   0.57%  0x20005e48 noinit
+│   ├── _k_mem_slab_buf_hids_obj_mem_slab                                                          88   0.14%  0x20007c88 noinit
+│   ├── _k_mem_slab_buf_req_slab                                                                  140   0.22%  0x20007cf0 noinit
+│   ├── _kernel                                                                                    32   0.05%  0x200035e4 bss
+│   ├── _net_buf_acl_tx_pool                                                                       80   0.12%  0x200087f0 noinit
+│   ├── _net_buf_att_pool                                                                         200   0.31%  0x20007f58 noinit
+│   ├── _net_buf_discardable_pool                                                                  84   0.13%  0x200086ec noinit
+│   ├── _net_buf_fragments                                                                         80   0.12%  0x20008020 noinit
+│   ├── _net_buf_hci_cmd_pool                                                                      56   0.09%  0x20008100 noinit
+│   ├── _net_buf_hci_rx_pool                                                                      320   0.50%  0x2000841c noinit
+│   ├── _net_buf_sync_evt_pool                                                                     28   0.04%  0x20008740 noinit
+│   ├── _sched_spinlock                                                                             4   0.01%  0x20003604 bss
+│   ├── _thread_dummy                                                                             144   0.22%  0x20001c50 bss
+│   ├── acl_conns.lto_priv.0                                                                      416   0.64%  0x20001ef0 bss
+│   ├── acl_tx_pool                                                                                52   0.08%  0x20000dbc net_buf_pool_area
+│   ├── ad                                                                                         24   0.04%  0x00028f1c rodata
+│   ├── alen.0                                                                                      2   0.00%  0x20000068 datas
+│   ├── announce_remaining                                                                          4   0.01%  0x200040bc bss
+│   ├── att_handle_rsp_thread.lto_priv.0                                                            4   0.01%  0x20003634 bss
+│   ├── att_pool                                                                                   52   0.08%  0x20000df0 net_buf_pool_area
+│   ├── att_slab                                                                                   32   0.05%  0x20000bd8 k_mem_slab_area
+│   ├── attr__1_gatt_svc                                                                          160   0.25%  0x000293c8 rodata
+│   ├── attr__2_gap_svc                                                                           140   0.22%  0x0002a8ec rodata
+│   ├── attr_bas                                                                                  100   0.15%  0x0002a888 rodata
+│   ├── attr_dis_svc                                                                              140   0.22%  0x0002a7fc rodata
+│   ├── ba411cfg                                                                                   28   0.04%  0x0002a9ec rodata
+│   ├── ba411tags                                                                                  16   0.02%  0x0002a988 rodata
+│   ├── ba413tags                                                                                  16   0.02%  0x0002aa08 rodata
+│   ├── ba414ep_ucode                                                                            4892   7.58%  0x00029488 rodata
+│   ├── bt_addr_any                                                                                 6   0.01%  0x0002d19f rodata
+│   ├── bt_addr_le_any                                                                              7   0.01%  0x0002ba0e rodata
+│   ├── bt_addr_le_none                                                                             7   0.01%  0x0002d14a rodata
+│   ├── bt_addr_none                                                                                6   0.01%  0x0002d199 rodata
+│   ├── bt_auth                                                                                     4   0.01%  0x200039bc bss
+│   ├── bt_auth_info_cbs                                                                            8   0.01%  0x20003760 bss
+│   ├── bt_dev                                                                                    376   0.58%  0x20000090 datas
+│   ├── bt_l2cap_pool                                                                             176   0.27%  0x200036b0 bss
+│   ├── bt_long_wq.lto_priv.0                                                                     176   0.27%  0x20001d70 bss
+│   ├── bt_lw_stack_area                                                                         2104   3.26%  0x20005fb8 noinit
+│   ├── bt_smp_pool                                                                               768   1.19%  0x20002250 bss
+│   ├── bt_workq.lto_priv.0                                                                       176   0.27%  0x200020f0 bss
+│   ├── buf_rx_freed_cb.lto_priv.0                                                                  4   0.01%  0x20003860 bss
+│   ├── button_handler_cb                                                                           4   0.01%  0x20004094 bss
+│   ├── button_handler_mut                                                                         20   0.03%  0x20004080 bss
+│   ├── buttons                                                                                    32   0.05%  0x0002a7dc rodata
+│   ├── buttons_scan                                                                               48   0.07%  0x200032a8 bss
+│   ├── calibration_work.lto_priv.0                                                                48   0.07%  0x20000208 datas
+│   ├── cancel                                                                                     28   0.04%  0x20003618 bss
+│   ├── cf_cfg.lto_priv.0                                                                          64   0.10%  0x20003584 bss
+│   ├── chan_slab                                                                                  32   0.05%  0x20000bf8 k_mem_slab_area
+│   ├── chr.1                                                                                       4   0.01%  0x20000254 datas
+│   ├── chrc_locks                                                                                  4   0.01%  0x200040cc bss
+│   ├── chrc_pool                                                                                   8   0.01%  0x200008ac datas
+│   ├── chrc_tab                                                                                  160   0.25%  0x200040e0 bss
+│   ├── cli.1                                                                                      16   0.02%  0x200040a4 bss
+│   ├── cmd_complete_or_status                                                                     72   0.11%  0x2000465e bss
+│   ├── cmd_data                                                                                   24   0.04%  0x20003844 bss
+│   ├── config.lto_priv.0                                                                          24   0.04%  0x000292d4 rodata
+│   ├── conn_auth_callbacks                                                                        24   0.04%  0x20000814 datas
+│   ├── conn_auth_info_callbacks                                                                   16   0.02%  0x20000804 datas
+│   ├── conn_cbs.lto_priv.0                                                                         8   0.01%  0x200037bc bss
+│   ├── conn_change                                                                                16   0.02%  0x200004bc datas
+│   ├── conn_mode.lto_priv.0                                                                       16   0.02%  0x200035d0 bss
+│   ├── conn_tx                                                                                    24   0.04%  0x200037a0 bss
+│   ├── continious_report_flag.lto_priv.0                                                           1   0.00%  0x200042eb bss
+│   ├── cracen_initialized.0                                                                        4   0.01%  0x200007e0 datas
+│   ├── crc8_ccitt_small_table                                                                     16   0.02%  0x0002f5ad rodata
+│   ├── curr_tick                                                                                   8   0.01%  0x200032d8 bss
+│   ├── data.lto_priv.0                                                                            88   0.14%  0x20003954 bss
+│   ├── data_0.lto_priv.0                                                                           4   0.01%  0x20003540 bss
+│   ├── db.lto_priv.0                                                                               8   0.01%  0x200035c4 bss
+│   ├── db_hash.lto_priv.0                                                                        120   0.19%  0x20001e20 bss
+│   ├── debug_public_key                                                                           64   0.10%  0x0002e0ae rodata
+│   ├── default_flash_map                                                                          32   0.05%  0x00028ec8 rodata
+│   ├── default_settings_zms.0                                                                     96   0.15%  0x200025a8 bss
+│   ├── delay_machine_code.0                                                                        6   0.01%  0x00028ec0 rodata
+│   ├── delay_machine_code.0                                                                        6   0.01%  0x00028eb0 rodata
+│   ├── dh_key_cb.lto_priv.0                                                                        4   0.01%  0x2000378c bss
+│   ├── dh_key_work                                                                                16   0.02%  0x200007ac datas
+│   ├── dis_pnp_id.lto_priv.0                                                                       7   0.01%  0x20000bb7 datas
+│   ├── discardable_pool                                                                           52   0.08%  0x20000e24 net_buf_pool_area
+│   ├── disconnected_handles                                                                        4   0.01%  0x2000423e bss
+│   ├── disconnected_handles_reason                                                                 2   0.00%  0x20004399 bss
+│   ├── do_calibration                                                                              4   0.01%  0x20004034 bss
+│   ├── drive_modes                                                                                 9   0.01%  0x0002f5bd rodata
+│   ├── dummy.2                                                                                     2   0.00%  0x20001652 bss
+│   ├── dyn_reg_info                                                                               20   0.03%  0x20003550 bss
+│   ├── easydma_support_bits                                                                        2   0.00%  0x0002e09b rodata
+│   ├── ecc.lto_priv.0                                                                             96   0.15%  0x20004338 bss
+│   ├── event_handler.lto_priv.1                                                                    4   0.01%  0x200039b0 bss
+│   ├── flags.lto_priv.0                                                                            4   0.01%  0x20003794 bss
+│   ├── flash_nor_parameters                                                                        8   0.01%  0x00029304 rodata
+│   ├── frag_md_pool                                                                               32   0.05%  0x2000376c bss
+│   ├── fragments                                                                                  52   0.08%  0x20000e58 net_buf_pool_area
+│   ├── free_tx                                                                                    28   0.04%  0x20000da0 k_fifo_area
+│   ├── g_mpsl_device_aar                                                                           4   0.01%  0x20001b60 bss
+│   ├── g_mpsl_device_ccm                                                                           4   0.01%  0x20001b64 bss
+│   ├── g_mpsl_device_ecb                                                                           4   0.01%  0x20001b68 bss
+│   ├── g_mpsl_device_ppib00                                                                        4   0.01%  0x20001b6c bss
+│   ├── gatt_conn_auth_info_cb.1                                                                   16   0.02%  0x20000500 datas
+│   ├── gatt_conn_cb.0                                                                             36   0.06%  0x200004dc datas
+│   ├── gatt_delayed_store.lto_priv.0                                                              96   0.15%  0x20002090 bss
+│   ├── gatt_flags.lto_priv.0                                                                       4   0.01%  0x200035cc bss
+│   ├── gatt_sc.lto_priv.0                                                                         88   0.14%  0x20001e98 bss
+│   ├── gen_method_sc                                                                              25   0.04%  0x0002e0fe rodata
+│   ├── global_data.lto_priv.0                                                                      8   0.01%  0x20003fe4 bss
+│   ├── global_data.lto_priv.1                                                                   1412   2.19%  0x20003a60 bss
+│   ├── gpio_cb                                                                                    12   0.02%  0x20003ff8 bss
+│   ├── gpio_nrfx_p0_cfg.lto_priv.0                                                                24   0.04%  0x000291ec rodata
+│   ├── gpio_nrfx_p0_data.lto_priv.0                                                               12   0.02%  0x2000387c bss
+│   ├── gpio_nrfx_p1_cfg.lto_priv.0                                                                24   0.04%  0x00029154 rodata
+│   ├── gpio_nrfx_p1_data.lto_priv.0                                                               12   0.02%  0x20003864 bss
+│   ├── gpio_nrfx_p2_cfg.lto_priv.0                                                                24   0.04%  0x0002916c rodata
+│   ├── gpio_nrfx_p2_data.lto_priv.0                                                               12   0.02%  0x20003870 bss
+│   ├── handle_index.0                                                                              1   0.00%  0x20001b54 bss
+│   ├── handlers                                                                                  112   0.17%  0x00028f94 rodata
+│   ├── handlers                                                                                  120   0.19%  0x00029350 rodata
+│   ├── hci_cmd_pool                                                                               52   0.08%  0x20000e8c net_buf_pool_area
+│   ├── hci_driver_api.lto_priv.0                                                                  12   0.02%  0x00028ee8 rodata
+│   ├── hci_rx_pool.lto_priv.0                                                                     52   0.08%  0x20000ec0 net_buf_pool_area
+│   ├── heap                                                                                       40   0.06%  0x20004048 bss
+│   ├── hello_world_str.lto_priv.0                                                                  6   0.01%  0x0002b9c8 rodata
+│   ├── hex.4                                                                                      17   0.03%  0x0002d1a5 rodata
+│   ├── hfclk_users                                                                                 4   0.01%  0x200039ac bss
+│   ├── hfclknotreadycounter.0                                                                      1   0.00%  0x20001ae1 bss
+│   ├── hid_keyboard_state.lto_priv.0                                                               7   0.01%  0x200042ed bss
+│   ├── hids_obj.lto_priv.0                                                                       556   0.86%  0x20000258 datas
+│   ├── hids_obj_ctx_lib                                                                           24   0.04%  0x20000238 datas
+│   ├── hids_obj_mem_slab                                                                          32   0.05%  0x20000c18 k_mem_slab_area
+│   ├── hids_obj_mutex                                                                             20   0.03%  0x20000c58 k_mutex_area
+│   ├── ident.1                                                                                     1   0.00%  0x200042f7 bss
+│   ├── initial_run.2                                                                               1   0.00%  0x20000bbf datas
+│   ├── irq_enabled                                                                                 1   0.00%  0x200046f2 bss
+│   ├── is_adv.lto_priv.0                                                                           1   0.00%  0x200042f6 bss
+│   ├── k_cracen_irq_event_for_cryptomaster                                                        16   0.02%  0x20000d80 k_event_area
+│   ├── k_cracen_irq_event_for_pke                                                                 16   0.02%  0x20000d90 k_event_area
+│   ├── k_cracen_mutex                                                                             20   0.03%  0x20000c6c k_mutex_area
+│   ├── k_cracen_mutex_asymmetric                                                                  20   0.03%  0x20000c80 k_mutex_area
+│   ├── k_cracen_mutex_symmetric                                                                   20   0.03%  0x20000c94 k_mutex_area
+│   ├── k_cracen_prng_context_mutex                                                                20   0.03%  0x20000ca8 k_mutex_area
+│   ├── k_cracen_prng_pool_mutex                                                                   20   0.03%  0x20000cbc k_mutex_area
+│   ├── k_sys_work_q                                                                              176   0.27%  0x200021a0 bss
+│   ├── key_pool.lto_priv.0                                                                       128   0.20%  0x200037c4 bss
+│   ├── kmu_push_area                                                                              64   0.10%  0x20000000 NRF_KMU_RESERVED_PUSH_SECTION
+│   ├── last_button_scan.1                                                                          4   0.01%  0x2000409c bss
+│   ├── last_count.lto_priv.0                                                                       8   0.01%  0x200032e0 bss
+│   ├── last_state.0                                                                                4   0.01%  0x20003ff4 bss
+│   ├── last_static_handle.lto_priv.0                                                               2   0.00%  0x2000420c bss
+│   ├── leds                                                                                       32   0.05%  0x0002a7bc rodata
+│   ├── level_cpf                                                                                   8   0.01%  0x0002ac24 rodata
+│   ├── levels.0                                                                                   24   0.04%  0x0002a7a4 rodata
+│   ├── ll_ctrl_shared_context                                                                     24   0.04%  0x200014d4 bss
+│   ├── lock                                                                                        4   0.01%  0x200039b4 bss
+│   ├── lock.lto_priv.0                                                                             4   0.01%  0x2000385c bss
+│   ├── lock.lto_priv.1                                                                             4   0.01%  0x20003768 bss
+│   ├── lock.lto_priv.2                                                                             4   0.01%  0x200040b8 bss
+│   ├── lock.lto_priv.3                                                                             4   0.01%  0x20004098 bss
+│   ├── lock.lto_priv.4                                                                             4   0.01%  0x20003ff0 bss
+│   ├── lock.lto_priv.5                                                                             4   0.01%  0x20003fec bss
+│   ├── m_active_event_idx                                                                          1   0.00%  0x20001a40 bss
+│   ├── m_cb.lto_priv.0                                                                           216   0.33%  0x200006d4 datas
+│   ├── m_cb.lto_priv.1                                                                            84   0.13%  0x20000680 datas
+│   ├── m_cb.lto_priv.2                                                                            72   0.11%  0x200038b0 bss
+│   ├── m_event_setup                                                                              48   0.07%  0x20001a48 bss
+│   ├── m_lut.0                                                                                    12   0.02%  0x00028d14 rodata
+│   ├── m_lut.0                                                                                    12   0.02%  0x00028d28 rodata
+│   ├── m_lut.2                                                                                    12   0.02%  0x00028cfc rodata
+│   ├── m_lut.3                                                                                    12   0.02%  0x00028d08 rodata
+│   ├── m_sca_mapping.0                                                                            24   0.04%  0x00028b80 rodata
+│   ├── m_sessions                                                                                768   1.19%  0x20001740 bss
+│   ├── m_signal_event_handle                                                                       1   0.00%  0x20001a78 bss
+│   ├── mbedtls_calloc_func                                                                         4   0.01%  0x20000830 datas
+│   ├── mbedtls_free_func                                                                           4   0.01%  0x2000082c datas
+│   ├── mbedtls_heap                                                                              512   0.79%  0x2000445e bss
+│   ├── mbedtls_threading_key_slot_mutex                                                           20   0.03%  0x20000cd0 k_mutex_area
+│   ├── mbedtls_threading_psa_globaldata_mutex                                                     20   0.03%  0x20000ce4 k_mutex_area
+│   ├── mbedtls_threading_psa_rngdata_mutex                                                        20   0.03%  0x20000cf8 k_mutex_area
+│   ├── memory_jobs.5                                                                              48   0.07%  0x20001620 bss
+│   ├── memset_func                                                                                 4   0.01%  0x200007e4 datas
+│   ├── meta_events                                                                                64   0.10%  0x000290e0 rodata
+│   ├── metadata_usage_flags_mapping                                                               28   0.04%  0x0002aa18 rodata
+│   ├── minimal_erase_types                                                                         8   0.01%  0x0002e09d rodata
+│   ├── mitm_queue                                                                                 52   0.08%  0x20000d34 k_msgq_area
+│   ├── mlen.1                                                                                      2   0.00%  0x20001650 bss
+│   ├── mpsl_lock.lto_priv.0                                                                       20   0.03%  0x20000d0c k_mutex_area
+│   ├── mpsl_low_prio_work                                                                         16   0.02%  0x20004038 bss
+│   ├── mpsl_work_q                                                                               176   0.27%  0x200031f8 bss
+│   ├── mpsl_work_stack                                                                          1024   1.59%  0x20007888 noinit
+│   ├── my_buttons                                                                                  4   0.01%  0x200040a0 bss
+│   ├── net_buf_data_acl_tx_pool                                                                  148   0.23%  0x2000875c noinit
+│   ├── net_buf_data_att_pool                                                                     380   0.59%  0x20007ddc noinit
+│   ├── net_buf_data_discardable_pool                                                             138   0.21%  0x2000855c noinit
+│   ├── net_buf_data_hci_cmd_pool                                                                 142   0.22%  0x20008070 noinit
+│   ├── net_buf_data_hci_rx_pool                                                                  740   1.15%  0x20008138 noinit
+│   ├── net_buf_data_sync_evt_pool                                                                258   0.40%  0x200085e8 noinit
+│   ├── net_buf_fixed_acl_tx_pool                                                                   4   0.01%  0x0002a978 rodata
+│   ├── net_buf_fixed_alloc_acl_tx_pool                                                            12   0.02%  0x0002a97c rodata
+│   ├── net_buf_fixed_alloc_att_pool                                                               12   0.02%  0x00028f38 rodata
+│   ├── net_buf_fixed_alloc_discardable_pool                                                       12   0.02%  0x00029470 rodata
+│   ├── net_buf_fixed_alloc_fragments                                                              12   0.02%  0x00028f5c rodata
+│   ├── net_buf_fixed_alloc_hci_cmd_pool                                                           12   0.02%  0x00028f6c rodata
+│   ├── net_buf_fixed_alloc_hci_rx_pool                                                            12   0.02%  0x00028f88 rodata
+│   ├── net_buf_fixed_alloc_sync_evt_pool                                                          12   0.02%  0x0002947c rodata
+│   ├── net_buf_fixed_att_pool                                                                      4   0.01%  0x00028f34 rodata
+│   ├── net_buf_fixed_cb                                                                           12   0.02%  0x00028f7c rodata
+│   ├── net_buf_fixed_discardable_pool                                                              4   0.01%  0x00029468 rodata
+│   ├── net_buf_fixed_fragments                                                                     4   0.01%  0x00028f58 rodata
+│   ├── net_buf_fixed_hci_cmd_pool                                                                  4   0.01%  0x00028f68 rodata
+│   ├── net_buf_fixed_hci_rx_pool                                                                   4   0.01%  0x00028f78 rodata
+│   ├── net_buf_fixed_sync_evt_pool                                                                 4   0.01%  0x0002946c rodata
+│   ├── net_buf_slist_lock                                                                          4   0.01%  0x200037b8 bss
+│   ├── nordic_str.1                                                                               24   0.04%  0x00029090 rodata
+│   ├── normal_events                                                                              48   0.07%  0x00029050 rodata
+│   ├── notification_cb_flag.lto_priv.0                                                             1   0.00%  0x20000bbe datas
+│   ├── on.2                                                                                        4   0.01%  0x200040b4 bss
+│   ├── ops.0                                                                                      40   0.06%  0x00029328 rodata
+│   ├── ops.0.lto_priv.0                                                                           40   0.06%  0x00029004 rodata
+│   ├── ops.0.lto_priv.1                                                                           40   0.06%  0x20000484 datas
+│   ├── pages_layout.1                                                                              8   0.01%  0x0002930c rodata
+│   ├── pairing_button_pressed.2                                                                    1   0.00%  0x200042ec bss
+│   ├── pairing_work.lto_priv.0                                                                    16   0.02%  0x20003574 bss
+│   ├── parameters.0                                                                                8   0.01%  0x00029314 rodata
+│   ├── params_ed448                                                                              285   0.44%  0x0002f420 rodata
+│   ├── params_nistp256                                                                           192   0.30%  0x0002f360 rodata
+│   ├── params_x448                                                                               112   0.17%  0x0002f53d rodata
+│   ├── pending_cancels.lto_priv.0                                                                  8   0.01%  0x20003608 bss
+│   ├── pending_current                                                                             4   0.01%  0x200035e0 bss
+│   ├── pending_recycled_events                                                                    24   0.04%  0x20000d68 k_sem_area
+│   ├── plat_str.2                                                                                 16   0.02%  0x00029080 rodata
+│   ├── port_offset.1                                                                              16   0.02%  0x0002ea74 rodata
+│   ├── ports                                                                                       3   0.00%  0x0002ea71 rodata
+│   ├── prio_events                                                                                40   0.06%  0x000290b8 rodata
+│   ├── prng.lto_priv.0                                                                            64   0.10%  0x20002550 bss
+│   ├── prng_pool                                                                                 128   0.20%  0x20004180 bss
+│   ├── prng_pool_remaining                                                                         4   0.01%  0x20004200 bss
+│   ├── procedures_on_connect                                                                      16   0.02%  0x20000554 datas
+│   ├── pub_key.lto_priv.0                                                                         64   0.10%  0x200042f8 bss
+│   ├── pub_key_cb_slist                                                                            8   0.01%  0x20003798 bss
+│   ├── pub_key_gen.lto_priv.0                                                                     36   0.06%  0x20000520 datas
+│   ├── pub_key_work                                                                               16   0.02%  0x20000510 datas
+│   ├── radio_jobs.4                                                                               48   0.07%  0x200015f0 bss
+│   ├── ready_cb.lto_priv.0                                                                         4   0.01%  0x20003790 bss
+│   ├── receive_work                                                                               16   0.02%  0x20004070 bss
+│   ├── recycled_work                                                                              16   0.02%  0x200004ac datas
+│   ├── report_map.0                                                                               63   0.10%  0x0002b9cf rodata
+│   ├── req_slab                                                                                   32   0.05%  0x20000c38 k_mem_slab_area
+│   ├── request_2m_phy.lto_priv.0                                                                   1   0.00%  0x200042f5 bss
+│   ├── request_conn_param_update.lto_priv.0                                                        1   0.00%  0x200042f4 bss
+│   ├── rx_hci_msg                                                                                 75   0.12%  0x200046a6 bss
+│   ├── rx_thread_stack                                                                          2200   3.41%  0x20006ff0 noinit
+│   ├── rx_work                                                                                    16   0.02%  0x20000544 datas
+│   ├── s_in_job.1                                                                                 16   0.02%  0x20001b0c bss
+│   ├── s_in_joblist.1                                                                             32   0.05%  0x200015b4 bss
+│   ├── s_out_job.0                                                                                16   0.02%  0x20001b1c bss
+│   ├── s_out_joblist.0                                                                            16   0.02%  0x200015d4 bss
+│   ├── s_trx_rx_frame_action.0                                                                     1   0.00%  0x2000109a bss
+│   ├── salt.0                                                                                     16   0.02%  0x0002e0ee rodata
+│   ├── sc_ccc                                                                                     36   0.06%  0x200007bc datas
+│   ├── sc_cfg.lto_priv.0                                                                          48   0.07%  0x2000420e bss
+│   ├── sc_public_key                                                                               4   0.01%  0x200039b8 bss
+│   ├── sc_range                                                                                    8   0.01%  0x20004242 bss
+│   ├── sc_restore_params                                                                          48   0.07%  0x200039c0 bss
+│   ├── sc_supported.lto_priv.0                                                                     1   0.00%  0x20004398 bss
+│   ├── sd                                                                                          8   0.01%  0x00028f14 rodata
+│   ├── sdc_mempool                                                                              3050   4.73%  0x20002608 bss
+│   ├── sem_lock                                                                                   24   0.04%  0x2000393c bss
+│   ├── settings_handlers                                                                           8   0.01%  0x20003568 bss
+│   ├── settings_load_srcs                                                                          8   0.01%  0x20003610 bss
+│   ├── settings_lock                                                                              20   0.03%  0x20000d20 k_mutex_area
+│   ├── settings_save_dst                                                                           4   0.01%  0x20003570 bss
+│   ├── settings_subsys_initialized                                                                 1   0.00%  0x2000445d bss
+│   ├── settings_zms_itf                                                                           28   0.04%  0x200007e8 datas
+│   ├── shift_key                                                                                   1   0.00%  0x0002b9ce rodata
+│   ├── silex_pk_engine.lto_priv.0                                                                112   0.17%  0x200039f0 bss
+│   ├── slice_expired                                                                               1   0.00%  0x200046f3 bss
+│   ├── slice_timeouts                                                                             24   0.04%  0x20002590 bss
+│   ├── spi_00_data                                                                               120   0.19%  0x200005f0 datas
+│   ├── spi_00z_config                                                                             76   0.12%  0x00029204 rodata
+│   ├── spi_21_data                                                                               120   0.19%  0x20000578 datas
+│   ├── spi_21z_config                                                                             76   0.12%  0x00029184 rodata
+│   ├── spi_nor_0_config                                                                           52   0.08%  0x00029250 rodata
+│   ├── spi_nor_0_data                                                                             32   0.05%  0x20003888 bss
+│   ├── spim_00_rx_buffer                                                                           8   0.01%  0x2000444a bss
+│   ├── spim_00_tx_buffer                                                                           8   0.01%  0x20004452 bss
+│   ├── spim_21_rx_buffer                                                                           8   0.01%  0x2000443a bss
+│   ├── spim_21_tx_buffer                                                                           8   0.01%  0x20004442 bss
+│   ├── state                                                                                       1   0.00%  0x200046f1 bss
+│   ├── static_regions                                                                             12   0.02%  0x00028ef4 rodata
+│   ├── static_regions_num                                                                          1   0.00%  0x200042ea bss
+│   ├── stderr                                                                                      4   0.01%  0x0002abbc rodata
+│   ├── store_id_work                                                                              16   0.02%  0x20000564 datas
+│   ├── str.1                                                                                      30   0.05%  0x2000439b bss
+│   ├── str.2                                                                                      18   0.03%  0x200046f4 bss
+│   ├── str.3                                                                                     129   0.20%  0x200043b9 bss
+│   ├── sx_curve_nistp256                                                                          12   0.02%  0x0002abb0 rodata
+│   ├── sxhashalg_sha2_224                                                                         32   0.05%  0x0002a9cc rodata
+│   ├── sxhashalg_sha2_256                                                                         32   0.05%  0x0002a9ac rodata
+│   ├── sync_evt_pool                                                                              52   0.08%  0x20000ef4 net_buf_pool_area
+│   ├── sys_work_q_stack                                                                         2048   3.17%  0x200067f0 noinit
+│   ├── system_clock_channel_data.lto_priv.0                                                       12   0.02%  0x20000834 datas
+│   ├── timeout_list                                                                                8   0.01%  0x20000840 datas
+│   ├── timeout_lock                                                                                4   0.01%  0x200040c0 bss
+│   ├── timeslot_context                                                                           48   0.07%  0x20004004 bss
+│   ├── transitions.0                                                                              12   0.02%  0x0002931c rodata
+│   ├── tx_meta_data_storage                                                                      120   0.19%  0x20003638 bss
+│   ├── tx_work                                                                                    16   0.02%  0x200004cc datas
+│   ├── uarte20_poll_in_byte                                                                        1   0.00%  0x2000445a bss
+│   ├── uarte20_poll_out_byte                                                                       1   0.00%  0x2000445b bss
+│   ├── uarte_20_data                                                                               8   0.01%  0x200038a8 bss
+│   ├── uarte_20z_config                                                                           44   0.07%  0x000292a8 rodata
+│   ├── users                                                                                       4   0.01%  0x20004204 bss
+│   ├── uuid128_base                                                                               17   0.03%  0x0002d188 rodata
+│   ├── uuid_128_pool                                                                               8   0.01%  0x200040d0 bss
+│   ├── uuid_16_locks                                                                               8   0.01%  0x200040c4 bss
+│   ├── uuid_16_pool                                                                                8   0.01%  0x200008a4 datas
+│   ├── uuid_16_tab                                                                               160   0.25%  0x2000424a bss
+│   ├── uuid_32_pool                                                                                8   0.01%  0x200040d8 bss
+│   ├── valid_keys                                                                                380   0.59%  0x0002aa34 rodata
+│   ├── var_str.0                                                                                  16   0.02%  0x000290a8 rodata
+│   ├── z_arm_tls_ptr                                                                               4   0.01%  0x20003564 bss
+│   ├── z_idle_stacks                                                                             320   0.50%  0x20004708 noinit
+│   ├── z_idle_threads                                                                            144   0.22%  0x20001ce0 bss
+│   ├── z_interrupt_stacks                                                                       2048   3.17%  0x20005648 noinit
+│   ├── z_main_stack                                                                             3584   5.55%  0x20004848 noinit
+│   ├── z_main_thread                                                                             144   0.22%  0x20001bc0 bss
+│   ├── z_malloc_heap                                                                              12   0.02%  0x20003544 bss
+│   ├── z_sys_post_kernel                                                                           1   0.00%  0x2000445c bss
+│   └── zero.3                                                                                      1   0.00%  0x20001654 bss
+├── /                                                                                               0   0.00%  - 
+│   └── C:\                                                                                      3398   5.27%  - 
+│       ├── ncs                                                                                  2685   4.16%  - 
+│       │   └── ws-turkana                                                                       2685   4.16%  - 
+│       │       └── logi_reference                                                               2685   4.16%  - 
+│       │           └── p_hids_keyb                                                              2685   4.16%  - 
+│       │               └── build_nrf54l15_opt3                                                  2685   4.16%  - 
+│       │                   └── stack                                                            2685   4.16%  - 
+│       │                       ├── libs                                                         2634   4.08%  - 
+│       │                       │   ├── hal                                                       230   0.36%  - 
+│       │                       │   │   ├── include                                                24   0.04%  - 
+│       │                       │   │   │   └── hal_rcs.h                                          24   0.04%  - 
+│       │                       │   │   │       ├── ___HAL_RCS_RADIO_TX_END_TO_CARRIER_NS           6   0.01%  0x00028d20 rodata
+│       │                       │   │   │       ├── ___HAL_RCS_RADIO_TX_IDLE_TO_TX_NS               6   0.01%  0x00028ce8 rodata
+│       │                       │   │   │       └── ___HAL_RCS_RADIO_TX_STARTUP_LATENCY_NS         12   0.02%  0x00028cf0 rodata
+│       │                       │   │   └── src                                                   206   0.32%  - 
+│       │                       │   │       ├── hal_aar.c                                           5   0.01%  - 
+│       │                       │   │       │   ├── m_aar_resolved_index                            2   0.00%  0x200015e4 bss
+│       │                       │   │       │   └── m_hal_aar                                       3   0.00%  0x200015b0 bss
+│       │                       │   │       ├── hal_ccm.c                                           6   0.01%  - 
+│       │                       │   │       │   └── m_hal_ccm                                       6   0.01%  0x200015e8 bss
+│       │                       │   │       ├── hal_rcs.c                                         188   0.29%  - 
+│       │                       │   │       │   ├── m_chan_idx_to_freq_offset                      40   0.06%  0x00028cc0 rodata
+│       │                       │   │       │   ├── m_event_interface                              16   0.02%  0x200016b4 bss
+│       │                       │   │       │   ├── m_fem_activate_event                           20   0.03%  0x2000006c datas
+│       │                       │   │       │   ├── m_fem_deactivate_event                         20   0.03%  0x00028cac rodata
+│       │                       │   │       │   ├── m_hal_rcs                                      88   0.14%  0x20001658 bss
+│       │                       │   │       │   └── m_hw_reset_callback                             4   0.01%  0x200016b0 bss
+│       │                       │   │       └── hal_rcs_tx_power.c                                  7   0.01%  - 
+│       │                       │   │           └── m_tx_power_split_cache                          7   0.01%  0x20000080 datas
+│       │                       │   ├── hci                                                        96   0.15%  - 
+│       │                       │   │   └── src                                                    96   0.15%  - 
+│       │                       │   │       ├── hci.c                                              68   0.11%  - 
+│       │                       │   │       │   └── m_btle_out                                     68   0.11%  0x20000f60 bss
+│       │                       │   │       ├── hci_event_mask.c                                   24   0.04%  - 
+│       │                       │   │       │   ├── m_event_mask                                    8   0.01%  0x20000040 datas
+│       │                       │   │       │   ├── m_event_mask_page2                              8   0.01%  0x20000fa4 bss
+│       │                       │   │       │   └── m_le_event_mask                                 8   0.01%  0x20000048 datas
+│       │                       │   │       └── sdc_hci_cmd_controller_baseband.c                   4   0.01%  - 
+│       │                       │   │           └── m_on_hci_reset_callback                         4   0.01%  0x20000fac bss
+│       │                       │   ├── ll                                                       2272   3.52%  - 
+│       │                       │   │   └── src                                                  2272   3.52%  - 
+│       │                       │   │       ├── dm_q.c                                             42   0.07%  - 
+│       │                       │   │       │   ├── m_dm_q_current_in_ctrl_consumer                 2   0.00%  0x200012f2 bss
+│       │                       │   │       │   ├── m_dm_q_current_in_ctrl_producer                 2   0.00%  0x200012f0 bss
+│       │                       │   │       │   └── m_q_in_ctrl                                    38   0.06%  0x200012ca bss
+│       │                       │   │       ├── ll.c                                              570   0.88%  - 
+│       │                       │   │       │   ├── adv_init_list_elem                              8   0.01%  0x200008dc datas
+│       │                       │   │       │   ├── adv_reset_list_elem                             8   0.01%  0x200008e4 datas
+│       │                       │   │       │   ├── m_ccm_pdu                                     258   0.40%  0x200011b7 bss
+│       │                       │   │       │   ├── m_ll_is_initialized                             1   0.00%  0x200012c8 bss
+│       │                       │   │       │   ├── m_pdu                                         258   0.40%  0x200010b4 bss
+│       │                       │   │       │   ├── m_slave_supported                               1   0.00%  0x200011b6 bss
+│       │                       │   │       │   ├── mp_init_list                                    4   0.01%  0x200012bc bss
+│       │                       │   │       │   ├── mp_reset_conn_list                              4   0.01%  0x200012c4 bss
+│       │                       │   │       │   ├── mp_reset_list                                   4   0.01%  0x200012c0 bss
+│       │                       │   │       │   ├── slave_conn_reset_list_elem                      8   0.01%  0x200008ec datas
+│       │                       │   │       │   ├── slave_init_list_elem                            8   0.01%  0x200008f4 datas
+│       │                       │   │       │   └── slave_reset_list_elem                           8   0.01%  0x200008fc datas
+│       │                       │   │       ├── ll_address.c                                       14   0.02%  - 
+│       │                       │   │       │   ├── m_public_addr_valid                             1   0.00%  0x200012f4 bss
+│       │                       │   │       │   ├── m_public_address                                6   0.01%  0x200012f5 bss
+│       │                       │   │       │   ├── m_random_addr_valid                             1   0.00%  0x200012fb bss
+│       │                       │   │       │   └── m_random_address                                6   0.01%  0x200012fc bss
+│       │                       │   │       ├── ll_adv.c                                           84   0.13%  - 
+│       │                       │   │       │   ├── m_adv_dr_callbacks_legacy                       4   0.01%  0x20000b2c datas
+│       │                       │   │       │   ├── m_adv_ds_callbacks_legacy                       8   0.01%  0x20000b30 datas
+│       │                       │   │       │   ├── m_adv_hcto_callbacks_legacy                     4   0.01%  0x20000b38 datas
+│       │                       │   │       │   ├── m_adv_state_func_tables_legacy                 24   0.04%  0x20000b3c datas
+│       │                       │   │       │   ├── m_event_state                                  24   0.04%  0x20001578 bss
+│       │                       │   │       │   ├── m_p_adv                                         4   0.01%  0x20001590 bss
+│       │                       │   │       │   ├── m_p_pdu                                         4   0.01%  0x20001574 bss
+│       │                       │   │       │   ├── m_process_connect_ind_func                      4   0.01%  0x20000b54 datas
+│       │                       │   │       │   ├── m_slave_setup_link_event_func                   4   0.01%  0x20000b58 datas
+│       │                       │   │       │   └── mp_adv_state_func_tables                        4   0.01%  0x20001594 bss
+│       │                       │   │       ├── ll_adv_primary_timings.c                           30   0.05%  - 
+│       │                       │   │       │   ├── m_adv_dir_event_start_us                        4   0.01%  0x00028c72 rodata
+│       │                       │   │       │   ├── m_adv_estimated_max_dir_event_length_us         6   0.01%  0x00028c62 rodata
+│       │                       │   │       │   ├── m_adv_estimated_max_event_length_us             6   0.01%  0x00028c68 rodata
+│       │                       │   │       │   ├── m_adv_estimated_max_nonconn_event_length_us     6   0.01%  0x00028c5c rodata
+│       │                       │   │       │   ├── m_adv_event_start_us                            4   0.01%  0x00028c76 rodata
+│       │                       │   │       │   └── m_adv_nonconn_event_start_us                    4   0.01%  0x00028c6e rodata
+│       │                       │   │       ├── ll_anchor_point_report.c                           22   0.03%  - 
+│       │                       │   │       │   └── m_anchor_point_report                          22   0.03%  0x2000155d bss
+│       │                       │   │       ├── ll_chmap.c                                          6   0.01%  - 
+│       │                       │   │       │   ├── m_channel_map                                   5   0.01%  0x20000058 datas
+│       │                       │   │       │   └── m_in_use                                        1   0.00%  0x200014d2 bss
+│       │                       │   │       ├── ll_clock.c                                         49   0.08%  - 
+│       │                       │   │       │   ├── m_clock_accuracy_ppm2nrf                       48   0.07%  0x00028bac rodata
+│       │                       │   │       │   └── m_sca                                           1   0.00%  0x200012c9 bss
+│       │                       │   │       ├── ll_ctrl.c                                          16   0.02%  - 
+│       │                       │   │       │   ├── m_auto_initiate_dle_proc_if_required_by_host_func 4   0.01%  0x200010b0 bss
+│       │                       │   │       │   ├── m_c_to_h_flow_control_enabled                   1   0.00%  0x200010af bss
+│       │                       │   │       │   ├── m_c_to_h_flow_control_num_host_buffers          2   0.00%  0x200010a8 bss
+│       │                       │   │       │   ├── m_ll_ctrl                                       4   0.01%  0x200010aa bss
+│       │                       │   │       │   ├── m_power_control_context_create                  4   0.01%  0x200008d8 datas
+│       │                       │   │       │   └── m_tcvr_tx_power_default                         1   0.00%  0x200010ae bss
+│       │                       │   │       ├── ll_dc_proc_enc.c                                   13   0.02%  - 
+│       │                       │   │       │   ├── m_skds_ivs                                     12   0.02%  0x20001538 bss
+│       │                       │   │       │   └── m_skds_ivs_ready                                1   0.00%  0x20001534 bss
+│       │                       │   │       ├── ll_dc_proc_engine.c                               532   0.82%  - 
+│       │                       │   │       │   ├── m_callback_ll_power_control_enqueue_packet      4   0.01%  0x20000b20 datas
+│       │                       │   │       │   ├── m_ctrl_pkt_rcvd_cb_table_slave                264   0.41%  0x20000910 datas
+│       │                       │   │       │   └── m_ctrl_pkt_sent_cb_table_slave                264   0.41%  0x20000a18 datas
+│       │                       │   │       ├── ll_dc_proc_power_control.c                          2   0.00%  - 
+│       │                       │   │       │   ├── m_apr_handling_enable                           1   0.00%  0x200015ae bss
+│       │                       │   │       │   └── m_apr_margin                                    1   0.00%  0x200015af bss
+│       │                       │   │       ├── ll_event.c                                         69   0.11%  - 
+│       │                       │   │       │   ├── m_controller_error_enabled                      1   0.00%  0x2000152a bss
+│       │                       │   │       │   ├── m_controller_error_event_header                 9   0.01%  0x20001521 bss
+│       │                       │   │       │   ├── m_controller_error_event_params                 1   0.00%  0x200014ec bss
+│       │                       │   │       │   ├── m_data_buffer_overflow_event_header             9   0.01%  0x20001518 bss
+│       │                       │   │       │   ├── m_data_get_func                                 4   0.01%  0x20000908 datas
+│       │                       │   │       │   ├── m_event_queue                                  20   0.03%  0x200014f0 bss
+│       │                       │   │       │   ├── m_event_queue_num_complete                     20   0.03%  0x20001504 bss
+│       │                       │   │       │   ├── m_host_flow_control_callback                    4   0.01%  0x2000090c datas
+│       │                       │   │       │   └── m_host_signal_handle                            1   0.00%  0x2000005d datas
+│       │                       │   │       ├── ll_feat.c                                           8   0.01%  - 
+│       │                       │   │       │   └── m_feature_config                                8   0.01%  0x20000050 datas
+│       │                       │   │       ├── ll_pdu.c                                           66   0.10%  - 
+│       │                       │   │       │   └── ll_pdu_pkt_length                              66   0.10%  0x00028be0 rodata
+│       │                       │   │       ├── ll_prand.c                                         16   0.02%  - 
+│       │                       │   │       │   ├── m_state_prio_high                               8   0.01%  0x2000152c bss
+│       │                       │   │       │   └── m_state_prio_low                                8   0.01%  0x20000060 datas
+│       │                       │   │       ├── ll_privacy.c                                      455   0.71%  - 
+│       │                       │   │       │   ├── m_accept_anonymous                              1   0.00%  0x200014cc bss
+│       │                       │   │       │   ├── m_deferred_work                                 9   0.01%  0x200014c2 bss
+│       │                       │   │       │   ├── m_peer_list                                   408   0.63%  0x20001308 bss
+│       │                       │   │       │   ├── m_resolution_enabled                            1   0.00%  0x200014cb bss
+│       │                       │   │       │   ├── m_rpa_rand                                     24   0.04%  0x200014aa bss
+│       │                       │   │       │   ├── m_rpa_rand_available                            8   0.01%  0x200014a1 bss
+│       │                       │   │       │   ├── m_rpa_rand_count                                1   0.00%  0x200014a0 bss
+│       │                       │   │       │   ├── m_rpa_rand_next                                 1   0.00%  0x200014a9 bss
+│       │                       │   │       │   └── m_timeout_s                                     2   0.00%  0x200014ce bss
+│       │                       │   │       ├── ll_rf_path_comp.c                                   2   0.00%  - 
+│       │                       │   │       │   ├── m_rx_path_comp_db                               1   0.00%  0x200014d1 bss
+│       │                       │   │       │   └── m_tx_path_comp_db                               1   0.00%  0x200014d0 bss
+│       │                       │   │       ├── ll_rssi.c                                          19   0.03%  - 
+│       │                       │   │       │   ├── m_auto_power_control_enable                     1   0.00%  0x20001550 bss
+│       │                       │   │       │   ├── m_beta                                          4   0.01%  0x2000154c bss
+│       │                       │   │       │   ├── m_lower_target_rssi                             1   0.00%  0x20001545 bss
+│       │                       │   │       │   ├── m_rssi_golden_range_lower_limit                 1   0.00%  0x20001544 bss
+│       │                       │   │       │   ├── m_rssi_golden_range_upper_limit                 1   0.00%  0x20001546 bss
+│       │                       │   │       │   ├── m_upper_target_rssi                             1   0.00%  0x20001547 bss
+│       │                       │   │       │   ├── m_wait_period_ms                                2   0.00%  0x20001548 bss
+│       │                       │   │       │   ├── mp_path_loss_monitoring_event_check_and_raise   4   0.01%  0x20000b24 datas
+│       │                       │   │       │   └── mp_rssi_average_compute_and_check               4   0.01%  0x20000b28 datas
+│       │                       │   │       ├── ll_sched_peripheral.c                              12   0.02%  - 
+│       │                       │   │       │   ├── m_conn_evt_ext_enabled                          1   0.00%  0x200010a3 bss
+│       │                       │   │       │   ├── m_event_continue_limit_us                       4   0.01%  0x200010a4 bss
+│       │                       │   │       │   ├── m_first_packet_hcto_us                          4   0.01%  0x2000109c bss
+│       │                       │   │       │   ├── m_rand_on_first_adv_us                          2   0.00%  0x200010a0 bss
+│       │                       │   │       │   └── m_stop_slaves                                   1   0.00%  0x200010a2 bss
+│       │                       │   │       ├── ll_slave.c                                         40   0.06%  - 
+│       │                       │   │       │   ├── m_conn                                          8   0.01%  0x2000159c bss
+│       │                       │   │       │   ├── m_ctrl_send_rcv_bit_map                         2   0.00%  0x20001598 bss
+│       │                       │   │       │   ├── m_invalid_behavr_suspected_bit_map              1   0.00%  0x200015ac bss
+│       │                       │   │       │   ├── m_p_rcvd_ctrl_pdu                               4   0.01%  0x200015a8 bss
+│       │                       │   │       │   ├── m_p_sent_ctrl_pdu                               4   0.01%  0x200015a4 bss
+│       │                       │   │       │   ├── m_power_control_reject_rx_handler_slave_func    4   0.01%  0x20000b5c datas
+│       │                       │   │       │   ├── m_power_control_transmit_power_set_slave_func   4   0.01%  0x20000b60 datas
+│       │                       │   │       │   ├── m_power_control_unknown_rsp_rx_handler_slave_func 4   0.01%  0x20000b64 datas
+│       │                       │   │       │   ├── m_pwr_ctrl_cmd_requested                        4   0.01%  0x20000b68 datas
+│       │                       │   │       │   ├── m_slave_rcvd_length_req_proc_cb                 4   0.01%  0x20000b6c datas
+│       │                       │   │       │   └── m_slave_term_proc_cmplt                         1   0.00%  0x200015ad bss
+│       │                       │   │       ├── ll_sw_fal.c                                         6   0.01%  - 
+│       │                       │   │       │   ├── m_elem_count                                    1   0.00%  0x20001554 bss
+│       │                       │   │       │   ├── m_list_size                                     1   0.00%  0x2000155c bss
+│       │                       │   │       │   └── mp_list                                         4   0.01%  0x20001558 bss
+│       │                       │   │       ├── ll_trx_acl.c                                      195   0.30%  - 
+│       │                       │   │       │   ├── m_acl_event_interface                          16   0.02%  0x200008c4 datas
+│       │                       │   │       │   ├── m_conn_event_report                            34   0.05%  0x20000fe0 bss
+│       │                       │   │       │   ├── m_conn_params                                   8   0.01%  0x2000100c bss
+│       │                       │   │       │   ├── m_consecutive_crc_err_count                     1   0.00%  0x20001091 bss
+│       │                       │   │       │   ├── m_continue_callback                             4   0.01%  0x20001060 bss
+│       │                       │   │       │   ├── m_ctrl_send_rcv_bit_map                         2   0.00%  0x20001002 bss
+│       │                       │   │       │   ├── m_data_sent_in_event                            1   0.00%  0x20001092 bss
+│       │                       │   │       │   ├── m_empty_pdu                                    34   0.05%  0x2000106e bss
+│       │                       │   │       │   ├── m_event_close_callback                          4   0.01%  0x20001018 bss
+│       │                       │   │       │   ├── m_hal_ccm_data                                 40   0.06%  0x20001030 bss
+│       │                       │   │       │   ├── m_invalid_behavr_bit_map                        1   0.00%  0x20001014 bss
+│       │                       │   │       │   ├── m_max_rx_data_or_ctrl_payload_len               1   0.00%  0x20001028 bss
+│       │                       │   │       │   ├── m_max_rx_data_payload_len                       1   0.00%  0x20001099 bss
+│       │                       │   │       │   ├── m_max_tx_payload                                1   0.00%  0x20001098 bss
+│       │                       │   │       │   ├── m_mic_failed                                    1   0.00%  0x20001015 bss
+│       │                       │   │       │   ├── m_non_empty_data_not_allowed                    1   0.00%  0x20001090 bss
+│       │                       │   │       │   ├── m_non_empty_data_sent_in_event                  1   0.00%  0x20001093 bss
+│       │                       │   │       │   ├── m_p_ccm_pdu                                     4   0.01%  0x2000102c bss
+│       │                       │   │       │   ├── m_p_rx_queue                                    4   0.01%  0x20001094 bss
+│       │                       │   │       │   ├── m_p_rx_scratch_pdu                              4   0.01%  0x20001024 bss
+│       │                       │   │       │   ├── m_p_to_store_rx_pdu                             4   0.01%  0x20001068 bss
+│       │                       │   │       │   ├── m_p_trx_acl_rx_pdu                              4   0.01%  0x20001020 bss
+│       │                       │   │       │   ├── m_p_trx_acl_tx_pdu                              4   0.01%  0x20001058 bss
+│       │                       │   │       │   ├── m_p_tx_queue                                    4   0.01%  0x2000105c bss
+│       │                       │   │       │   ├── m_packet_send_rcv_bit_map                       2   0.00%  0x20001008 bss
+│       │                       │   │       │   ├── m_rx_pdu_length                                 2   0.00%  0x2000106c bss
+│       │                       │   │       │   ├── m_trx_acl_packet_activity_callback              4   0.01%  0x20001004 bss
+│       │                       │   │       │   ├── m_trx_state                                     1   0.00%  0x2000101c bss
+│       │                       │   │       │   ├── m_tx_pdu_hdr_bkp                                3   0.00%  0x20001064 bss
+│       │                       │   │       │   └── mp_acl_event_interface                          4   0.01%  0x200008d4 datas
+│       │                       │   │       └── ll_util.c                                           4   0.01%  - 
+│       │                       │   │           └── m_power_control_set_power_for_all_phys          4   0.01%  0x20000904 datas
+│       │                       │   └── mm                                                         36   0.06%  - 
+│       │                       │       └── src                                                    36   0.06%  - 
+│       │                       │           ├── mm_adv_buf.c                                        7   0.01%  - 
+│       │                       │           │   ├── m_max_buf_size                                  2   0.00%  0x20000fd8 bss
+│       │                       │           │   ├── m_num_pools                                     1   0.00%  0x20000fd0 bss
+│       │                       │           │   └── m_p_mempools                                    4   0.01%  0x20000fd4 bss
+│       │                       │           ├── mm_context.c                                       25   0.04%  - 
+│       │                       │           │   ├── m_cfg_get_callback                             12   0.02%  0x20000fb4 bss
+│       │                       │           │   ├── m_handle_space_roof                             1   0.00%  0x20000fb0 bss
+│       │                       │           │   └── mp_context_type                                12   0.02%  0x20000fc0 bss
+│       │                       │           └── mm_pdu_core.c                                       4   0.01%  - 
+│       │                       │               └── mp_mem                                          4   0.01%  0x20000fcc bss
+│       │                       └── projects                                                       51   0.08%  - 
+│       │                           └── sdc                                                        51   0.08%  - 
+│       │                               └── src                                                    51   0.08%  - 
+│       │                                   ├── sdc.c                                              47   0.07%  - 
+│       │                                   │   ├── m_fault_handler                                 4   0.01%  0x20000f54 bss
+│       │                                   │   ├── m_resource_config                              42   0.07%  0x20000f28 bss
+│       │                                   │   └── m_sdc_init_state                                1   0.00%  0x20000f58 bss
+│       │                                   └── sdc_soc.c                                           4   0.01%  - 
+│       │                                       └── m_rand_source                                   4   0.01%  0x20000f5c bss
+│       └── work                                                                                  713   1.10%  - 
+│           └── dragoon                                                                           713   1.10%  - 
+│               └── mpsl                                                                          713   1.10%  - 
+│                   ├── libs                                                                      698   1.08%  - 
+│                   │   ├── clock_ctrl                                                             78   0.12%  - 
+│                   │   │   └── src                                                                78   0.12%  - 
+│                   │   │       ├── clock_ctrl_private.c                                           34   0.05%  - 
+│                   │   │       │   ├── m_cal_mutex                                                 1   0.00%  0x20001701 bss
+│                   │   │       │   ├── m_cal_recalibrate                                           1   0.00%  0x20001700 bss
+│                   │   │       │   ├── m_cal_state                                                 1   0.00%  0x200016f1 bss
+│                   │   │       │   ├── m_clock_initialized                                         1   0.00%  0x200016ee bss
+│                   │   │       │   ├── m_clock_signal_event_handle                                 1   0.00%  0x200016ef bss
+│                   │   │       │   ├── m_hfclk_app_request                                         1   0.00%  0x200016e2 bss
+│                   │   │       │   ├── m_hfclk_info                                                4   0.01%  0x200016e8 bss
+│                   │   │       │   ├── m_hfclk_request_counter                                     1   0.00%  0x200016e1 bss
+│                   │   │       │   ├── m_hfpll_trim_pending                                        1   0.00%  0x200016e0 bss
+│                   │   │       │   ├── m_is_hfclk_event_expected                                   1   0.00%  0x200016e3 bss
+│                   │   │       │   ├── m_ki32src                                                   4   0.01%  0x200016fc bss
+│                   │   │       │   ├── m_lf_clk_source                                             1   0.00%  0x200016f0 bss
+│                   │   │       │   ├── m_lfclk_accuracy_ppm                                        2   0.00%  0x200016ec bss
+│                   │   │       │   ├── m_on_hfclk_started_callback                                 4   0.01%  0x200016e4 bss
+│                   │   │       │   ├── m_rcosc_temp_only_skip                                      1   0.00%  0x200016f3 bss
+│                   │   │       │   ├── m_rcosc_temp_only_skip_count                                1   0.00%  0x200016f2 bss
+│                   │   │       │   ├── m_temp_rc                                                   4   0.01%  0x200016f8 bss
+│                   │   │       │   └── m_temp_xo                                                   4   0.01%  0x200016f4 bss
+│                   │   │       ├── clock_ctrl_public.c                                            43   0.07%  - 
+│                   │   │       │   ├── m_clk_initialized                                           1   0.00%  0x20001730 bss
+│                   │   │       │   ├── m_ext_clock_ctrl_registered                                 1   0.00%  0x20001704 bss
+│                   │   │       │   ├── m_hfclk_app_request                                         1   0.00%  0x20001705 bss
+│                   │   │       │   ├── m_hfclk_ctrl_source                                        16   0.02%  0x20001708 bss
+│                   │   │       │   └── m_lfclk_ctrl_source                                        24   0.04%  0x20001718 bss
+│                   │   │       └── hal_clock.c                                                     1   0.00%  - 
+│                   │   │           └── is_initial_running                                          1   0.00%  0x200016dd bss
+│                   │   ├── cx                                                                     20   0.03%  - 
+│                   │   │   └── src                                                                20   0.03%  - 
+│                   │   │       └── none                                                           20   0.03%  - 
+│                   │   │           └── mpsl_cx_none.c                                             20   0.03%  - 
+│                   │   │               └── mpsl_cx_none_methods                                   20   0.03%  0x00028e5c rodata
+│                   │   ├── fem                                                                    82   0.13%  - 
+│                   │   │   └── src                                                                82   0.13%  - 
+│                   │   │       ├── common                                                         18   0.03%  - 
+│                   │   │       │   ├── mpsl_fem_abstract_interface.c                               4   0.01%  - 
+│                   │   │       │   │   └── mp_fem_methods                                          4   0.01%  0x20000088 datas
+│                   │   │       │   ├── mpsl_fem_config_common.c                                    1   0.00%  - 
+│                   │   │       │   │   └── m_device_config_254_shall_apply                         1   0.00%  0x20001ba8 bss
+│                   │   │       │   ├── mpsl_fem_power_model.c                                      8   0.01%  - 
+│                   │   │       │   │   └── m_model                                                 8   0.01%  0x20001bac bss
+│                   │   │       │   └── mpsl_fem_utils.c                                            5   0.01%  - 
+│                   │   │       │       ├── m_cc_cache                                              4   0.01%  0x20001bb4 bss
+│                   │   │       │       └── m_cc_cached_mask                                        1   0.00%  0x20001bb8 bss
+│                   │   │       └── none                                                           64   0.10%  - 
+│                   │   │           └── mpsl_fem_none.c                                            64   0.10%  - 
+│                   │   │               └── mpsl_fem_none_methods                                  64   0.10%  0x20000b70 datas
+│                   │   ├── misc                                                                   50   0.08%  - 
+│                   │   │   └── src                                                                50   0.08%  - 
+│                   │   │       ├── mpsl_device.c                                                   8   0.01%  - 
+│                   │   │       │   ├── m_nrf_ficr_hwrevision                                       4   0.01%  0x20001b5c bss
+│                   │   │       │   └── m_nrf_ficr_partno                                           4   0.01%  0x20001b58 bss
+│                   │   │       ├── mpsl_ecb.c                                                      2   0.00%  - 
+│                   │   │       │   └── m_soc_hal_ecb                                               2   0.00%  0x20001b08 bss
+│                   │   │       └── mpsl_signalling.c                                              40   0.06%  - 
+│                   │   │           └── m_signal                                                   40   0.06%  0x20001b2c bss
+│                   │   ├── nrf_802154                                                             50   0.08%  - 
+│                   │   │   └── src                                                                50   0.08%  - 
+│                   │   │       └── nrf_raal_rem.c                                                 50   0.08%  - 
+│                   │   │           ├── m_config                                                   12   0.02%  0x20001b70 bss
+│                   │   │           ├── m_continuous                                                1   0.00%  0x20001ba2 bss
+│                   │   │           ├── m_initialized                                               1   0.00%  0x20001ba3 bss
+│                   │   │           ├── m_req_cnt_mode                                              1   0.00%  0x20001ba1 bss
+│                   │   │           ├── m_req_handle                                                1   0.00%  0x20001ba4 bss
+│                   │   │           ├── m_request                                                  24   0.04%  0x20001b88 bss
+│                   │   │           ├── m_session_id                                                1   0.00%  0x20001ba0 bss
+│                   │   │           ├── m_sig_stop_action                                           1   0.00%  0x20001b84 bss
+│                   │   │           ├── m_stop_time_us                                              4   0.01%  0x20001b80 bss
+│                   │   │           └── m_total_timeslot_length                                     4   0.01%  0x20001b7c bss
+│                   │   ├── pm                                                                     19   0.03%  - 
+│                   │   │   └── src                                                                19   0.03%  - 
+│                   │   │       └── mpsl_pm.c                                                      19   0.03%  - 
+│                   │   │           ├── m_low_latency_requested                                     1   0.00%  0x20001af9 bss
+│                   │   │           ├── m_low_latency_state                                         1   0.00%  0x20001afa bss
+│                   │   │           ├── m_pm_enabled                                                1   0.00%  0x20001af8 bss
+│                   │   │           └── m_pm_params                                                16   0.02%  0x20001ae8 bss
+│                   │   ├── radio                                                                 292   0.45%  - 
+│                   │   │   └── src                                                               292   0.45%  - 
+│                   │   │       └── tx_power.c                                                    292   0.45%  - 
+│                   │   │           ├── m_tx_power_adjust_lut                                      55   0.09%  0x00028d38 rodata
+│                   │   │           ├── m_tx_power_envelope_seqnum                                  1   0.00%  0x200016dc bss
+│                   │   │           ├── m_tx_power_values                                         216   0.33%  0x00028d70 rodata
+│                   │   │           └── mpsl_tx_power_envelope_lookup                              20   0.03%  0x200016c8 bss
+│                   │   └── scheduling                                                            107   0.17%  - 
+│                   │       └── src                                                               107   0.17%  - 
+│                   │           ├── mpsl_timeslot.c                                                 4   0.01%  - 
+│                   │           │   └── m_end_callback                                              4   0.01%  0x20001734 bss
+│                   │           ├── mpsl_timeslot_context.c                                         5   0.01%  - 
+│                   │           │   ├── m_p_timeslot_contexts                                       4   0.01%  0x20001738 bss
+│                   │           │   └── m_session_count                                             1   0.00%  0x2000173c bss
+│                   │           ├── rem_grtc.c                                                     94   0.15%  - 
+│                   │           │   ├── m_grtc_active_state_cache                                   1   0.00%  0x20001ae0 bss
+│                   │           │   ├── m_lowpower_config                                           4   0.01%  0x20001adc bss
+│                   │           │   ├── m_rem                                                      24   0.04%  0x20001ac0 bss
+│                   │           │   ├── m_rem_low_latency_requested                                 1   0.00%  0x20001ad8 bss
+│                   │           │   └── m_sessions_list                                            64   0.10%  0x20001a80 bss
+│                   │           └── rem_hal_event_timer_grtc.c                                      4   0.01%  - 
+│                   │               ├── m_grtc_ch_lookup                                            3   0.00%  0x00028e48 rodata
+│                   │               └── m_syscounter_auto_mode_enabled_before_start                 1   0.00%  0x20001a79 bss
+│                   └── projects                                                                   15   0.02%  - 
+│                       └── mpsl                                                                   15   0.02%  - 
+│                           └── src                                                                15   0.02%  - 
+│                               └── mpsl.c                                                         15   0.02%  - 
+│                                   ├── m_default_clock_cfg                                         8   0.01%  0x00028e52 rodata
+│                                   ├── m_low_priority_irq                                          2   0.00%  0x20001b04 bss
+│                                   ├── m_mpsl_is_initialized                                       1   0.00%  0x20001afc bss
+│                                   └── mp_assert_handler                                           4   0.01%  0x20001b00 bss
+└── ZEPHYR_BASE                                                                                    20   0.03%  - 
+    └── lib                                                                                        20   0.03%  - 
+        └── libc                                                                                   20   0.03%  - 
+            └── picolibc                                                                           20   0.03%  - 
+                └── stdio.c                                                                        20   0.03%  - 
+                    ├── __stdout                                                                   16   0.02%  0x200008b4 datas
+                    └── _stdout_hook                                                                4   0.01%  0x20004208 bss
+==========================================================================================================================================
+                                                                                                64526
