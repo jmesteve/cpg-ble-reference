@@ -4,6 +4,11 @@
  * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
  */
 
+/* Application does not use cpuflpr core. Assign whole RRAM to cpuapp. */
+&cpuapp_rram {
+	reg = < 0x0 DT_SIZE_K(1524) >;
+};
+
 / {
 	chosen {
 		zephyr,spi = &spi00;
@@ -28,19 +33,6 @@
 			low-power-enable;
 		};
 	};
-	i2c22_default: i2c20_default {
-		phandle = < 0x6 >;
-		group1 {
-			psels = < 0xc00000b >, < 0xb00000c >;
-		};
-	};
-	i2c22_sleep: i2c20_sleep {
-		phandle = < 0x7 >;
-		group1 {
-			psels = < 0xc00000b >, < 0xb00000c >;
-			low-power-enable;
-		};
-	};
 };
 
 &spi21 {
@@ -53,15 +45,28 @@
 };
 
 &i2c22 {
-	compatible = "nordic,nrf-twim";
-	#address-cells = < 0x1 >;
-	#size-cells = < 0x0 >;
-	reg = < 0xc8000 0x1000 >;
-	clock-frequency = < 0x186a0 >;
-	interrupts = < 0xc8 0x1 >;
-	easydma-maxcnt-bits = < 0x10 >;
 	status = "okay";
 	pinctrl-0 = <&i2c22_default>;
 	pinctrl-1 = <&i2c22_sleep>;
 	pinctrl-names = "default", "sleep";
-};
+	// mysensor: mysensor@77{
+	// compatible = "i2c-device";
+	// status = "okay";
+	// reg = < 0x77 >;
+	// };
+   };  
+   &pinctrl {
+	/omit-if-no-ref/ i2c22_default: i2c22_default {
+		group1  {
+			psels = <NRF_PSEL(TWIM_SCL, 1, 11)>,
+			<NRF_PSEL(TWIM_SDA, 1, 12)>;
+		};
+	};  
+	/omit-if-no-ref/ i2c22_sleep: i2c22_sleep {
+		group1  {
+			psels = <NRF_PSEL(TWIM_SCL, 1, 11)>,
+			<NRF_PSEL(TWIM_SDA, 1, 12)>;
+			low-power-enable;
+		};
+	};
+   };

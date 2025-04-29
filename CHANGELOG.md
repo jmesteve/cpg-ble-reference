@@ -2,8 +2,25 @@
 All notable changes to this project will be documented in this file.
 
 
+## 15.0
+  - Update if to macro CHECKIF
+```
+if (ZMS_GET_MAGIC_NUMBER(empty_ate.metadata) == ZMS_MAGIC_NUMBER) {
+CHECKIF(ZMS_GET_MAGIC_NUMBER(empty_ate.metadata) == ZMS_MAGIC_NUMBER) {
+```
+
+## 14.0
+  - Need to store CCC right on write (not only on disconnection).
+```
+CONFIG_BT_SETTINGS_CCC_STORE_ON_WRITE=n
+CONFIG_BT_DATA_LEN_UPDATE=n
+```
+
+## 13.0
+  - Added STD fast pair 
+
 ## 12.0
- - Memory optimizations
+  - Memory optimizations
 ```
 CONFIG_BOOT_BANNER=n
 CONFIG_NCS_BOOT_BANNER=n
