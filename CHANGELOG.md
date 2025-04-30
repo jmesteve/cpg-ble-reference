@@ -1,7 +1,8 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-
+## 18.0 
+  - removing rpa
 
 ## 17.0
   -Removing DLE to save NVM
