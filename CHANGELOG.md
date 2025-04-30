@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 
 
+
+## 17.0
+  -Removing DLE to save NVM
+  -Removed from peripheral only lib
+
+## 16.0
+  - bluetooth: host: Do not use FICR for default BLE ID
+  - Do not use FICR for default BLE ID.
+
 ## 15.0
   - Update if to macro CHECKIF
 ```
