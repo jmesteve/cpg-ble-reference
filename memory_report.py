@@ -214,6 +214,7 @@ def generate_build(repository, build, feat, platform_path, extra_config=None, sn
         cmd, repository, platform_path, build, feat)
     if extra_config:
         cmd = "{} -DEXTRA_CONF_FILE='{}.conf'".format(cmd, extra_config)
+    print(cmd)
     result = subprocess.run(cmd, capture_output=True, timeout=500)
     stdout = result.stdout.decode("utf-8")
     print(stdout)
@@ -221,6 +222,7 @@ def generate_build(repository, build, feat, platform_path, extra_config=None, sn
 
 def build_memory_report(report, memory_repository, report_destination):
     cmd = "west build -d {} -t {}_report".format(memory_repository, report)
+    print(cmd)
     result = subprocess.run(cmd, capture_output=True, timeout=60)
     stdout = result.stdout.decode("utf-8")
     output_data = Path("{}/{}.data".format(report_destination, report))
